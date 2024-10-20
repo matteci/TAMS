@@ -9,7 +9,6 @@ block=$5
 runexpdir=`printf '%s/run' ${expdir}`
 dataexpdir=`printf '%s/data' ${expdir}`
 restexpdir=`printf '%s/rest' ${expdir}`
-initexpdir=`printf '%s/init' ${expdir}`
 diagexpdir=`printf '%s/diag' ${expdir}`
 
 runtrajdir=`printf 'run_%04d' ${trajrun}`
@@ -22,8 +21,6 @@ lsgname=`printf '%s_lsg.%04d.%04d' ${expname} ${traj} ${block}`
 diagname=`printf '%s_diag.%04d.%04d' ${expname} ${traj} ${block}`
 restname=`printf '%s_rest.%04d.%04d' ${expname} ${traj} ${block}`
 lsgrestname=`printf '%s_lsgrest.%04d.%04d' ${expname} ${traj} ${block}`
-restname=`printf '%s_init.%04d.%04d' ${expname} ${traj} ${block}`
-lsgrestname=`printf '%s_lsginit.%04d.%04d' ${expname} ${traj} ${block}`
 
 # keep copy
 cp ${runexpdir}/${runtrajdir}/plasim_status ${runexpdir}/${runtrajdir}/plasim_restart
@@ -38,8 +35,6 @@ mv ${runexpdir}/${runtrajdir}/ocean_output ${dataexpdir}/${blockdir}/${oceanname
 mv ${runexpdir}/${runtrajdir}/lsg_output ${dataexpdir}/${blockdir}/${lsgname}
 mv ${runexpdir}/${runtrajdir}/plasim_diag ${diagexpdir}/${blockdir}/${diagname}
 
-cp ${runexpdir}/${runtrajdir}/plasim_status ${initexpdir}/${blockdir}/${restname}
-cp ${runexpdir}/${runtrajdir}/kleiin1 ${initexpdir}/${blockdir}/${lsgrestname}
 mv ${runexpdir}/${runtrajdir}/plasim_status ${restexpdir}/${blockdir}/${restname}
 mv ${runexpdir}/${runtrajdir}/kleiin1 ${restexpdir}/${blockdir}/${lsgrestname}
 mv ${runexpdir}/${runtrajdir}/mat77 ${restexpdir}/${blockdir}/.

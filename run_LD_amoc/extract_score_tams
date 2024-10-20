@@ -93,7 +93,7 @@ if [ $obsname == amoc ]; then
     avg_value=$(cat ${postexpdir}/${postfiledir}/${postfilename})
     
     # Calculate the score based on the given formula
-    score=$(echo "scale=5; 1 - (${avg_value} - ${targetstate}) / 30" | bc)
+    score=$(echo "scale=5; 1 - (${avg_value} - ${targetstate}) / 10" | bc)
     # Ensure score is between 0 and 1
     if (( $(echo "$score >= 1" | bc -l) )); then
      score=1

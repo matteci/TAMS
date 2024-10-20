@@ -2,10 +2,10 @@
 #
 #SBATCH -J testTAMS              # the name of your job   
 #SBATCH -p normal            # request the short partition, job takes less than 3 hours  
-#SBATCH -t 01-3:00:00          # time in dd-hh:mm:ss you want to reserve for the job
-#SBATCH -n 50               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
+#SBATCH -t 12:00:00          # time in dd-hh:mm:ss you want to reserve for the job
+#SBATCH -n 20               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
 #SBATCH -o log_tams.%j.o     # the name of the file where the standard output will be written to. %j will be the jobid determined by SLURM
-#SBATCH -e log_tams.%j.e     # the name of the file where potential errors will be written to. %j will be the jobid determined by SLURM
+#SBATCH -e log_tams.%j.o     # the name of the file where potential errors will be written to. %j will be the jobid determined by SLURM
 
 ##### LOAD PYTHON VIRTUAL ENVIRONMENT WITH MODULES: numpy, math, netCDF4
 #source $HOME/my_venv/bin/activate
@@ -16,7 +16,7 @@ source /opt/apps/miniconda3/etc/profile.d/conda.sh
 # Activate the Conda environment
 conda activate myenv
 
-env > env_output.txt
+#env > env_output.txt
 
 module purge 
 #module load cdo
@@ -26,33 +26,33 @@ module purge
  
 #### NAMELIST ##############################################################
 nameThisFile='Lorenz_TAMS_plasim'
-expname="AMOC_TAMS_VARNAME_pos"
+expname="TAMS_VARNAME"
 #
 # Parameters controlling length of experiment<
-newexperiment=1     # 1: nuovo
-resty=2480
+newexperiment=1     # 1: nuovo 0: esperimento che ha già calcolato il set di base  othervalues: dovrebbe non ricreare le cartelle ma ricalcolare tutti gli anni di simulazioni (comunque sconsigliato perchè il noise non riparte!
+resty=2482
 initblock=1        # block è periodo lungo come resampling. 
-endblock=15        # ultimo blocco: ti definisce lunghezza integrazione
+endblock=10        # ultimo blocco: ti definisce lunghezza integrazione
 force=0           # sovrascrittura delle cartelle di output
 light=1           # light postprocessing as defined in postpro_light.sh
 
 #Parameters controlling climate mean state
-CO2=554
+CO2=554 #at the moment not updated
 
 # Parameters controlling resampling, observable and weights
 varname='amoc'    #variabile usata per resampling
 domain='DIAG'     # domain in PLASIM output of varname
 
 resamplingname='TAMS_Matteo.py'   # file che fa il resampling
-ntrajs=100
+ntrajs=20
 NMonths=12     # length resampling block
 NDays=0      # length resampling block
 LYear=360     # 
 startID=l207-y${resty}_r2  # 0BCD (B: ocean state, C: atmospheric state, D: repeat)
 
 # TAMS Parameters
-nc=5  #number of LEVES -thus less than traj- discarded at each iteration. 
-targetstate= 16 #Sv
+nc=7  #number of LEVES -thus less than traj- discarded at each iteration. 
+targetstate=18 #Sv
 
 # Refine experiment name
 expname=${expname/VARNAME/${varname}}
@@ -62,7 +62,7 @@ nparallel=1 # cores usati da PLASIM. with nparallel=2 there are memory problems,
 #
 # Directory names
 scriptdir=`pwd`
-homedir='/nethome/cini0001/PLASIM-TAMS/PLASIM_LSG_CO2-master'
+homedir='/nethome/cini0001/PLASIM-TAMS'
 modeldir=${homedir}/plasim/run # cartella con eseguibili di PLASIM compilato per processori con namelist etc
 modelname=`printf 'most_plasim_t21_l10_p%d.x' ${nparallel}` # nome eseguibile
 # 
@@ -70,7 +70,7 @@ modelname=`printf 'most_plasim_t21_l10_p%d.x' ${nparallel}` # nome eseguibile
 debug=0
 #
 # Restart file info (if new experiment)
-sourcerestdir=/nethome/cini0001/PLASIM-TAMS/PLASIM_LSG_CO2-master/restart/
+sourcerestdir=/nethome/cini0001/PLASIM-TAMS/restart/
 plasimrestname=l207_REST.${resty}
 lsgrestname=l207_LSGREST.${resty}
 #
@@ -117,7 +117,7 @@ mem=0
 ## nomi di scripts dentro 
 launchname=`printf 'run_large_dev_%s' ${expname}`   # launchname è se stesso (after reneame)
 createinitname='create_initial_conditions_simple' # scripts che definisce condizioni iniziale dell'ensemble 
-organizename='organize_output_new' # organizza traiettorie al termine di ogni block
+organizename='organize_output_tams' # organizza traiettorie al termine di ogni block
 extractname='extract_score_tams' # estrae score
 
 
@@ -153,7 +153,7 @@ then
   mkdir -p ${resamplingexpdir}
   mkdir -p ${scriptsexpdir}
   mkdir -p ${modelexpdir}
-
+#  mkdir -p ${burnerexpdir}
   # copy stuff in experiment folder
   cp ${scriptdir}/${nameThisFile}.sh ${scriptsexpdir}/${launchname}
   cp ${scriptdir}/${createinitname} ${scriptsexpdir}/${createinitname}
@@ -170,7 +170,7 @@ then
 #  cp ${namelistfolder}/${namelistname} ${burnerexpdir}/${namelistname}
   # create run folders for each trajectory per batch
   traj=1
-  while [ ${traj} -le ${ntrajsperbatch} ]
+  while [ ${traj} -le ${ntrajs} ]
   do
     runtrajdir=`printf 'run_%04d' ${traj}` 
     mkdir -p ${runexpdir}/${runtrajdir}
@@ -178,6 +178,13 @@ then
     #cp ${modeldir}/* ${runexpdir}/${runtrajdir}/.
     traj=`expr ${traj} + 1`
   done
+else
+# copy stuff in experiment folder
+  cp ${scriptdir}/${nameThisFile}.sh ${scriptsexpdir}/${launchname}
+  cp ${scriptdir}/${createinitname} ${scriptsexpdir}/${createinitname}
+  cp ${scriptdir}/${organizename} ${scriptsexpdir}/${organizename}
+  cp ${scriptdir}/${extractname} ${scriptsexpdir}/${extractname}
+  cp ${scriptdir}/${resamplingname} ${scriptsexpdir}/${resamplingname}
 fi
 
 # create folders for all blocks, plus the one after the last one (to store the init files)
@@ -216,8 +223,17 @@ then
 fi
 ####### END INITIALISATION #############################
 
-####### RUN SIMULATIONS  ############################### 
+####### RUN SIMULATIONS: STARTING SET  ###############################
+#  This if one wants to skip inital phase
+if [ ${newexperiment} -eq 0 ]; then
+    # Jump to specific label
+    echo "Skipped starting set, jumped to TAMS core!"
+
+
+else
+####################################
 # start loop on time blocks
+
 block=${initblock}
 while [ ${block} -le ${endblock} ]
 do
@@ -241,12 +257,10 @@ do
     do  
       initname=`printf '%s_init.%04d.%04d' ${expname} ${traj} ${block}` # file init per traiettoria che fai girare
       lsginitname=`printf '%s_lsginit.%04d.%04d' ${expname} ${traj} ${block}` # file init per traiettoria che fai girare
-      
       trajrun=`expr ${batch} - 1`; trajrun=`expr ${trajrun} \* ${ntrajsperbatch}`; trajrun=`expr ${traj} - ${trajrun}`; #MC this is the trajectory number in each batch
       runtrajdir=`printf 'run_%04d' ${trajrun}`
       cp ${initexpdir}/${blockdir}/${initname} ${runexpdir}/${runtrajdir}/plasim_restart # impostalo come restart
       cp ${initexpdir}/${blockdir}/${lsginitname} ${runexpdir}/${runtrajdir}/kleiin1     # impostalo come restart
-      
       cd ${runexpdir}/${runtrajdir}
 #      srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=${nparallel} --mem=${mem} ${modelname} & # fai partire modello
       ./${modelname} & # fai partire modello
@@ -312,75 +326,84 @@ do
 
   block=`expr $block + 1`
 done
-#FINE CALCOLO Iniziale
+fi
+#######FINE CALCOLO Iniziale########
 
-#qui ora c'è da capire come rientro nella simulazione-
+
+
+
+
 
 #Intialization TAMS
 kt=0 #current number of iteration
 wp=1 #current probability
-levels=100 #initialization, it is important to be > nc
+levels=${ntrajs} #initialization, it is important to be > nc
+echo "levels=${levels}"
+echo "nc=${nc}"
 
 
-
-while[ ${nc} -lt ${levels} ]
+while [ ${nc} -lt ${levels} ]
 do
  output=$(python3 -t ${resamplingname} ${expdir} ${expname} ${ntrajs} ${varname} ${nc} ${endblock} ${kt} ${wp})  
-
+ 
+  # Save the Python script's output to log files
+    echo "$output" > log.o
+    echo "$output" 2> log.e
 
  # Extract the lines with the identifiers 
- oldind_output=$(echo "$output" | grep "newind_ARRAY")
- wp_output=$(echo "$output" | grep "restart_ARRAY")
- levels=$(echo "$output" | grep "Levels")
- wp=$(echo "$output" | grep "P")
+ oldind_output=$(echo "$output" | grep "oldind_ARRAY")
+ restart_output=$(echo "$output" | grep "restart_ARRAY")
+ levels_output=$(echo "$output" | grep "Levels")
+ wp_output=$(echo "$output" | grep "Probability")
+ Nf_output=$(echo "$output" | grep "Successful_traj")
 
  # Read the arrays into variables, ignoring the identifier part
- oldind_array=($(echo "$olsind_output" | cut -d' ' -f2-))
+ oldind_array=($(echo "$oldind_output" | cut -d' ' -f2-))
  restart_array=($(echo "$restart_output" | cut -d' ' -f2-))
- levels=$(echo "$levels" | cut -d' ' -f2-)
- wp=$(echo "wp" | cut -d' ' -f2-)
+ levels=$(echo "$levels_output" | cut -d' ' -f2-)
+ wp=$(echo "$wp_output" | cut -d' ' -f2-)
+ Nf=$(echo "$Nf_output"| cut -d' ' -f2-)
 
  # Now you can use the new values in your shell script
- echo "Oldind array: ${ft_array[@]}"
- echo "Rest array: ${wp_array[@]}"
- echo "Levels: ${levels}"
- echo "Probs: ${wp}"
+ #echo "Oldind array: ${oldind_array[@]}"
+ #echo "Restart time array: ${restart_array[@]}"
+ #echo "Levels: ${levels}"
+ #echo "Probs: ${wp}"
+ echo "Nf: ${Nf}"
  kt=`expr $kt + 1`
+echo "##################################   ITERATION NUMBER ${KT}  #####################################"
  # Loop through each index of the arrays
  for i in "${!oldind_array[@]}"; do
   oldind="${oldind_array[i]}"
-  restart="${rest_array[i]}"
-  block=${restart}
+  restart="${restart_array[i]}"
+  block=$((${restart}))
   for f in `ls ${expdir}/run/run_*/plasim_namelist`; do
           sed  -e "s/LYear/${LYear}/" -e "s/NMonths/${NMonths}/" -e "s/NDays/${NDays}/" -e "s/kickres/1/" \
                ${scriptdir}/plasim_namelist0 > ${f}
   done
-
+  #echo "running ${oldind} traj"
+  (
   while [ ${block} -le ${endblock} ]
   do
    blockdir=`printf 'block_%04d' ${block}`
-   echo "$(date +"%Y-%m-%d %T") started running block ${block}"
-   #MC important: here we consider 1 batch sufficient
+   echo "$(date +"%Y-%m-%d %T") started running block ${block} of traj ${oldind}"
+   #MC important: here we consider 1 batch sufficient!
    # run the trajectories in the current batch
      traj=${oldind}
        initname=`printf '%s_init.%04d.%04d' ${expname} ${traj} ${block}` # file init per traiettoria che fai girare
        lsginitname=`printf '%s_lsginit.%04d.%04d' ${expname} ${traj} ${block}` # file init per traiettoria che fai girare
 
-       if (( ${traj} % ${ntrajperbatch} == 0 )); then
-    trajrun=${traj}
-	else
-    trajrun=$(( ${traj} % ${ntrajperbatch} ))
-	fi
+       
 
-       runtrajdir=`printf 'run_%04d' ${trajrun}`
+       runtrajdir=`printf 'run_%04d' ${traj}`
        cp ${initexpdir}/${blockdir}/${initname} ${runexpdir}/${runtrajdir}/plasim_restart # impostalo come restart
        cp ${initexpdir}/${blockdir}/${lsginitname} ${runexpdir}/${runtrajdir}/kleiin1     # impostalo come restart
 
        cd ${runexpdir}/${runtrajdir}
 #      srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=${nparallel} --mem=${mem} ${modelname} & # fai partire modello
-       ./${modelname} & # fai partire modello
+       ./${modelname} &   # fai partire modello
 
-       if [ ${debug} -eq 1 ]; then echo "$(date +"%Y-%m-%d %T") started traj ${traj}"; fi
+      
        
      
      wait
@@ -390,7 +413,7 @@ do
 
      # organize the output
      
-      ./${organizename} ${expdir} ${expname} ${trajrun} ${traj} ${block} & 
+      ./${organizename} ${expdir} ${expname} ${traj} ${traj} ${block} & 
       #      srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=1 --mem=${mem} ./${organizename} ${expdir} ${expname} ${trajrun} ${traj} ${block} & # sottomette per organizzare output dei runs
       if [ ${debug} -eq 1 ]; then echo "$(date +"%Y-%m-%d %T") started organizing output of traj ${traj} of block ${block}"; fi
       
@@ -400,7 +423,7 @@ do
     # the output of the current batch is organized
 
     # extract the observable used in the definition of the weights of the current batch
-    echo "$(date +"%Y-%m-%d %T") started extracting control observable for batch ${batch} of block ${block}"
+   # echo "$(date +"%Y-%m-%d %T") started extracting control observable for traj ${traj} of block ${block}"
     
       	./${extractname} ${expdir} ${expname} ${traj} ${block} ${varname} ${domain} ${targetstate} & # sottomette estrazione variabile 
         #srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=1 --mem=${mem} ./${extractname} ${expdir} ${expname} ${traj} ${block} & # sottomette estrazione variabile da osservare
@@ -411,8 +434,7 @@ do
     
     # the observable used in the definition of the weights of the current batch is extracted
     
-  done
-  # end loop on batches of trajectories
+  
   if [[ ${block} -eq ${restart} ]]; then
       for f in `ls ${expdir}/run/run_*/plasim_namelist`; do
           sed  -e "s/LYear/${LYear}/" -e "s/NMonths/${NMonths}/" -e "s/NDays/${NDays}/" -e "s/kickres/0/" \
@@ -422,27 +444,28 @@ do
 
   block=`expr $block + 1`
   done
-
-
-
-    
- done
+ ) &
 
 done
-# A QUESTO PUNTO DOVRAI SICURAMENTE FARE ALCUNE COSE TIPO: CALCOLARE LA PROB [È SEMPLICE, BASTA MOLTIPLICARE W PER * NFINALSUCCESS/NTRAJ ] , guarda il dict
+wait    
+done
 
 
 
 
+wp=$(echo "$wp * $Nf / $ntraj" | bc -l)
 
+ echo "Transition prob: ${wp}"
 
 
 
 #SIMUAZIONE FINITA
-##MC qui metti tutta la parte di tar files e srv2nc ecc ecc
+
+
+#NOW  manage output files
 block=${initblock}
 while [ ${block} -le ${endblock} ]
-  
+do 
 
   blocklabel=`printf 'block_%04d' ${block}`
   blocknumber=`printf '%04d' ${block}`
@@ -497,7 +520,7 @@ while [ ${block} -le ${endblock} ]
 
 
 done
-mv ${scriptdir}/log_him.%j.e ${expdir}/. ## COPIA FILE LOG DENTRO CARTELLA ESPERIMENTO
+mv ${scriptdir}/log_him.%j.o ${expdir}/. ## COPIA FILE LOG DENTRO CARTELLA ESPERIMENTO
 mv ${scriptdir}/log_him.%j.o ${expdir}/.
 ## EXPERIMENT COMPLETED
 

@@ -1,0 +1,79 @@
+tasks
+20
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj20_nc7_targetstate18_LBlock360_p1_startIDl207-y2482_r2
+2024-10-17 15:43:01 started creating folders
+2024-10-17 15:43:12 finished creating folders
+2024-10-17 15:43:13 started running block 1
+2024-10-17 15:43:13 started running batch 1 of block 1
+2024-10-17 15:46:04 finished running batch 1 of block 1
+2024-10-17 15:46:04 started organizing output for batch 1 of block 1
+2024-10-17 15:46:04 finished organizing output for batch 1 of block 1
+2024-10-17 15:46:04 started extracting control observable for batch 1 of block 1
+2024-10-17 15:46:05 finished extracting control observable for batch 1 of block 1
+2024-10-17 15:46:05 started running block 2
+2024-10-17 15:46:05 started running batch 1 of block 2
+2024-10-17 15:48:57 finished running batch 1 of block 2
+2024-10-17 15:48:57 started organizing output for batch 1 of block 2
+2024-10-17 15:48:58 finished organizing output for batch 1 of block 2
+2024-10-17 15:48:58 started extracting control observable for batch 1 of block 2
+2024-10-17 15:48:58 finished extracting control observable for batch 1 of block 2
+2024-10-17 15:48:58 started running block 3
+2024-10-17 15:48:58 started running batch 1 of block 3
+2024-10-17 15:51:48 finished running batch 1 of block 3
+2024-10-17 15:51:48 started organizing output for batch 1 of block 3
+2024-10-17 15:51:49 finished organizing output for batch 1 of block 3
+2024-10-17 15:51:49 started extracting control observable for batch 1 of block 3
+2024-10-17 15:51:49 finished extracting control observable for batch 1 of block 3
+2024-10-17 15:51:49 started running block 4
+2024-10-17 15:51:49 started running batch 1 of block 4
+2024-10-17 15:54:38 finished running batch 1 of block 4
+2024-10-17 15:54:38 started organizing output for batch 1 of block 4
+2024-10-17 15:54:39 finished organizing output for batch 1 of block 4
+2024-10-17 15:54:39 started extracting control observable for batch 1 of block 4
+2024-10-17 15:54:39 finished extracting control observable for batch 1 of block 4
+2024-10-17 15:54:39 started running block 5
+2024-10-17 15:54:39 started running batch 1 of block 5
+2024-10-17 15:57:31 finished running batch 1 of block 5
+2024-10-17 15:57:31 started organizing output for batch 1 of block 5
+2024-10-17 15:57:32 finished organizing output for batch 1 of block 5
+2024-10-17 15:57:32 started extracting control observable for batch 1 of block 5
+2024-10-17 15:57:32 finished extracting control observable for batch 1 of block 5
+2024-10-17 15:57:32 started running block 6
+2024-10-17 15:57:32 started running batch 1 of block 6
+2024-10-17 16:00:21 finished running batch 1 of block 6
+2024-10-17 16:00:21 started organizing output for batch 1 of block 6
+2024-10-17 16:00:22 finished organizing output for batch 1 of block 6
+2024-10-17 16:00:22 started extracting control observable for batch 1 of block 6
+2024-10-17 16:00:22 finished extracting control observable for batch 1 of block 6
+2024-10-17 16:00:22 started running block 7
+2024-10-17 16:00:22 started running batch 1 of block 7
+2024-10-17 16:03:12 finished running batch 1 of block 7
+2024-10-17 16:03:12 started organizing output for batch 1 of block 7
+2024-10-17 16:03:13 finished organizing output for batch 1 of block 7
+2024-10-17 16:03:13 started extracting control observable for batch 1 of block 7
+2024-10-17 16:03:13 finished extracting control observable for batch 1 of block 7
+2024-10-17 16:03:13 started running block 8
+2024-10-17 16:03:13 started running batch 1 of block 8
+2024-10-17 16:06:01 finished running batch 1 of block 8
+2024-10-17 16:06:01 started organizing output for batch 1 of block 8
+2024-10-17 16:06:01 finished organizing output for batch 1 of block 8
+2024-10-17 16:06:01 started extracting control observable for batch 1 of block 8
+2024-10-17 16:06:02 finished extracting control observable for batch 1 of block 8
+2024-10-17 16:06:02 started running block 9
+2024-10-17 16:06:02 started running batch 1 of block 9
+2024-10-17 16:08:56 finished running batch 1 of block 9
+2024-10-17 16:08:56 started organizing output for batch 1 of block 9
+cp: impossibile creare il file regolare '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj20_nc7_targetstate18_LBlock360_p1_startIDl207-y2482_r2/rest/block_0009/./kleiswi': File exists
+cp: impossibile creare il file regolare '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj20_nc7_targetstate18_LBlock360_p1_startIDl207-y2482_r2/rest/block_0009/./kleiswi': File exists
+2024-10-17 16:08:56 finished organizing output for batch 1 of block 9
+2024-10-17 16:08:56 started extracting control observable for batch 1 of block 9
+2024-10-17 16:08:57 finished extracting control observable for batch 1 of block 9
+2024-10-17 16:08:57 started running block 10
+2024-10-17 16:08:57 started running batch 1 of block 10
+2024-10-17 16:11:46 finished running batch 1 of block 10
+2024-10-17 16:11:46 started organizing output for batch 1 of block 10
+2024-10-17 16:11:46 finished organizing output for batch 1 of block 10
+2024-10-17 16:11:46 started extracting control observable for batch 1 of block 10
+2024-10-17 16:11:46 finished extracting control observable for batch 1 of block 10

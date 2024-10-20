@@ -15,7 +15,8 @@ diagexpdir=`printf '%s/diag' ${expdir}`
 runtrajdir=`printf 'run_%04d' ${trajrun}`
 blockdir=`printf 'block_%04d' ${block}`
 # Calculate the next blockdir
-nextblockdir=$(printf 'block_%04d' $((block + 1)))
+nextblock=`expr ${block} + 1`
+nextblockdir=`printf 'block_%04d' ${nextblock}`
 
 dataname=`printf '%s_data.%04d.%04d' ${expname} ${traj} ${block}`
 icename=`printf '%s_ice.%04d.%04d' ${expname} ${traj} ${block}`
@@ -24,8 +25,8 @@ lsgname=`printf '%s_lsg.%04d.%04d' ${expname} ${traj} ${block}`
 diagname=`printf '%s_diag.%04d.%04d' ${expname} ${traj} ${block}`
 restname=`printf '%s_rest.%04d.%04d' ${expname} ${traj} ${block}`
 lsgrestname=`printf '%s_lsgrest.%04d.%04d' ${expname} ${traj} ${block}`
-initname=`printf '%s_init.%04d.%04d' ${expname} ${traj} ${block}`
-lsginitname=`printf '%s_lsginit.%04d.%04d' ${expname} ${traj} ${block}`
+initname=`printf '%s_init.%04d.%04d' ${expname} ${traj} ${nextblock}`
+lsginitname=`printf '%s_lsginit.%04d.%04d' ${expname} ${traj} ${nextblock}`
 
 # keep copy
 cp ${runexpdir}/${runtrajdir}/plasim_status ${runexpdir}/${runtrajdir}/plasim_restart

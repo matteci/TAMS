@@ -1,0 +1,397 @@
+tasks
+50
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj100_nc15_targetstate15_LBlock360_p1_startIDl207-y2482_r2
+2024-10-19 19:24:40 started creating folders
+2024-10-19 19:25:23 finished creating folders
+2024-10-19 19:25:26 started running block 1
+2024-10-19 19:25:26 started running batch 1 of block 1
+2024-10-19 19:29:51 finished running batch 1 of block 1
+2024-10-19 19:29:51 started organizing output for batch 1 of block 1
+2024-10-19 19:29:52 finished organizing output for batch 1 of block 1
+2024-10-19 19:29:52 started extracting control observable for batch 1 of block 1
+2024-10-19 19:29:52 finished extracting control observable for batch 1 of block 1
+2024-10-19 19:29:52 started running batch 2 of block 1
+2024-10-19 19:34:22 finished running batch 2 of block 1
+2024-10-19 19:34:22 started organizing output for batch 2 of block 1
+2024-10-19 19:34:24 finished organizing output for batch 2 of block 1
+2024-10-19 19:34:24 started extracting control observable for batch 2 of block 1
+2024-10-19 19:34:24 finished extracting control observable for batch 2 of block 1
+2024-10-19 19:34:24 started running block 2
+2024-10-19 19:34:24 started running batch 1 of block 2
+2024-10-19 19:38:54 finished running batch 1 of block 2
+2024-10-19 19:38:54 started organizing output for batch 1 of block 2
+2024-10-19 19:38:55 finished organizing output for batch 1 of block 2
+2024-10-19 19:38:55 started extracting control observable for batch 1 of block 2
+2024-10-19 19:38:55 finished extracting control observable for batch 1 of block 2
+2024-10-19 19:38:55 started running batch 2 of block 2
+2024-10-19 19:43:25 finished running batch 2 of block 2
+2024-10-19 19:43:25 started organizing output for batch 2 of block 2
+2024-10-19 19:43:27 finished organizing output for batch 2 of block 2
+2024-10-19 19:43:27 started extracting control observable for batch 2 of block 2
+2024-10-19 19:43:27 finished extracting control observable for batch 2 of block 2
+2024-10-19 19:43:27 started running block 3
+2024-10-19 19:43:27 started running batch 1 of block 3
+2024-10-19 19:47:57 finished running batch 1 of block 3
+2024-10-19 19:47:57 started organizing output for batch 1 of block 3
+2024-10-19 19:47:58 finished organizing output for batch 1 of block 3
+2024-10-19 19:47:58 started extracting control observable for batch 1 of block 3
+2024-10-19 19:47:58 finished extracting control observable for batch 1 of block 3
+2024-10-19 19:47:58 started running batch 2 of block 3
+2024-10-19 19:52:26 finished running batch 2 of block 3
+2024-10-19 19:52:26 started organizing output for batch 2 of block 3
+2024-10-19 19:52:27 finished organizing output for batch 2 of block 3
+2024-10-19 19:52:27 started extracting control observable for batch 2 of block 3
+2024-10-19 19:52:27 finished extracting control observable for batch 2 of block 3
+2024-10-19 19:52:27 started running block 4
+2024-10-19 19:52:27 started running batch 1 of block 4
+2024-10-19 19:56:56 finished running batch 1 of block 4
+2024-10-19 19:56:56 started organizing output for batch 1 of block 4
+2024-10-19 19:56:57 finished organizing output for batch 1 of block 4
+2024-10-19 19:56:57 started extracting control observable for batch 1 of block 4
+2024-10-19 19:56:57 finished extracting control observable for batch 1 of block 4
+2024-10-19 19:56:57 started running batch 2 of block 4
+2024-10-19 20:01:25 finished running batch 2 of block 4
+2024-10-19 20:01:25 started organizing output for batch 2 of block 4
+2024-10-19 20:01:26 finished organizing output for batch 2 of block 4
+2024-10-19 20:01:26 started extracting control observable for batch 2 of block 4
+2024-10-19 20:01:26 finished extracting control observable for batch 2 of block 4
+2024-10-19 20:01:26 started running block 5
+2024-10-19 20:01:26 started running batch 1 of block 5
+2024-10-19 20:06:02 finished running batch 1 of block 5
+2024-10-19 20:06:02 started organizing output for batch 1 of block 5
+2024-10-19 20:06:03 finished organizing output for batch 1 of block 5
+2024-10-19 20:06:03 started extracting control observable for batch 1 of block 5
+2024-10-19 20:06:03 finished extracting control observable for batch 1 of block 5
+2024-10-19 20:06:03 started running batch 2 of block 5
+2024-10-19 20:10:35 finished running batch 2 of block 5
+2024-10-19 20:10:35 started organizing output for batch 2 of block 5
+2024-10-19 20:10:36 finished organizing output for batch 2 of block 5
+2024-10-19 20:10:36 started extracting control observable for batch 2 of block 5
+2024-10-19 20:10:36 finished extracting control observable for batch 2 of block 5
+2024-10-19 20:10:36 started running block 6
+2024-10-19 20:10:36 started running batch 1 of block 6
+2024-10-19 20:15:13 finished running batch 1 of block 6
+2024-10-19 20:15:13 started organizing output for batch 1 of block 6
+2024-10-19 20:15:15 finished organizing output for batch 1 of block 6
+2024-10-19 20:15:15 started extracting control observable for batch 1 of block 6
+2024-10-19 20:15:15 finished extracting control observable for batch 1 of block 6
+2024-10-19 20:15:15 started running batch 2 of block 6
+2024-10-19 20:19:46 finished running batch 2 of block 6
+2024-10-19 20:19:46 started organizing output for batch 2 of block 6
+2024-10-19 20:19:48 finished organizing output for batch 2 of block 6
+2024-10-19 20:19:48 started extracting control observable for batch 2 of block 6
+2024-10-19 20:19:48 finished extracting control observable for batch 2 of block 6
+2024-10-19 20:19:48 started running block 7
+2024-10-19 20:19:48 started running batch 1 of block 7
+2024-10-19 20:24:25 finished running batch 1 of block 7
+2024-10-19 20:24:25 started organizing output for batch 1 of block 7
+2024-10-19 20:24:26 finished organizing output for batch 1 of block 7
+2024-10-19 20:24:26 started extracting control observable for batch 1 of block 7
+2024-10-19 20:24:26 finished extracting control observable for batch 1 of block 7
+2024-10-19 20:24:26 started running batch 2 of block 7
+2024-10-19 20:29:00 finished running batch 2 of block 7
+2024-10-19 20:29:00 started organizing output for batch 2 of block 7
+2024-10-19 20:29:01 finished organizing output for batch 2 of block 7
+2024-10-19 20:29:01 started extracting control observable for batch 2 of block 7
+2024-10-19 20:29:01 finished extracting control observable for batch 2 of block 7
+2024-10-19 20:29:01 started running block 8
+2024-10-19 20:29:01 started running batch 1 of block 8
+2024-10-19 20:33:39 finished running batch 1 of block 8
+2024-10-19 20:33:39 started organizing output for batch 1 of block 8
+2024-10-19 20:33:41 finished organizing output for batch 1 of block 8
+2024-10-19 20:33:41 started extracting control observable for batch 1 of block 8
+2024-10-19 20:33:41 finished extracting control observable for batch 1 of block 8
+2024-10-19 20:33:41 started running batch 2 of block 8
+2024-10-19 20:38:18 finished running batch 2 of block 8
+2024-10-19 20:38:18 started organizing output for batch 2 of block 8
+2024-10-19 20:38:19 finished organizing output for batch 2 of block 8
+2024-10-19 20:38:19 started extracting control observable for batch 2 of block 8
+2024-10-19 20:38:19 finished extracting control observable for batch 2 of block 8
+2024-10-19 20:38:19 started running block 9
+2024-10-19 20:38:19 started running batch 1 of block 9
+2024-10-19 20:42:53 finished running batch 1 of block 9
+2024-10-19 20:42:53 started organizing output for batch 1 of block 9
+2024-10-19 20:42:54 finished organizing output for batch 1 of block 9
+2024-10-19 20:42:54 started extracting control observable for batch 1 of block 9
+2024-10-19 20:42:54 finished extracting control observable for batch 1 of block 9
+2024-10-19 20:42:54 started running batch 2 of block 9
+2024-10-19 20:47:29 finished running batch 2 of block 9
+2024-10-19 20:47:29 started organizing output for batch 2 of block 9
+2024-10-19 20:47:30 finished organizing output for batch 2 of block 9
+2024-10-19 20:47:30 started extracting control observable for batch 2 of block 9
+2024-10-19 20:47:30 finished extracting control observable for batch 2 of block 9
+2024-10-19 20:47:30 started running block 10
+2024-10-19 20:47:30 started running batch 1 of block 10
+2024-10-19 20:52:01 finished running batch 1 of block 10
+2024-10-19 20:52:01 started organizing output for batch 1 of block 10
+2024-10-19 20:52:02 finished organizing output for batch 1 of block 10
+2024-10-19 20:52:02 started extracting control observable for batch 1 of block 10
+2024-10-19 20:52:02 finished extracting control observable for batch 1 of block 10
+2024-10-19 20:52:02 started running batch 2 of block 10
+2024-10-19 20:56:36 finished running batch 2 of block 10
+2024-10-19 20:56:36 started organizing output for batch 2 of block 10
+2024-10-19 20:56:37 finished organizing output for batch 2 of block 10
+2024-10-19 20:56:37 started extracting control observable for batch 2 of block 10
+2024-10-19 20:56:37 finished extracting control observable for batch 2 of block 10
+2024-10-19 20:56:37 started running block 11
+2024-10-19 20:56:37 started running batch 1 of block 11
+2024-10-19 21:01:11 finished running batch 1 of block 11
+2024-10-19 21:01:11 started organizing output for batch 1 of block 11
+2024-10-19 21:01:13 finished organizing output for batch 1 of block 11
+2024-10-19 21:01:13 started extracting control observable for batch 1 of block 11
+2024-10-19 21:01:13 finished extracting control observable for batch 1 of block 11
+2024-10-19 21:01:13 started running batch 2 of block 11
+2024-10-19 21:05:47 finished running batch 2 of block 11
+2024-10-19 21:05:47 started organizing output for batch 2 of block 11
+2024-10-19 21:05:49 finished organizing output for batch 2 of block 11
+2024-10-19 21:05:49 started extracting control observable for batch 2 of block 11
+2024-10-19 21:05:49 finished extracting control observable for batch 2 of block 11
+2024-10-19 21:05:49 started running block 12
+2024-10-19 21:05:49 started running batch 1 of block 12
+2024-10-19 21:10:24 finished running batch 1 of block 12
+2024-10-19 21:10:24 started organizing output for batch 1 of block 12
+2024-10-19 21:10:25 finished organizing output for batch 1 of block 12
+2024-10-19 21:10:25 started extracting control observable for batch 1 of block 12
+2024-10-19 21:10:25 finished extracting control observable for batch 1 of block 12
+2024-10-19 21:10:25 started running batch 2 of block 12
+2024-10-19 21:15:01 finished running batch 2 of block 12
+2024-10-19 21:15:01 started organizing output for batch 2 of block 12
+2024-10-19 21:15:03 finished organizing output for batch 2 of block 12
+2024-10-19 21:15:03 started extracting control observable for batch 2 of block 12
+2024-10-19 21:15:03 finished extracting control observable for batch 2 of block 12
+2024-10-19 21:15:03 started running block 13
+2024-10-19 21:15:03 started running batch 1 of block 13
+2024-10-19 21:19:40 finished running batch 1 of block 13
+2024-10-19 21:19:40 started organizing output for batch 1 of block 13
+2024-10-19 21:19:41 finished organizing output for batch 1 of block 13
+2024-10-19 21:19:41 started extracting control observable for batch 1 of block 13
+2024-10-19 21:19:41 finished extracting control observable for batch 1 of block 13
+2024-10-19 21:19:41 started running batch 2 of block 13
+2024-10-19 21:24:17 finished running batch 2 of block 13
+2024-10-19 21:24:17 started organizing output for batch 2 of block 13
+2024-10-19 21:24:18 finished organizing output for batch 2 of block 13
+2024-10-19 21:24:18 started extracting control observable for batch 2 of block 13
+2024-10-19 21:24:19 finished extracting control observable for batch 2 of block 13
+2024-10-19 21:24:19 started running block 14
+2024-10-19 21:24:19 started running batch 1 of block 14
+2024-10-19 21:28:53 finished running batch 1 of block 14
+2024-10-19 21:28:53 started organizing output for batch 1 of block 14
+2024-10-19 21:28:54 finished organizing output for batch 1 of block 14
+2024-10-19 21:28:54 started extracting control observable for batch 1 of block 14
+2024-10-19 21:28:54 finished extracting control observable for batch 1 of block 14
+2024-10-19 21:28:54 started running batch 2 of block 14
+2024-10-19 21:33:27 finished running batch 2 of block 14
+2024-10-19 21:33:27 started organizing output for batch 2 of block 14
+2024-10-19 21:33:29 finished organizing output for batch 2 of block 14
+2024-10-19 21:33:29 started extracting control observable for batch 2 of block 14
+2024-10-19 21:33:29 finished extracting control observable for batch 2 of block 14
+2024-10-19 21:33:29 started running block 15
+2024-10-19 21:33:29 started running batch 1 of block 15
+2024-10-19 21:38:03 finished running batch 1 of block 15
+2024-10-19 21:38:03 started organizing output for batch 1 of block 15
+2024-10-19 21:38:04 finished organizing output for batch 1 of block 15
+2024-10-19 21:38:04 started extracting control observable for batch 1 of block 15
+2024-10-19 21:38:04 finished extracting control observable for batch 1 of block 15
+2024-10-19 21:38:04 started running batch 2 of block 15
+2024-10-19 21:42:40 finished running batch 2 of block 15
+2024-10-19 21:42:40 started organizing output for batch 2 of block 15
+2024-10-19 21:42:41 finished organizing output for batch 2 of block 15
+2024-10-19 21:42:41 started extracting control observable for batch 2 of block 15
+2024-10-19 21:42:41 finished extracting control observable for batch 2 of block 15
+2024-10-19 21:42:41 started running block 16
+2024-10-19 21:42:41 started running batch 1 of block 16
+2024-10-19 21:47:19 finished running batch 1 of block 16
+2024-10-19 21:47:19 started organizing output for batch 1 of block 16
+2024-10-19 21:47:20 finished organizing output for batch 1 of block 16
+2024-10-19 21:47:20 started extracting control observable for batch 1 of block 16
+2024-10-19 21:47:21 finished extracting control observable for batch 1 of block 16
+2024-10-19 21:47:21 started running batch 2 of block 16
+2024-10-19 21:51:56 finished running batch 2 of block 16
+2024-10-19 21:51:56 started organizing output for batch 2 of block 16
+2024-10-19 21:51:57 finished organizing output for batch 2 of block 16
+2024-10-19 21:51:57 started extracting control observable for batch 2 of block 16
+2024-10-19 21:51:58 finished extracting control observable for batch 2 of block 16
+2024-10-19 21:51:58 started running block 17
+2024-10-19 21:51:58 started running batch 1 of block 17
+2024-10-19 21:56:35 finished running batch 1 of block 17
+2024-10-19 21:56:35 started organizing output for batch 1 of block 17
+2024-10-19 21:56:36 finished organizing output for batch 1 of block 17
+2024-10-19 21:56:36 started extracting control observable for batch 1 of block 17
+2024-10-19 21:56:36 finished extracting control observable for batch 1 of block 17
+2024-10-19 21:56:36 started running batch 2 of block 17
+2024-10-19 22:01:12 finished running batch 2 of block 17
+2024-10-19 22:01:12 started organizing output for batch 2 of block 17
+2024-10-19 22:01:14 finished organizing output for batch 2 of block 17
+2024-10-19 22:01:14 started extracting control observable for batch 2 of block 17
+2024-10-19 22:01:14 finished extracting control observable for batch 2 of block 17
+2024-10-19 22:01:14 started running block 18
+2024-10-19 22:01:14 started running batch 1 of block 18
+2024-10-19 22:05:51 finished running batch 1 of block 18
+2024-10-19 22:05:51 started organizing output for batch 1 of block 18
+2024-10-19 22:05:53 finished organizing output for batch 1 of block 18
+2024-10-19 22:05:53 started extracting control observable for batch 1 of block 18
+2024-10-19 22:05:53 finished extracting control observable for batch 1 of block 18
+2024-10-19 22:05:53 started running batch 2 of block 18
+2024-10-19 22:10:30 finished running batch 2 of block 18
+2024-10-19 22:10:30 started organizing output for batch 2 of block 18
+2024-10-19 22:10:31 finished organizing output for batch 2 of block 18
+2024-10-19 22:10:31 started extracting control observable for batch 2 of block 18
+2024-10-19 22:10:31 finished extracting control observable for batch 2 of block 18
+2024-10-19 22:10:31 started running block 19
+2024-10-19 22:10:31 started running batch 1 of block 19
+2024-10-19 22:15:06 finished running batch 1 of block 19
+2024-10-19 22:15:06 started organizing output for batch 1 of block 19
+2024-10-19 22:15:08 finished organizing output for batch 1 of block 19
+2024-10-19 22:15:08 started extracting control observable for batch 1 of block 19
+2024-10-19 22:15:08 finished extracting control observable for batch 1 of block 19
+2024-10-19 22:15:08 started running batch 2 of block 19
+2024-10-19 22:19:42 finished running batch 2 of block 19
+2024-10-19 22:19:42 started organizing output for batch 2 of block 19
+2024-10-19 22:19:43 finished organizing output for batch 2 of block 19
+2024-10-19 22:19:43 started extracting control observable for batch 2 of block 19
+2024-10-19 22:19:44 finished extracting control observable for batch 2 of block 19
+2024-10-19 22:19:44 started running block 20
+2024-10-19 22:19:44 started running batch 1 of block 20
+2024-10-19 22:24:20 finished running batch 1 of block 20
+2024-10-19 22:24:20 started organizing output for batch 1 of block 20
+2024-10-19 22:24:22 finished organizing output for batch 1 of block 20
+2024-10-19 22:24:22 started extracting control observable for batch 1 of block 20
+2024-10-19 22:24:22 finished extracting control observable for batch 1 of block 20
+2024-10-19 22:24:22 started running batch 2 of block 20
+2024-10-19 22:29:01 finished running batch 2 of block 20
+2024-10-19 22:29:01 started organizing output for batch 2 of block 20
+2024-10-19 22:29:02 finished organizing output for batch 2 of block 20
+2024-10-19 22:29:02 started extracting control observable for batch 2 of block 20
+2024-10-19 22:29:02 finished extracting control observable for batch 2 of block 20
+2024-10-19 22:29:02 started running block 21
+2024-10-19 22:29:02 started running batch 1 of block 21
+2024-10-19 22:33:42 finished running batch 1 of block 21
+2024-10-19 22:33:42 started organizing output for batch 1 of block 21
+2024-10-19 22:33:43 finished organizing output for batch 1 of block 21
+2024-10-19 22:33:43 started extracting control observable for batch 1 of block 21
+2024-10-19 22:33:43 finished extracting control observable for batch 1 of block 21
+2024-10-19 22:33:43 started running batch 2 of block 21
+2024-10-19 22:38:22 finished running batch 2 of block 21
+2024-10-19 22:38:22 started organizing output for batch 2 of block 21
+2024-10-19 22:38:23 finished organizing output for batch 2 of block 21
+2024-10-19 22:38:23 started extracting control observable for batch 2 of block 21
+2024-10-19 22:38:23 finished extracting control observable for batch 2 of block 21
+2024-10-19 22:38:23 started running block 22
+2024-10-19 22:38:23 started running batch 1 of block 22
+2024-10-19 22:43:08 finished running batch 1 of block 22
+2024-10-19 22:43:08 started organizing output for batch 1 of block 22
+2024-10-19 22:43:08 finished organizing output for batch 1 of block 22
+2024-10-19 22:43:08 started extracting control observable for batch 1 of block 22
+2024-10-19 22:43:09 finished extracting control observable for batch 1 of block 22
+2024-10-19 22:43:09 started running batch 2 of block 22
+2024-10-19 22:47:49 finished running batch 2 of block 22
+2024-10-19 22:47:49 started organizing output for batch 2 of block 22
+2024-10-19 22:47:50 finished organizing output for batch 2 of block 22
+2024-10-19 22:47:50 started extracting control observable for batch 2 of block 22
+2024-10-19 22:47:50 finished extracting control observable for batch 2 of block 22
+2024-10-19 22:47:50 started running block 23
+2024-10-19 22:47:50 started running batch 1 of block 23
+2024-10-19 22:52:29 finished running batch 1 of block 23
+2024-10-19 22:52:29 started organizing output for batch 1 of block 23
+2024-10-19 22:52:31 finished organizing output for batch 1 of block 23
+2024-10-19 22:52:31 started extracting control observable for batch 1 of block 23
+2024-10-19 22:52:32 finished extracting control observable for batch 1 of block 23
+2024-10-19 22:52:32 started running batch 2 of block 23
+2024-10-19 22:57:10 finished running batch 2 of block 23
+2024-10-19 22:57:10 started organizing output for batch 2 of block 23
+2024-10-19 22:57:12 finished organizing output for batch 2 of block 23
+2024-10-19 22:57:12 started extracting control observable for batch 2 of block 23
+2024-10-19 22:57:15 finished extracting control observable for batch 2 of block 23
+2024-10-19 22:57:15 started running block 24
+2024-10-19 22:57:15 started running batch 1 of block 24
+2024-10-19 23:01:53 finished running batch 1 of block 24
+2024-10-19 23:01:53 started organizing output for batch 1 of block 24
+2024-10-19 23:01:55 finished organizing output for batch 1 of block 24
+2024-10-19 23:01:55 started extracting control observable for batch 1 of block 24
+2024-10-19 23:01:55 finished extracting control observable for batch 1 of block 24
+2024-10-19 23:01:55 started running batch 2 of block 24
+2024-10-19 23:06:31 finished running batch 2 of block 24
+2024-10-19 23:06:31 started organizing output for batch 2 of block 24
+2024-10-19 23:06:32 finished organizing output for batch 2 of block 24
+2024-10-19 23:06:32 started extracting control observable for batch 2 of block 24
+2024-10-19 23:06:32 finished extracting control observable for batch 2 of block 24
+2024-10-19 23:06:32 started running block 25
+2024-10-19 23:06:32 started running batch 1 of block 25
+2024-10-19 23:11:11 finished running batch 1 of block 25
+2024-10-19 23:11:11 started organizing output for batch 1 of block 25
+2024-10-19 23:11:12 finished organizing output for batch 1 of block 25
+2024-10-19 23:11:12 started extracting control observable for batch 1 of block 25
+2024-10-19 23:11:12 finished extracting control observable for batch 1 of block 25
+2024-10-19 23:11:12 started running batch 2 of block 25
+2024-10-19 23:15:51 finished running batch 2 of block 25
+2024-10-19 23:15:51 started organizing output for batch 2 of block 25
+2024-10-19 23:15:52 finished organizing output for batch 2 of block 25
+2024-10-19 23:15:52 started extracting control observable for batch 2 of block 25
+2024-10-19 23:15:52 finished extracting control observable for batch 2 of block 25
+2024-10-19 23:15:52 started running block 26
+2024-10-19 23:15:52 started running batch 1 of block 26
+2024-10-19 23:20:33 finished running batch 1 of block 26
+2024-10-19 23:20:33 started organizing output for batch 1 of block 26
+2024-10-19 23:20:34 finished organizing output for batch 1 of block 26
+2024-10-19 23:20:34 started extracting control observable for batch 1 of block 26
+2024-10-19 23:20:34 finished extracting control observable for batch 1 of block 26
+2024-10-19 23:20:34 started running batch 2 of block 26
+2024-10-19 23:25:15 finished running batch 2 of block 26
+2024-10-19 23:25:15 started organizing output for batch 2 of block 26
+2024-10-19 23:25:16 finished organizing output for batch 2 of block 26
+2024-10-19 23:25:16 started extracting control observable for batch 2 of block 26
+2024-10-19 23:25:16 finished extracting control observable for batch 2 of block 26
+2024-10-19 23:25:16 started running block 27
+2024-10-19 23:25:16 started running batch 1 of block 27
+2024-10-19 23:29:55 finished running batch 1 of block 27
+2024-10-19 23:29:55 started organizing output for batch 1 of block 27
+2024-10-19 23:29:56 finished organizing output for batch 1 of block 27
+2024-10-19 23:29:56 started extracting control observable for batch 1 of block 27
+2024-10-19 23:29:56 finished extracting control observable for batch 1 of block 27
+2024-10-19 23:29:56 started running batch 2 of block 27
+2024-10-19 23:34:37 finished running batch 2 of block 27
+2024-10-19 23:34:37 started organizing output for batch 2 of block 27
+2024-10-19 23:34:38 finished organizing output for batch 2 of block 27
+2024-10-19 23:34:38 started extracting control observable for batch 2 of block 27
+2024-10-19 23:34:38 finished extracting control observable for batch 2 of block 27
+2024-10-19 23:34:38 started running block 28
+2024-10-19 23:34:38 started running batch 1 of block 28
+2024-10-19 23:39:15 finished running batch 1 of block 28
+2024-10-19 23:39:15 started organizing output for batch 1 of block 28
+2024-10-19 23:39:16 finished organizing output for batch 1 of block 28
+2024-10-19 23:39:16 started extracting control observable for batch 1 of block 28
+2024-10-19 23:39:16 finished extracting control observable for batch 1 of block 28
+2024-10-19 23:39:16 started running batch 2 of block 28
+2024-10-19 23:43:53 finished running batch 2 of block 28
+2024-10-19 23:43:53 started organizing output for batch 2 of block 28
+2024-10-19 23:43:54 finished organizing output for batch 2 of block 28
+2024-10-19 23:43:54 started extracting control observable for batch 2 of block 28
+2024-10-19 23:43:54 finished extracting control observable for batch 2 of block 28
+2024-10-19 23:43:54 started running block 29
+2024-10-19 23:43:54 started running batch 1 of block 29
+2024-10-19 23:48:32 finished running batch 1 of block 29
+2024-10-19 23:48:32 started organizing output for batch 1 of block 29
+2024-10-19 23:48:33 finished organizing output for batch 1 of block 29
+2024-10-19 23:48:33 started extracting control observable for batch 1 of block 29
+2024-10-19 23:48:33 finished extracting control observable for batch 1 of block 29
+2024-10-19 23:48:33 started running batch 2 of block 29
+2024-10-19 23:53:11 finished running batch 2 of block 29
+2024-10-19 23:53:11 started organizing output for batch 2 of block 29
+2024-10-19 23:53:12 finished organizing output for batch 2 of block 29
+2024-10-19 23:53:12 started extracting control observable for batch 2 of block 29
+2024-10-19 23:53:12 finished extracting control observable for batch 2 of block 29
+2024-10-19 23:53:12 started running block 30
+2024-10-19 23:53:12 started running batch 1 of block 30
+2024-10-19 23:57:51 finished running batch 1 of block 30
+2024-10-19 23:57:51 started organizing output for batch 1 of block 30
+2024-10-19 23:57:52 finished organizing output for batch 1 of block 30
+2024-10-19 23:57:52 started extracting control observable for batch 1 of block 30
+2024-10-19 23:57:53 finished extracting control observable for batch 1 of block 30
+2024-10-19 23:57:53 started running batch 2 of block 30
+2024-10-20 00:02:33 finished running batch 2 of block 30
+2024-10-20 00:02:33 started organizing output for batch 2 of block 30
+2024-10-20 00:02:34 finished organizing output for batch 2 of block 30
+2024-10-20 00:02:34 started extracting control observable for batch 2 of block 30
+2024-10-20 00:02:35 finished extracting control observable for batch 2 of block 30
