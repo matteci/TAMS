@@ -1,0 +1,189 @@
+tasks
+26
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp26
+2024-12-05 15:14:29 finished creating folders
+Skipped starting set, jumped to TAMS core!
+Nf: 0
+##################################   ITERATION NUMBER 1  #####################################
+2024-12-05 15:14:40 running 1 traj from 2088
+2024-12-05 15:14:40 running 11 traj from 2095
+2024-12-05 15:14:40 running 15 traj from 2086
+2024-12-05 15:14:40 running 21 traj from 2086
+2024-12-05 15:14:40 running 27 traj from 2082
+2024-12-05 15:14:40 running 31 traj from 2099
+2024-12-05 15:14:40 running 32 traj from 2092
+2024-12-05 15:14:40 running 34 traj from 2073
+2024-12-05 15:14:40 running 36 traj from 2076
+2024-12-05 15:14:40 running 39 traj from 2048
+2024-12-05 15:14:40 running 42 traj from 2082
+2024-12-05 15:14:40 running 46 traj from 2088
+2024-12-05 15:14:40 running 48 traj from 2075
+2024-12-05 15:14:40 running 51 traj from 2052
+2024-12-05 15:14:40 running 60 traj from 2039
+2024-12-05 15:14:40 running 62 traj from 2083
+2024-12-05 15:14:41 running 66 traj from 2088
+2024-12-05 15:14:41 running 67 traj from 2099
+2024-12-05 15:14:41 running 76 traj from 2048
+2024-12-05 15:14:41 running 83 traj from 2085
+2024-12-05 15:14:41 running 86 traj from 2090
+2024-12-05 15:14:41 running 87 traj from 2086
+2024-12-05 15:14:41 running 91 traj from 2074
+2024-12-05 15:14:41 running 95 traj from 2076
+2024-12-05 15:14:41 running 105 traj from 2082
+2024-12-05 15:14:41 running 108 traj from 2083
+2024-12-05 15:14:41 running 111 traj from 2090
+2024-12-05 15:14:41 running 116 traj from 2083
+2024-12-05 15:14:41 running 127 traj from 2092
+2024-12-05 15:14:41 running 132 traj from 2086
+2024-12-05 15:14:41 running 135 traj from 2076
+2024-12-05 15:14:41 running 140 traj from 2085
+2024-12-05 15:14:41 running 152 traj from 2074
+2024-12-05 15:14:41 running 153 traj from 2099
+2024-12-05 15:14:41 running 158 traj from 2076
+2024-12-05 15:14:41 running 159 traj from 2099
+2024-12-05 15:14:42 running 160 traj from 2098
+2024-12-05 15:14:42 running 164 traj from 2080
+2024-12-05 15:14:42 running 168 traj from 2099
+2024-12-05 15:14:42 running 174 traj from 2083
+2024-12-05 15:14:42 running 175 traj from 2089
+2024-12-05 15:14:42 running 182 traj from 2072
+2024-12-05 15:14:42 running 184 traj from 2093
+2024-12-05 15:14:42 running 185 traj from 2048
+2024-12-05 15:14:42 running 187 traj from 2076
+2024-12-05 15:14:42 running 200 traj from 2082
+2024-12-05 15:14:42 running 204 traj from 2086
+2024-12-05 15:14:42 running 213 traj from 2099
+2024-12-05 15:14:42 running 216 traj from 2082
+2024-12-05 15:14:42 running 218 traj from 2083
+2024-12-05 15:14:42 running 221 traj from 2097
+2024-12-05 15:14:42 running 230 traj from 2078
+2024-12-05 15:14:42 running 233 traj from 2083
+2024-12-05 15:14:42 running 240 traj from 2088
+2024-12-05 15:14:43 running 249 traj from 2085
+2024-12-05 15:14:43 running 251 traj from 2095
+2024-12-05 15:14:43 running 253 traj from 2080
+2024-12-05 15:14:43 running 255 traj from 2085
+2024-12-05 15:19:26 finished running block 2100 of traj 31
+2024-12-05 15:19:28 finished running block 2086 of traj 249
+2024-12-05 15:19:29 finished running block 2084 of traj 116
+2024-12-05 15:19:30 finished running block 2100 of traj 153
+2024-12-05 15:19:30 finished running block 2077 of traj 36
+2024-12-05 15:19:30 finished running block 2093 of traj 127
+2024-12-05 15:19:30 finished running block 2076 of traj 48
+2024-12-05 15:19:31 finished running block 2086 of traj 140
+2024-12-05 15:19:31 finished running block 2084 of traj 62
+2024-12-05 15:19:34 finished running block 2083 of traj 216
+2024-12-05 15:19:34 finished running block 2077 of traj 135
+2024-12-05 15:19:35 finished running block 2040 of traj 60
+2024-12-05 15:19:37 finished running block 2100 of traj 213
+2024-12-05 15:19:37 finished running block 2083 of traj 200
+2024-12-05 15:19:38 finished running block 2086 of traj 83
+2024-12-05 15:19:38 finished running block 2099 of traj 160
+2024-12-05 15:19:38 finished running block 2087 of traj 204
+2024-12-05 15:19:38 finished running block 2075 of traj 91
+2024-12-05 15:19:39 finished running block 2049 of traj 76
+2024-12-05 15:19:40 finished running block 2096 of traj 11
+2024-12-05 15:19:43 finished running block 2049 of traj 185
+2024-12-05 15:19:45 finished running block 2077 of traj 187
+2024-12-05 15:19:49 finished running block 2087 of traj 132
+2024-12-05 15:19:49 finished running block 2086 of traj 255
+2024-12-05 15:19:50 finished running block 2087 of traj 21
+2024-12-05 15:19:51 finished running block 2084 of traj 174
+2024-12-05 15:20:41 finished running block 2091 of traj 86
+2024-12-05 15:21:23 finished running block 2049 of traj 39
+2024-12-05 15:21:23 finished running block 2084 of traj 218
+2024-12-05 15:21:31 finished running block 2089 of traj 240
+2024-12-05 15:21:34 finished running block 2100 of traj 67
+2024-12-05 15:21:53 finished running block 2077 of traj 95
+2024-12-05 15:21:54 finished running block 2096 of traj 251
+2024-12-05 15:21:56 finished running block 2098 of traj 221
+2024-12-05 15:22:09 finished running block 2074 of traj 34
+2024-12-05 15:22:12 finished running block 2083 of traj 42
+2024-12-05 15:22:14 finished running block 2079 of traj 230
+2024-12-05 15:22:19 finished running block 2077 of traj 158
+2024-12-05 15:22:19 finished running block 2089 of traj 46
+2024-12-05 15:22:21 finished running block 2084 of traj 233
+2024-12-05 15:22:22 finished running block 2089 of traj 1
+2024-12-05 15:22:31 finished running block 2087 of traj 87
+2024-12-05 15:22:31 finished running block 2083 of traj 27
+2024-12-05 15:22:37 finished running block 2075 of traj 152
+2024-12-05 15:22:39 finished running block 2089 of traj 66
+2024-12-05 15:22:43 finished running block 2087 of traj 15
+2024-12-05 15:22:47 finished running block 2100 of traj 168
+2024-12-05 15:22:47 finished running block 2090 of traj 175
+2024-12-05 15:22:59 finished running block 2081 of traj 164
+2024-12-05 15:23:04 finished running block 2084 of traj 108
+2024-12-05 15:23:09 finished running block 2053 of traj 51
+2024-12-05 15:23:10 finished running block 2091 of traj 111
+2024-12-05 15:23:13 finished running block 2100 of traj 159
+2024-12-05 15:23:18 finished running block 2073 of traj 182
+2024-12-05 15:23:28 finished running block 2081 of traj 253
+2024-12-05 15:23:32 finished running block 2094 of traj 184
+2024-12-05 15:23:35 finished running block 2093 of traj 32
+2024-12-05 15:23:47 finished running block 2083 of traj 105
+The minimum restartvalue is 2039
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+/var/spool/slurm/slurmd/job47759/slurm_script: riga 499: errore di sintassi vicino al token non atteso "done"
+/var/spool/slurm/slurmd/job47759/slurm_script: riga 499: `done'

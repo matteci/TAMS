@@ -1,0 +1,459 @@
+tasks
+64
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45
+2024-11-30 18:09:03 finished creating folders
+Co2=537.0849609375
+2024-11-30 18:09:03 started running block 2060
+2024-11-30 18:09:03 started running batch 1 of block 2060
+2024-11-30 18:15:15 finished running batch 1 of block 2060
+2024-11-30 18:15:15 started organizing output for batch 1 of block 2060
+2024-11-30 18:15:17 finished organizing output for batch 1 of block 2060
+2024-11-30 18:15:17 started extracting control observable for batch 1 of block 2060
+2024-11-30 18:15:17 finished extracting control observable for batch 1 of block 2060
+2024-11-30 18:15:17 started running batch 2 of block 2060
+2024-11-30 18:21:31 finished running batch 2 of block 2060
+2024-11-30 18:21:31 started organizing output for batch 2 of block 2060
+2024-11-30 18:21:32 finished organizing output for batch 2 of block 2060
+2024-11-30 18:21:32 started extracting control observable for batch 2 of block 2060
+2024-11-30 18:21:33 finished extracting control observable for batch 2 of block 2060
+2024-11-30 18:21:33 started running batch 3 of block 2060
+2024-11-30 18:27:44 finished running batch 3 of block 2060
+2024-11-30 18:27:44 started organizing output for batch 3 of block 2060
+2024-11-30 18:27:46 finished organizing output for batch 3 of block 2060
+2024-11-30 18:27:46 started extracting control observable for batch 3 of block 2060
+2024-11-30 18:27:47 finished extracting control observable for batch 3 of block 2060
+2024-11-30 18:27:47 started running batch 4 of block 2060
+2024-11-30 18:33:58 finished running batch 4 of block 2060
+2024-11-30 18:33:58 started organizing output for batch 4 of block 2060
+2024-11-30 18:34:00 finished organizing output for batch 4 of block 2060
+2024-11-30 18:34:00 started extracting control observable for batch 4 of block 2060
+2024-11-30 18:34:00 finished extracting control observable for batch 4 of block 2060
+light mode on
+Co2=539.9579467773438
+2024-11-30 18:41:10 started running block 2061
+2024-11-30 18:41:10 started running batch 1 of block 2061
+2024-11-30 18:47:22 finished running batch 1 of block 2061
+2024-11-30 18:47:22 started organizing output for batch 1 of block 2061
+2024-11-30 18:47:23 finished organizing output for batch 1 of block 2061
+2024-11-30 18:47:23 started extracting control observable for batch 1 of block 2061
+2024-11-30 18:47:23 finished extracting control observable for batch 1 of block 2061
+2024-11-30 18:47:23 started running batch 2 of block 2061
+2024-11-30 18:53:32 finished running batch 2 of block 2061
+2024-11-30 18:53:32 started organizing output for batch 2 of block 2061
+2024-11-30 18:53:33 finished organizing output for batch 2 of block 2061
+2024-11-30 18:53:33 started extracting control observable for batch 2 of block 2061
+2024-11-30 18:53:33 finished extracting control observable for batch 2 of block 2061
+2024-11-30 18:53:33 started running batch 3 of block 2061
+2024-11-30 18:59:44 finished running batch 3 of block 2061
+2024-11-30 18:59:44 started organizing output for batch 3 of block 2061
+2024-11-30 18:59:45 finished organizing output for batch 3 of block 2061
+2024-11-30 18:59:45 started extracting control observable for batch 3 of block 2061
+2024-11-30 18:59:45 finished extracting control observable for batch 3 of block 2061
+2024-11-30 18:59:45 started running batch 4 of block 2061
+2024-11-30 19:05:58 finished running batch 4 of block 2061
+2024-11-30 19:05:58 started organizing output for batch 4 of block 2061
+2024-11-30 19:05:59 finished organizing output for batch 4 of block 2061
+2024-11-30 19:05:59 started extracting control observable for batch 4 of block 2061
+2024-11-30 19:06:00 finished extracting control observable for batch 4 of block 2061
+light mode on
+Co2=542.7949829101562
+2024-11-30 19:12:53 started running block 2062
+2024-11-30 19:12:53 started running batch 1 of block 2062
+2024-11-30 19:19:05 finished running batch 1 of block 2062
+2024-11-30 19:19:05 started organizing output for batch 1 of block 2062
+2024-11-30 19:19:06 finished organizing output for batch 1 of block 2062
+2024-11-30 19:19:06 started extracting control observable for batch 1 of block 2062
+2024-11-30 19:19:06 finished extracting control observable for batch 1 of block 2062
+2024-11-30 19:19:06 started running batch 2 of block 2062
+2024-11-30 19:25:17 finished running batch 2 of block 2062
+2024-11-30 19:25:17 started organizing output for batch 2 of block 2062
+2024-11-30 19:25:18 finished organizing output for batch 2 of block 2062
+2024-11-30 19:25:18 started extracting control observable for batch 2 of block 2062
+2024-11-30 19:25:19 finished extracting control observable for batch 2 of block 2062
+2024-11-30 19:25:19 started running batch 3 of block 2062
+2024-11-30 19:31:32 finished running batch 3 of block 2062
+2024-11-30 19:31:32 started organizing output for batch 3 of block 2062
+2024-11-30 19:31:33 finished organizing output for batch 3 of block 2062
+2024-11-30 19:31:33 started extracting control observable for batch 3 of block 2062
+2024-11-30 19:31:34 finished extracting control observable for batch 3 of block 2062
+2024-11-30 19:31:34 started running batch 4 of block 2062
+2024-11-30 19:37:47 finished running batch 4 of block 2062
+2024-11-30 19:37:47 started organizing output for batch 4 of block 2062
+2024-11-30 19:37:48 finished organizing output for batch 4 of block 2062
+2024-11-30 19:37:48 started extracting control observable for batch 4 of block 2062
+2024-11-30 19:37:48 finished extracting control observable for batch 4 of block 2062
+light mode on
+Co2=545.5869750976562
+2024-11-30 19:44:34 started running block 2063
+2024-11-30 19:44:34 started running batch 1 of block 2063
+2024-11-30 19:50:48 finished running batch 1 of block 2063
+2024-11-30 19:50:48 started organizing output for batch 1 of block 2063
+2024-11-30 19:50:49 finished organizing output for batch 1 of block 2063
+2024-11-30 19:50:49 started extracting control observable for batch 1 of block 2063
+2024-11-30 19:50:49 finished extracting control observable for batch 1 of block 2063
+2024-11-30 19:50:49 started running batch 2 of block 2063
+2024-11-30 19:57:01 finished running batch 2 of block 2063
+2024-11-30 19:57:01 started organizing output for batch 2 of block 2063
+2024-11-30 19:57:02 finished organizing output for batch 2 of block 2063
+2024-11-30 19:57:02 started extracting control observable for batch 2 of block 2063
+2024-11-30 19:57:02 finished extracting control observable for batch 2 of block 2063
+2024-11-30 19:57:02 started running batch 3 of block 2063
+2024-11-30 20:03:13 finished running batch 3 of block 2063
+2024-11-30 20:03:13 started organizing output for batch 3 of block 2063
+2024-11-30 20:03:14 finished organizing output for batch 3 of block 2063
+2024-11-30 20:03:14 started extracting control observable for batch 3 of block 2063
+2024-11-30 20:03:14 finished extracting control observable for batch 3 of block 2063
+2024-11-30 20:03:14 started running batch 4 of block 2063
+2024-11-30 20:09:29 finished running batch 4 of block 2063
+2024-11-30 20:09:29 started organizing output for batch 4 of block 2063
+2024-11-30 20:09:30 finished organizing output for batch 4 of block 2063
+2024-11-30 20:09:30 started extracting control observable for batch 4 of block 2063
+2024-11-30 20:09:30 finished extracting control observable for batch 4 of block 2063
+light mode on
+Co2=548.3349609375
+2024-11-30 20:16:37 started running block 2064
+2024-11-30 20:16:37 started running batch 1 of block 2064
+2024-11-30 20:22:53 finished running batch 1 of block 2064
+2024-11-30 20:22:53 started organizing output for batch 1 of block 2064
+2024-11-30 20:22:54 finished organizing output for batch 1 of block 2064
+2024-11-30 20:22:54 started extracting control observable for batch 1 of block 2064
+2024-11-30 20:22:54 finished extracting control observable for batch 1 of block 2064
+2024-11-30 20:22:54 started running batch 2 of block 2064
+forrtl: severe (24): end-of-file during read, unit 11, file /storage/home/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0030/radmod_namelist
+Image              PC                Routine            Line        Source             
+most_plasim_t21_l  0000000000531058  Unknown               Unknown  Unknown
+most_plasim_t21_l  000000000055F161  Unknown               Unknown  Unknown
+most_plasim_t21_l  000000000048315F  Unknown               Unknown  Unknown
+most_plasim_t21_l  000000000042BE64  Unknown               Unknown  Unknown
+most_plasim_t21_l  0000000000425E5C  Unknown               Unknown  Unknown
+most_plasim_t21_l  00000000004030A2  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF5254517E5  __libc_start_main     Unknown  Unknown
+most_plasim_t21_l  0000000000402FAE  Unknown               Unknown  Unknown
+2024-11-30 20:29:03 finished running batch 2 of block 2064
+2024-11-30 20:29:03 started organizing output for batch 2 of block 2064
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0030/ice_output': No such file or directory
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0030/ocean_output': No such file or directory
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0030/lsg_output': No such file or directory
+2024-11-30 20:29:04 finished organizing output for batch 2 of block 2064
+2024-11-30 20:29:04 started extracting control observable for batch 2 of block 2064
+awk: riga com.:1: fatale: tentativo di dividere per zero
+2024-11-30 20:29:04 finished extracting control observable for batch 2 of block 2064
+2024-11-30 20:29:04 started running batch 3 of block 2064
+2024-11-30 20:35:20 finished running batch 3 of block 2064
+2024-11-30 20:35:20 started organizing output for batch 3 of block 2064
+2024-11-30 20:35:20 finished organizing output for batch 3 of block 2064
+2024-11-30 20:35:20 started extracting control observable for batch 3 of block 2064
+2024-11-30 20:35:21 finished extracting control observable for batch 3 of block 2064
+2024-11-30 20:35:21 started running batch 4 of block 2064
+forrtl: severe (24): end-of-file during read, unit 11, file /storage/home/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0007/radmod_namelist
+Image              PC                Routine            Line        Source             
+most_plasim_t21_l  0000000000531058  Unknown               Unknown  Unknown
+most_plasim_t21_l  000000000055F161  Unknown               Unknown  Unknown
+most_plasim_t21_l  000000000048315F  Unknown               Unknown  Unknown
+most_plasim_t21_l  000000000042BE64  Unknown               Unknown  Unknown
+most_plasim_t21_l  0000000000425E5C  Unknown               Unknown  Unknown
+most_plasim_t21_l  00000000004030A2  Unknown               Unknown  Unknown
+libc-2.28.so       00007F6DC857E7E5  __libc_start_main     Unknown  Unknown
+most_plasim_t21_l  0000000000402FAE  Unknown               Unknown  Unknown
+2024-11-30 20:41:29 finished running batch 4 of block 2064
+2024-11-30 20:41:29 started organizing output for batch 4 of block 2064
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0007/ice_output': No such file or directory
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0007/ocean_output': No such file or directory
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y2015_r2_years2015-2500_rcp45/run/run_0007/lsg_output': No such file or directory
+2024-11-30 20:41:30 finished organizing output for batch 4 of block 2064
+2024-11-30 20:41:30 started extracting control observable for batch 4 of block 2064
+awk: riga com.:1: fatale: tentativo di dividere per zero
+2024-11-30 20:41:31 finished extracting control observable for batch 4 of block 2064
+light mode on
+cdo(1) selname (Warning): Variable name tas not found!
+cdo(1) selname (Warning): Variable name psl not found!
+cdo(1) selname (Warning): Variable name tauu not found!
+cdo(1) selname (Warning): Variable name tauv not found!
+cdo(1) selname (Warning): Variable name u not found!
+cdo(1) selname (Warning): Variable name v not found!
+cdo(1) selname (Warning): Variable name ta not found!
+
+cdo(1) selname (Abort): No variables selected!
+cdo(1) selname (Warning): Variable name tas not found!
+cdo(1) selname (Warning): Variable name psl not found!
+cdo(1) selname (Warning): Variable name tauu not found!
+cdo(1) selname (Warning): Variable name tauv not found!
+cdo(1) selname (Warning): Variable name u not found!
+cdo(1) selname (Warning): Variable name v not found!
+cdo(1) selname (Warning): Variable name ta not found!
+
+cdo(1) selname (Abort): No variables selected!
+Co2=551.0389404296875
+2024-11-30 20:48:24 started running block 2065
+2024-11-30 20:48:24 started running batch 1 of block 2065
+2024-11-30 20:54:41 finished running batch 1 of block 2065
+2024-11-30 20:54:41 started organizing output for batch 1 of block 2065
+2024-11-30 20:54:42 finished organizing output for batch 1 of block 2065
+2024-11-30 20:54:42 started extracting control observable for batch 1 of block 2065
+2024-11-30 20:54:42 finished extracting control observable for batch 1 of block 2065
+2024-11-30 20:54:42 started running batch 2 of block 2065
+2024-11-30 21:00:56 finished running batch 2 of block 2065
+2024-11-30 21:00:56 started organizing output for batch 2 of block 2065
+2024-11-30 21:00:56 finished organizing output for batch 2 of block 2065
+2024-11-30 21:00:56 started extracting control observable for batch 2 of block 2065
+2024-11-30 21:00:57 finished extracting control observable for batch 2 of block 2065
+2024-11-30 21:00:57 started running batch 3 of block 2065
+2024-11-30 21:07:13 finished running batch 3 of block 2065
+2024-11-30 21:07:13 started organizing output for batch 3 of block 2065
+2024-11-30 21:07:14 finished organizing output for batch 3 of block 2065
+2024-11-30 21:07:14 started extracting control observable for batch 3 of block 2065
+2024-11-30 21:07:14 finished extracting control observable for batch 3 of block 2065
+2024-11-30 21:07:14 started running batch 4 of block 2065
+2024-11-30 21:13:29 finished running batch 4 of block 2065
+2024-11-30 21:13:29 started organizing output for batch 4 of block 2065
+2024-11-30 21:13:30 finished organizing output for batch 4 of block 2065
+2024-11-30 21:13:30 started extracting control observable for batch 4 of block 2065
+2024-11-30 21:13:30 finished extracting control observable for batch 4 of block 2065
+light mode on
+Co2=553.699951171875
+2024-11-30 21:20:25 started running block 2066
+2024-11-30 21:20:25 started running batch 1 of block 2066
+2024-11-30 21:26:45 finished running batch 1 of block 2066
+2024-11-30 21:26:45 started organizing output for batch 1 of block 2066
+2024-11-30 21:26:45 finished organizing output for batch 1 of block 2066
+2024-11-30 21:26:45 started extracting control observable for batch 1 of block 2066
+2024-11-30 21:26:46 finished extracting control observable for batch 1 of block 2066
+2024-11-30 21:26:46 started running batch 2 of block 2066
+2024-11-30 21:33:04 finished running batch 2 of block 2066
+2024-11-30 21:33:04 started organizing output for batch 2 of block 2066
+2024-11-30 21:33:05 finished organizing output for batch 2 of block 2066
+2024-11-30 21:33:05 started extracting control observable for batch 2 of block 2066
+2024-11-30 21:33:05 finished extracting control observable for batch 2 of block 2066
+2024-11-30 21:33:05 started running batch 3 of block 2066
+2024-11-30 21:39:22 finished running batch 3 of block 2066
+2024-11-30 21:39:22 started organizing output for batch 3 of block 2066
+2024-11-30 21:39:23 finished organizing output for batch 3 of block 2066
+2024-11-30 21:39:23 started extracting control observable for batch 3 of block 2066
+2024-11-30 21:39:23 finished extracting control observable for batch 3 of block 2066
+2024-11-30 21:39:23 started running batch 4 of block 2066
+2024-11-30 21:45:40 finished running batch 4 of block 2066
+2024-11-30 21:45:40 started organizing output for batch 4 of block 2066
+2024-11-30 21:45:41 finished organizing output for batch 4 of block 2066
+2024-11-30 21:45:41 started extracting control observable for batch 4 of block 2066
+2024-11-30 21:45:41 finished extracting control observable for batch 4 of block 2066
+light mode on
+Co2=556.3189697265625
+2024-11-30 21:53:04 started running block 2067
+2024-11-30 21:53:04 started running batch 1 of block 2067
+2024-11-30 21:59:24 finished running batch 1 of block 2067
+2024-11-30 21:59:24 started organizing output for batch 1 of block 2067
+2024-11-30 21:59:25 finished organizing output for batch 1 of block 2067
+2024-11-30 21:59:25 started extracting control observable for batch 1 of block 2067
+2024-11-30 21:59:25 finished extracting control observable for batch 1 of block 2067
+2024-11-30 21:59:25 started running batch 2 of block 2067
+2024-11-30 22:05:42 finished running batch 2 of block 2067
+2024-11-30 22:05:42 started organizing output for batch 2 of block 2067
+2024-11-30 22:05:43 finished organizing output for batch 2 of block 2067
+2024-11-30 22:05:43 started extracting control observable for batch 2 of block 2067
+2024-11-30 22:05:43 finished extracting control observable for batch 2 of block 2067
+2024-11-30 22:05:43 started running batch 3 of block 2067
+2024-11-30 22:11:58 finished running batch 3 of block 2067
+2024-11-30 22:11:58 started organizing output for batch 3 of block 2067
+2024-11-30 22:11:59 finished organizing output for batch 3 of block 2067
+2024-11-30 22:11:59 started extracting control observable for batch 3 of block 2067
+2024-11-30 22:12:00 finished extracting control observable for batch 3 of block 2067
+2024-11-30 22:12:00 started running batch 4 of block 2067
+2024-11-30 22:18:16 finished running batch 4 of block 2067
+2024-11-30 22:18:16 started organizing output for batch 4 of block 2067
+2024-11-30 22:18:18 finished organizing output for batch 4 of block 2067
+2024-11-30 22:18:18 started extracting control observable for batch 4 of block 2067
+2024-11-30 22:18:18 finished extracting control observable for batch 4 of block 2067
+light mode on
+Co2=558.8949584960938
+2024-11-30 22:25:49 started running block 2068
+2024-11-30 22:25:49 started running batch 1 of block 2068
+2024-11-30 22:32:13 finished running batch 1 of block 2068
+2024-11-30 22:32:13 started organizing output for batch 1 of block 2068
+2024-11-30 22:32:14 finished organizing output for batch 1 of block 2068
+2024-11-30 22:32:14 started extracting control observable for batch 1 of block 2068
+2024-11-30 22:32:14 finished extracting control observable for batch 1 of block 2068
+2024-11-30 22:32:14 started running batch 2 of block 2068
+2024-11-30 22:38:29 finished running batch 2 of block 2068
+2024-11-30 22:38:29 started organizing output for batch 2 of block 2068
+2024-11-30 22:38:34 finished organizing output for batch 2 of block 2068
+2024-11-30 22:38:34 started extracting control observable for batch 2 of block 2068
+2024-11-30 22:38:34 finished extracting control observable for batch 2 of block 2068
+2024-11-30 22:38:34 started running batch 3 of block 2068
+2024-11-30 22:44:50 finished running batch 3 of block 2068
+2024-11-30 22:44:50 started organizing output for batch 3 of block 2068
+2024-11-30 22:44:51 finished organizing output for batch 3 of block 2068
+2024-11-30 22:44:51 started extracting control observable for batch 3 of block 2068
+2024-11-30 22:44:51 finished extracting control observable for batch 3 of block 2068
+2024-11-30 22:44:51 started running batch 4 of block 2068
+2024-11-30 22:51:10 finished running batch 4 of block 2068
+2024-11-30 22:51:10 started organizing output for batch 4 of block 2068
+2024-11-30 22:51:11 finished organizing output for batch 4 of block 2068
+2024-11-30 22:51:11 started extracting control observable for batch 4 of block 2068
+2024-11-30 22:51:11 finished extracting control observable for batch 4 of block 2068
+light mode on
+Co2=561.4309692382812
+2024-11-30 22:59:57 started running block 2069
+2024-11-30 22:59:57 started running batch 1 of block 2069
+2024-11-30 23:06:13 finished running batch 1 of block 2069
+2024-11-30 23:06:13 started organizing output for batch 1 of block 2069
+2024-11-30 23:06:14 finished organizing output for batch 1 of block 2069
+2024-11-30 23:06:14 started extracting control observable for batch 1 of block 2069
+2024-11-30 23:06:15 finished extracting control observable for batch 1 of block 2069
+2024-11-30 23:06:15 started running batch 2 of block 2069
+2024-11-30 23:12:31 finished running batch 2 of block 2069
+2024-11-30 23:12:31 started organizing output for batch 2 of block 2069
+2024-11-30 23:12:32 finished organizing output for batch 2 of block 2069
+2024-11-30 23:12:32 started extracting control observable for batch 2 of block 2069
+2024-11-30 23:12:32 finished extracting control observable for batch 2 of block 2069
+2024-11-30 23:12:32 started running batch 3 of block 2069
+2024-11-30 23:18:47 finished running batch 3 of block 2069
+2024-11-30 23:18:47 started organizing output for batch 3 of block 2069
+2024-11-30 23:18:48 finished organizing output for batch 3 of block 2069
+2024-11-30 23:18:48 started extracting control observable for batch 3 of block 2069
+2024-11-30 23:18:48 finished extracting control observable for batch 3 of block 2069
+2024-11-30 23:18:48 started running batch 4 of block 2069
+2024-11-30 23:25:06 finished running batch 4 of block 2069
+2024-11-30 23:25:06 started organizing output for batch 4 of block 2069
+2024-11-30 23:25:07 finished organizing output for batch 4 of block 2069
+2024-11-30 23:25:07 started extracting control observable for batch 4 of block 2069
+2024-11-30 23:25:08 finished extracting control observable for batch 4 of block 2069
+light mode on
+Co2=563.9249877929688
+2024-11-30 23:31:58 started running block 2070
+2024-11-30 23:31:58 started running batch 1 of block 2070
+2024-11-30 23:38:12 finished running batch 1 of block 2070
+2024-11-30 23:38:12 started organizing output for batch 1 of block 2070
+2024-11-30 23:38:13 finished organizing output for batch 1 of block 2070
+2024-11-30 23:38:13 started extracting control observable for batch 1 of block 2070
+2024-11-30 23:38:14 finished extracting control observable for batch 1 of block 2070
+2024-11-30 23:38:14 started running batch 2 of block 2070
+2024-11-30 23:44:31 finished running batch 2 of block 2070
+2024-11-30 23:44:31 started organizing output for batch 2 of block 2070
+2024-11-30 23:44:32 finished organizing output for batch 2 of block 2070
+2024-11-30 23:44:32 started extracting control observable for batch 2 of block 2070
+2024-11-30 23:44:32 finished extracting control observable for batch 2 of block 2070
+2024-11-30 23:44:32 started running batch 3 of block 2070
+2024-11-30 23:50:48 finished running batch 3 of block 2070
+2024-11-30 23:50:48 started organizing output for batch 3 of block 2070
+2024-11-30 23:50:49 finished organizing output for batch 3 of block 2070
+2024-11-30 23:50:49 started extracting control observable for batch 3 of block 2070
+2024-11-30 23:50:49 finished extracting control observable for batch 3 of block 2070
+2024-11-30 23:50:49 started running batch 4 of block 2070
+2024-11-30 23:57:02 finished running batch 4 of block 2070
+2024-11-30 23:57:02 started organizing output for batch 4 of block 2070
+2024-11-30 23:57:04 finished organizing output for batch 4 of block 2070
+2024-11-30 23:57:04 started extracting control observable for batch 4 of block 2070
+2024-11-30 23:57:04 finished extracting control observable for batch 4 of block 2070
+light mode on
+Co2=566.3799438476562
+2024-12-01 00:03:33 started running block 2071
+2024-12-01 00:03:33 started running batch 1 of block 2071
+2024-12-01 00:09:47 finished running batch 1 of block 2071
+2024-12-01 00:09:47 started organizing output for batch 1 of block 2071
+2024-12-01 00:09:48 finished organizing output for batch 1 of block 2071
+2024-12-01 00:09:48 started extracting control observable for batch 1 of block 2071
+2024-12-01 00:09:48 finished extracting control observable for batch 1 of block 2071
+2024-12-01 00:09:48 started running batch 2 of block 2071
+2024-12-01 00:16:02 finished running batch 2 of block 2071
+2024-12-01 00:16:02 started organizing output for batch 2 of block 2071
+2024-12-01 00:16:03 finished organizing output for batch 2 of block 2071
+2024-12-01 00:16:03 started extracting control observable for batch 2 of block 2071
+2024-12-01 00:16:03 finished extracting control observable for batch 2 of block 2071
+2024-12-01 00:16:03 started running batch 3 of block 2071
+2024-12-01 00:22:20 finished running batch 3 of block 2071
+2024-12-01 00:22:20 started organizing output for batch 3 of block 2071
+2024-12-01 00:22:21 finished organizing output for batch 3 of block 2071
+2024-12-01 00:22:21 started extracting control observable for batch 3 of block 2071
+2024-12-01 00:22:21 finished extracting control observable for batch 3 of block 2071
+2024-12-01 00:22:21 started running batch 4 of block 2071
+2024-12-01 00:28:38 finished running batch 4 of block 2071
+2024-12-01 00:28:38 started organizing output for batch 4 of block 2071
+2024-12-01 00:28:38 finished organizing output for batch 4 of block 2071
+2024-12-01 00:28:38 started extracting control observable for batch 4 of block 2071
+2024-12-01 00:28:39 finished extracting control observable for batch 4 of block 2071
+light mode on
+Co2=568.77197265625
+2024-12-01 00:35:36 started running block 2072
+2024-12-01 00:35:36 started running batch 1 of block 2072
+2024-12-01 00:41:55 finished running batch 1 of block 2072
+2024-12-01 00:41:55 started organizing output for batch 1 of block 2072
+2024-12-01 00:41:56 finished organizing output for batch 1 of block 2072
+2024-12-01 00:41:56 started extracting control observable for batch 1 of block 2072
+2024-12-01 00:41:56 finished extracting control observable for batch 1 of block 2072
+2024-12-01 00:41:56 started running batch 2 of block 2072
+2024-12-01 00:48:12 finished running batch 2 of block 2072
+2024-12-01 00:48:12 started organizing output for batch 2 of block 2072
+2024-12-01 00:48:14 finished organizing output for batch 2 of block 2072
+2024-12-01 00:48:14 started extracting control observable for batch 2 of block 2072
+2024-12-01 00:48:14 finished extracting control observable for batch 2 of block 2072
+2024-12-01 00:48:14 started running batch 3 of block 2072
+2024-12-01 00:54:29 finished running batch 3 of block 2072
+2024-12-01 00:54:29 started organizing output for batch 3 of block 2072
+2024-12-01 00:54:30 finished organizing output for batch 3 of block 2072
+2024-12-01 00:54:30 started extracting control observable for batch 3 of block 2072
+2024-12-01 00:54:30 finished extracting control observable for batch 3 of block 2072
+2024-12-01 00:54:30 started running batch 4 of block 2072
+2024-12-01 01:00:48 finished running batch 4 of block 2072
+2024-12-01 01:00:48 started organizing output for batch 4 of block 2072
+2024-12-01 01:00:49 finished organizing output for batch 4 of block 2072
+2024-12-01 01:00:49 started extracting control observable for batch 4 of block 2072
+2024-12-01 01:00:49 finished extracting control observable for batch 4 of block 2072
+light mode on
+Co2=571.0829467773438
+2024-12-01 01:07:27 started running block 2073
+2024-12-01 01:07:27 started running batch 1 of block 2073
+2024-12-01 01:13:49 finished running batch 1 of block 2073
+2024-12-01 01:13:49 started organizing output for batch 1 of block 2073
+2024-12-01 01:13:50 finished organizing output for batch 1 of block 2073
+2024-12-01 01:13:50 started extracting control observable for batch 1 of block 2073
+2024-12-01 01:13:50 finished extracting control observable for batch 1 of block 2073
+2024-12-01 01:13:50 started running batch 2 of block 2073
+2024-12-01 01:20:07 finished running batch 2 of block 2073
+2024-12-01 01:20:07 started organizing output for batch 2 of block 2073
+2024-12-01 01:20:08 finished organizing output for batch 2 of block 2073
+2024-12-01 01:20:08 started extracting control observable for batch 2 of block 2073
+2024-12-01 01:20:09 finished extracting control observable for batch 2 of block 2073
+2024-12-01 01:20:09 started running batch 3 of block 2073
+2024-12-01 01:26:28 finished running batch 3 of block 2073
+2024-12-01 01:26:28 started organizing output for batch 3 of block 2073
+2024-12-01 01:26:29 finished organizing output for batch 3 of block 2073
+2024-12-01 01:26:29 started extracting control observable for batch 3 of block 2073
+2024-12-01 01:26:29 finished extracting control observable for batch 3 of block 2073
+2024-12-01 01:26:29 started running batch 4 of block 2073
+2024-12-01 01:32:48 finished running batch 4 of block 2073
+2024-12-01 01:32:48 started organizing output for batch 4 of block 2073
+2024-12-01 01:32:49 finished organizing output for batch 4 of block 2073
+2024-12-01 01:32:49 started extracting control observable for batch 4 of block 2073
+2024-12-01 01:32:49 finished extracting control observable for batch 4 of block 2073
+light mode on
+Co2=573.31396484375
+2024-12-01 01:39:23 started running block 2074
+2024-12-01 01:39:23 started running batch 1 of block 2074
+2024-12-01 01:45:36 finished running batch 1 of block 2074
+2024-12-01 01:45:36 started organizing output for batch 1 of block 2074
+2024-12-01 01:45:38 finished organizing output for batch 1 of block 2074
+2024-12-01 01:45:38 started extracting control observable for batch 1 of block 2074
+2024-12-01 01:45:38 finished extracting control observable for batch 1 of block 2074
+2024-12-01 01:45:38 started running batch 2 of block 2074
+2024-12-01 01:51:54 finished running batch 2 of block 2074
+2024-12-01 01:51:54 started organizing output for batch 2 of block 2074
+2024-12-01 01:51:56 finished organizing output for batch 2 of block 2074
+2024-12-01 01:51:56 started extracting control observable for batch 2 of block 2074
+2024-12-01 01:51:56 finished extracting control observable for batch 2 of block 2074
+2024-12-01 01:51:56 started running batch 3 of block 2074
+2024-12-01 01:58:09 finished running batch 3 of block 2074
+2024-12-01 01:58:09 started organizing output for batch 3 of block 2074
+2024-12-01 01:58:10 finished organizing output for batch 3 of block 2074
+2024-12-01 01:58:10 started extracting control observable for batch 3 of block 2074
+2024-12-01 01:58:10 finished extracting control observable for batch 3 of block 2074
+2024-12-01 01:58:10 started running batch 4 of block 2074
+2024-12-01 02:04:24 finished running batch 4 of block 2074
+2024-12-01 02:04:24 started organizing output for batch 4 of block 2074
+2024-12-01 02:04:25 finished organizing output for batch 4 of block 2074
+2024-12-01 02:04:25 started extracting control observable for batch 4 of block 2074
+2024-12-01 02:04:26 finished extracting control observable for batch 4 of block 2074
+light mode on
+slurmstepd: error: *** JOB 47594 ON node01 CANCELLED AT 2024-12-01T02:07:41 ***
+slurmstepd: error: *** JOB 47594 STEPD TERMINATED ON node01 AT 2024-12-01T02:09:11 DUE TO JOB NOT ENDING WITH SIGNALS ***

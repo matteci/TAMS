@@ -2,7 +2,7 @@
 #
 #SBATCH -J controlPlasim              # the name of your job   
 #SBATCH -p normal            # request the short partition, job takes less than 3 hours  
-#SBATCH -t 60:00:00          # time in hh:mm:ss you want to reserve for the job
+#SBATCH -t 01-00:00:00          # time in hh:mm:ss you want to reserve for the job
 #SBATCH -n 2               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
 #SBATCH -o log_control.%j.o     # the name of the file where the standard output will be written to. %j will be the jobid determined by SLURM
 #SBATCH -e log_control.%j.o     # the name of the file where potential errors will be written to. %j will be the jobid determined by SLURM
@@ -23,11 +23,11 @@ expname="AMOC_LD_VARNAME_pos"
 #
 # Parameters controlling length of experiment
 newexperiment=1   # 1: nuovo
-resty=2482
+resty=0350
 initblock=1        # block è periodo lungo come resampling. 
-endblock=1000         # ultimo blocco: ti definisce lunghezza integrazione
+endblock=600         # ultimo blocco: ti definisce lunghezza integrazione
 force=0           # sovrascrittura delle cartelle di output
-light=0           # light postprocessing as defined in postpro_light.sh
+light=1           # light postprocessing as defined in postpro_light.sh
 
 # Parameters controlling resampling, observable and weights
 varname='amoc'    # variabile usata per resampling
@@ -58,27 +58,31 @@ modelname=`printf 'most_plasim_t21_l10_p%d.x' ${nparallel}` # nome eseguibile
 debug=0
 #
 # Restart file info (if new experiment)
-sourcerestdir=/nethome/cini0001/PLASIM-TAMS/restart/
-#sourcerestdir=/work/users/angeloni/PLASIM/plasim/exp/run-LSG_T21_nice1_av04513_354ppm/restart/
+sourcerestdir=/nethome/cini0001/PLASIM-TAMS/AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y0990_r2_600.0ppm/init/block_${resty}
+plasimrestname=AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y0990_r2_600.0ppm_init.0001.${resty}
+lsgrestname=AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y0990_r2_600.0ppm_lsginit.0001.${resty}
+
+
+#sourcerestdir=/nethome/cini0001/PLASIM-TAMS/restart/
 
 
 #Parmeters CO2
-co2=354.0
+co2=600
 changeco2=1 #if 1 changes. Else no changes, stationary experiment 
-dco2=1
+dco2=0.15
 dco2years=1
 if [ ${changeco2} -ne 1 ]; then
     dco2=0
     dco2years=0
 fi
 
-targetco2=500.0
+targetco2=650
 
 #plasimrestname=AMOC_LD_amoc_pos_changeco2_0.2y1_ntraj1_k0_LBlock360_p1_startIDl207-y2482_r2_init.0001.3000
 #lsgrestname=AMOC_LD_amoc_pos_changeco2_0.2y1_ntraj1_k0_LBlock360_p1_startIDl207-y2482_r2_lsginit.0001.3000
 
-plasimrestname=l207_REST.${resty}
-lsgrestname=l207_LSGREST.${resty}
+#plasimrestname=l207_REST.${resty}
+#lsgrestname=l207_LSGREST.${resty}
 # run trajectory reconstruction from block 1 to endblock
 reconstructTrajs='n'
 #
@@ -117,7 +121,7 @@ NBlocks=$((${endblock}-${initblock}+1))
 dt=`echo "scale=5;${NDays}/${LYear}" | bc`
 
 # update expname to include parameter setting
-expname=${expname}_changeco2_${dco2}y${dco2years}_ntraj${ntrajs}_k${k}_LBlock${TotDaysBlock}_p${nparallel}_startID${startID}
+expname=${expname}_changeco2_${dco2}y${dco2years}_ntraj${ntrajs}_k${k}_LBlock${TotDaysBlock}_p${nparallel}_startID${startID}_${targetco2}ppm
 echo ${homedir}/${expname}
 if [[ -d ${homedir}/${expname} && ${force} -eq 1 && ${newexperiment} -eq 1 ]]; then
     rm -rf ${homedir}/${expname}

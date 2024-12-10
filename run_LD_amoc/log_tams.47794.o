@@ -1,0 +1,1118 @@
+tasks
+26
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm
+2024-12-06 14:31:03 finished creating folders
+Skipped starting set, jumped to TAMS core!
+levels=256
+nc=26
+Q: [1.      0.63772 0.6011  0.70482 0.91286 0.73816 0.65089 0.77905 0.64014
+ 1.      1.      1.      0.63865 0.59813 1.      0.616   0.68018 0.74486
+ 0.60246 0.61028 0.61198 0.60502 0.60783 1.      0.62882 1.      1.
+ 0.59477 0.63866 1.      0.7439  0.7493  1.      0.81216 0.61489 0.60665
+ 0.60507 1.      0.6075  0.60052 1.      0.59499 0.64837 1.      0.63698
+ 0.59605 1.      0.60042 0.6538  0.62771 0.77772 0.75592 0.6093  0.60005
+ 0.58858 1.      1.      0.80675 0.66329 1.      0.68625 0.61951 0.64139
+ 0.62202 0.81254 0.68297 1.      1.      0.65728 0.63173 0.60104 0.61966
+ 0.59697 0.5945  0.667   1.      0.66036 1.      0.7424  1.      1.
+ 0.66132 1.      0.67233 1.      0.59424 0.89385 0.64202 0.59504 1.
+ 0.6022  1.      0.59676 0.78515 1.      0.612   0.66821 1.      1.
+ 0.594   0.60052 0.59729 0.603   0.59792 0.61808 0.7161  0.70914 0.60397
+ 1.      1.      0.59738 0.61314 1.      0.59766 1.      1.      0.6786
+ 1.      0.99634 1.      0.69668 0.61474 0.60734 1.      1.      0.66939
+ 0.62772 0.70243 0.6327  0.63179 0.66278 1.      0.60258 0.61718 1.
+ 0.90685 0.59326 0.60883 0.62083 0.64159 0.62357 1.      1.      1.
+ 0.67744 0.63399 1.      0.59766 0.63418 0.68951 0.59605 0.59813 1.
+ 0.70695 0.61484 0.6032  1.      0.59908 1.      1.      0.60455 0.63087
+ 0.62082 0.61413 0.59813 0.67264 0.61071 1.      1.      0.63916 0.60402
+ 0.64286 1.      0.59474 0.66322 1.      0.63285 0.65433 0.60168 0.61894
+ 0.62427 0.76536 1.      0.64896 0.59748 0.6982  0.61308 0.66271 0.61589
+ 1.      0.98548 0.59908 0.67301 0.60748 0.65422 1.      0.60546 1.
+ 0.59813 0.59442 0.6365  0.60348 0.76264 0.60469 0.59971 0.64047 0.62295
+ 0.59941 0.61279 1.      0.6028  1.      1.      0.64346 0.692   1.
+ 0.62996 0.59314 0.71767 1.      0.60856 0.70075 0.62616 0.61545 1.
+ 1.      0.75479 0.64631 0.60186 0.60676 0.60906 0.61662 1.      0.62738
+ 0.64333 1.      1.      0.69298 0.62088 0.6482  0.70289 0.60834 0.67784
+ 0.62438 1.      0.66996 1.      0.65114 0.59571 0.63918 0.6028  0.59768
+ 1.      0.65937 0.62826 0.76127]
+idx: [ 14  28  42  46  54  55  73  74  86  89  93 100 102 104 111 114 137 148
+ 151 152 158 165 174 185 192 199 200 205 208 218 249 252]
+new_ind: [232   7  13  57 161 227 117 178 231 240 176 139 133  69 140 173  63 220
+  24 213 133 209 160  36  85 197 246 239  85 204 143  57]
+restart: [ 25  93  99  61  58  47  79  73  28  31  72  65  52  73  62  26  31  62
+  60  63  52  47  62  58  28  46  69  91  28 127  60  61]
+oldind_ARRAY 14 28 42 46 54 55 73 74 86 89 93 100 102 104 111 114 137 148 151 152 158 165 174 185 192 199 200 205 208 218 249 252
+restart_ARRAY 25 93 99 61 58 47 79 73 28 31 72 65 52 73 62 26 31 62 60 63 52 47 62 58 28 46 69 91 28 127 60 61
+Levels 179
+Probability 0.26746455584027784
+Successful_traj 70
+Nf: 70
+##################################   ITERATION NUMBER 11  #####################################
+2024-12-06 15:40:55 running 14 traj from 25
+2024-12-06 15:40:55 running 28 traj from 93
+2024-12-06 15:40:55 running 42 traj from 99
+2024-12-06 15:40:55 running 46 traj from 61
+2024-12-06 15:40:55 running 54 traj from 58
+2024-12-06 15:40:55 running 55 traj from 47
+2024-12-06 15:40:55 running 73 traj from 79
+2024-12-06 15:40:55 running 74 traj from 73
+2024-12-06 15:40:55 running 86 traj from 28
+2024-12-06 15:40:55 running 89 traj from 31
+2024-12-06 15:40:55 running 93 traj from 72
+2024-12-06 15:40:55 running 100 traj from 65
+2024-12-06 15:40:55 running 102 traj from 52
+2024-12-06 15:40:55 running 104 traj from 73
+2024-12-06 15:40:55 running 111 traj from 62
+2024-12-06 15:40:55 running 114 traj from 26
+2024-12-06 15:40:55 running 137 traj from 31
+2024-12-06 15:40:55 running 148 traj from 62
+2024-12-06 15:40:55 running 151 traj from 60
+2024-12-06 15:40:55 running 152 traj from 63
+2024-12-06 15:40:55 running 158 traj from 52
+2024-12-06 15:40:55 running 165 traj from 47
+2024-12-06 15:40:55 running 174 traj from 62
+2024-12-06 15:40:55 running 185 traj from 58
+2024-12-06 15:40:55 running 192 traj from 28
+2024-12-06 15:40:55 running 199 traj from 46
+2024-12-06 15:40:55 running 200 traj from 69
+2024-12-06 15:40:55 running 205 traj from 91
+2024-12-06 15:40:55 running 208 traj from 28
+2024-12-06 15:40:55 running 218 traj from 127
+2024-12-06 15:40:55 running 249 traj from 60
+2024-12-06 15:40:55 running 252 traj from 61
+2024-12-06 15:43:58 finished running block 32 of traj 89
+2024-12-06 15:44:00 finished running block 48 of traj 55
+2024-12-06 15:44:00 finished running block 53 of traj 158
+2024-12-06 15:44:01 finished running block 128 of traj 218
+2024-12-06 15:44:02 finished running block 48 of traj 165
+2024-12-06 15:44:02 finished running block 70 of traj 200
+2024-12-06 15:44:02 finished running block 63 of traj 174
+2024-12-06 15:44:03 finished running block 62 of traj 46
+2024-12-06 15:44:04 finished running block 59 of traj 185
+2024-12-06 15:44:04 finished running block 73 of traj 93
+2024-12-06 15:44:05 finished running block 80 of traj 73
+2024-12-06 15:44:05 finished running block 29 of traj 86
+2024-12-06 15:44:07 finished running block 66 of traj 100
+2024-12-06 15:44:07 finished running block 29 of traj 208
+2024-12-06 15:44:08 finished running block 29 of traj 192
+2024-12-06 15:44:10 finished running block 32 of traj 137
+2024-12-06 15:44:18 finished running block 27 of traj 114
+2024-12-06 15:44:28 finished running block 63 of traj 148
+2024-12-06 15:44:29 finished running block 64 of traj 152
+2024-12-06 15:44:31 finished running block 61 of traj 249
+2024-12-06 15:44:31 finished running block 61 of traj 151
+2024-12-06 15:44:39 finished running block 74 of traj 74
+2024-12-06 15:44:42 finished running block 94 of traj 28
+2024-12-06 15:44:44 finished running block 74 of traj 104
+2024-12-06 15:44:51 finished running block 62 of traj 252
+2024-12-06 15:44:52 finished running block 53 of traj 102
+2024-12-06 15:44:57 finished running block 47 of traj 199
+2024-12-06 15:44:58 finished running block 100 of traj 42
+2024-12-06 15:45:01 finished running block 26 of traj 14
+2024-12-06 15:45:02 finished running block 59 of traj 54
+2024-12-06 15:45:07 finished running block 63 of traj 111
+2024-12-06 15:45:07 finished running block 92 of traj 205
+The minimum restartvalue is 25
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+Q: [1.      0.63772 0.6011  0.70482 0.91286 0.73816 0.65089 0.77905 0.64014
+ 1.      1.      1.      0.63865 0.66262 1.      0.616   0.68018 0.74486
+ 0.60246 0.61028 0.61198 0.60502 0.60783 1.      0.62882 1.      1.
+ 0.64318 0.63866 1.      0.7439  0.7493  1.      0.81216 0.61489 0.60665
+ 0.60507 1.      0.6075  0.60052 1.      0.66096 0.64837 1.      0.63698
+ 0.68502 1.      0.60042 0.6538  0.62771 0.77772 0.75592 0.6093  0.60455
+ 1.      1.      1.      0.80675 0.66329 1.      0.68625 0.61951 0.64139
+ 0.62202 0.81254 0.68297 1.      1.      0.65728 0.63173 0.60104 0.61966
+ 0.61878 0.60022 0.667   1.      0.66036 1.      0.7424  1.      1.
+ 0.66132 1.      0.67233 1.      0.60906 0.89385 0.64202 0.6061  1.
+ 0.6022  1.      0.60346 0.78515 1.      0.612   0.66821 1.      1.
+ 0.85562 0.60052 0.60258 0.603   0.79559 0.61808 0.7161  0.70914 0.60397
+ 1.      1.      0.59821 0.61314 1.      1.      1.      1.      0.6786
+ 1.      0.99634 1.      0.69668 0.61474 0.60734 1.      1.      0.66939
+ 0.62772 0.70243 0.6327  0.63179 0.66278 1.      0.60258 0.61718 1.
+ 0.90685 0.61318 0.60883 0.62083 0.64159 0.62357 1.      1.      1.
+ 0.67744 0.63399 1.      0.68835 0.63418 0.68951 1.      1.      1.
+ 0.70695 0.61484 0.6032  1.      0.60258 1.      1.      0.60455 0.63087
+ 0.62082 0.61413 0.7365  0.67264 0.61071 1.      1.      0.63916 0.60402
+ 0.64286 1.      0.64046 0.66322 1.      0.63285 0.65433 0.60168 0.61894
+ 0.62427 0.76536 1.      0.64896 0.71292 0.6982  0.61308 0.66271 0.61589
+ 1.      0.98548 0.61893 0.67301 0.60748 0.65422 1.      0.60546 1.
+ 0.60104 1.      0.6365  0.60348 0.76264 0.60469 0.61523 0.64047 0.62295
+ 1.      0.61279 1.      0.6028  1.      1.      0.64346 0.692   1.
+ 0.62996 0.59636 0.71767 1.      0.60856 0.70075 0.62616 0.61545 1.
+ 1.      0.75479 0.64631 0.60186 0.60676 0.60906 0.61662 1.      0.62738
+ 0.64333 1.      1.      0.69298 0.62088 0.6482  0.70289 0.60834 0.67784
+ 0.62438 1.      0.66996 1.      0.65114 1.      0.63918 0.6028  0.79652
+ 1.      0.65937 0.62826 0.76127]
+idx: [  3  19  22  36  37  40  48  54  71  74  89  91  93 101 102 103 108 111
+ 133 156 158 161 171 179 197 199 202 204 211 218 229 251]
+new_ind: [240  46 213 189  10 176 249 198 248 241 162 132 124  14  24  63 212  59
+ 246  97 232 141  33 110 166 233  61 175  13 109   1  84]
+restart: [ 31  62  63 137  29  77  60  39  74  67  68  26  69  32  60  59  69  74
+  70  78  31  35  30  37  31  74 117  35 106  56  82  42]
+oldind_ARRAY 3 19 22 36 37 40 48 54 71 74 89 91 93 101 102 103 108 111 133 156 158 161 171 179 197 199 202 204 211 218 229 251
+restart_ARRAY 31 62 63 137 29 77 60 39 74 67 68 26 69 32 60 59 69 74 70 78 31 35 30 37 31 74 117 35 106 56 82 42
+Levels 173
+Probability 0.23403148636024312
+Successful_traj 77
+Nf: 77
+##################################   ITERATION NUMBER 12  #####################################
+2024-12-06 23:56:12 running 3 traj from 31
+2024-12-06 23:56:12 running 19 traj from 62
+2024-12-06 23:56:12 running 22 traj from 63
+2024-12-06 23:56:12 running 36 traj from 137
+2024-12-06 23:56:12 running 37 traj from 29
+2024-12-06 23:56:12 running 40 traj from 77
+2024-12-06 23:56:12 running 48 traj from 60
+2024-12-06 23:56:12 running 54 traj from 39
+2024-12-06 23:56:12 running 71 traj from 74
+2024-12-06 23:56:12 running 74 traj from 67
+2024-12-06 23:56:12 running 89 traj from 68
+2024-12-06 23:56:12 running 91 traj from 26
+2024-12-06 23:56:12 running 93 traj from 69
+2024-12-06 23:56:12 running 101 traj from 32
+2024-12-06 23:56:12 running 102 traj from 60
+2024-12-06 23:56:12 running 103 traj from 59
+2024-12-06 23:56:12 running 108 traj from 69
+2024-12-06 23:56:12 running 111 traj from 74
+2024-12-06 23:56:12 running 133 traj from 70
+2024-12-06 23:56:12 running 156 traj from 78
+2024-12-06 23:56:12 running 158 traj from 31
+2024-12-06 23:56:12 running 161 traj from 35
+2024-12-06 23:56:12 running 171 traj from 30
+2024-12-06 23:56:12 running 179 traj from 37
+2024-12-06 23:56:12 running 197 traj from 31
+2024-12-06 23:56:12 running 199 traj from 74
+2024-12-06 23:56:12 running 202 traj from 117
+2024-12-06 23:56:12 running 204 traj from 35
+2024-12-06 23:56:12 running 211 traj from 106
+2024-12-06 23:56:12 running 218 traj from 56
+2024-12-06 23:56:12 running 229 traj from 82
+2024-12-06 23:56:12 running 251 traj from 42
+2024-12-06 23:59:23 finished running block 40 of traj 54
+2024-12-06 23:59:27 finished running block 36 of traj 204
+2024-12-06 23:59:27 finished running block 68 of traj 74
+2024-12-06 23:59:27 finished running block 33 of traj 101
+2024-12-06 23:59:27 finished running block 69 of traj 89
+2024-12-06 23:59:28 finished running block 32 of traj 158
+2024-12-06 23:59:30 finished running block 107 of traj 211
+2024-12-06 23:59:32 finished running block 31 of traj 171
+2024-12-06 23:59:33 finished running block 63 of traj 19
+2024-12-06 23:59:36 finished running block 60 of traj 103
+2024-12-06 23:59:36 finished running block 64 of traj 22
+2024-12-06 23:59:36 finished running block 118 of traj 202
+2024-12-06 23:59:37 finished running block 75 of traj 111
+2024-12-06 23:59:38 finished running block 83 of traj 229
+2024-12-06 23:59:38 finished running block 79 of traj 156
+2024-12-06 23:59:43 finished running block 61 of traj 102
+2024-12-06 23:59:44 finished running block 75 of traj 71
+2024-12-06 23:59:45 finished running block 71 of traj 133
+2024-12-06 23:59:45 finished running block 43 of traj 251
+2024-12-06 23:59:46 finished running block 70 of traj 93
+2024-12-06 23:59:49 finished running block 27 of traj 91
+2024-12-06 23:59:53 finished running block 75 of traj 199
+2024-12-06 23:59:54 finished running block 61 of traj 48
+2024-12-06 23:59:56 finished running block 30 of traj 37
+2024-12-06 23:59:56 finished running block 32 of traj 3
+2024-12-06 23:59:56 finished running block 138 of traj 36
+2024-12-06 23:59:57 finished running block 57 of traj 218
+2024-12-06 23:59:58 finished running block 32 of traj 197
+2024-12-06 23:59:58 finished running block 38 of traj 179
+2024-12-07 00:00:00 finished running block 78 of traj 40
+2024-12-07 00:00:02 finished running block 70 of traj 108
+2024-12-07 00:00:08 finished running block 36 of traj 161
+The minimum restartvalue is 26
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+Q: [1.      0.63772 1.      0.70482 0.91286 0.73816 0.65089 0.77905 0.64014
+ 1.      1.      1.      0.63865 0.66262 1.      0.616   0.68018 0.74486
+ 1.      0.61028 0.61198 1.      0.60783 1.      0.62882 1.      1.
+ 0.64318 0.63866 1.      0.7439  0.7493  1.      0.81216 0.61489 0.61589
+ 1.      1.      0.6075  1.      1.      0.66096 0.64837 1.      0.63698
+ 0.68502 1.      0.71524 0.6538  0.62771 0.77772 0.75592 0.6093  1.
+ 1.      1.      1.      0.80675 0.66329 1.      0.68625 0.61951 0.64139
+ 0.62202 0.81254 0.68297 1.      1.      0.65728 0.63173 0.65065 0.61966
+ 0.61878 1.      0.667   1.      0.66036 1.      0.7424  1.      1.
+ 0.66132 1.      0.67233 1.      0.60906 0.89385 0.64202 0.63087 1.
+ 1.      1.      1.      0.78515 1.      0.612   0.66821 1.      1.
+ 0.85562 1.      1.      0.62312 0.79559 0.61808 0.7161  0.70914 0.7208
+ 1.      1.      1.      0.61314 1.      1.      1.      1.      0.6786
+ 1.      0.99634 1.      0.69668 0.61474 0.60734 1.      1.      0.66939
+ 0.62772 0.70243 0.6327  0.63179 0.66278 1.      0.6301  0.61718 1.
+ 0.90685 0.61318 0.60883 0.62083 0.64159 0.62357 1.      1.      1.
+ 0.67744 0.63399 1.      0.68835 0.63418 0.68951 1.      1.      1.
+ 0.70695 0.61484 0.60651 1.      0.63527 1.      1.      0.64046 0.63087
+ 0.62082 0.61413 0.7365  0.67264 0.61071 1.      1.      0.63916 0.6722
+ 0.64286 1.      0.64046 0.66322 1.      0.63285 0.65433 0.69018 0.61894
+ 0.62427 0.76536 1.      0.64896 0.71292 0.6982  0.61308 0.66271 0.61589
+ 1.      0.98548 0.61893 0.67301 0.60748 0.65422 1.      0.73958 1.
+ 0.63475 1.      0.6365  0.62934 0.76264 0.61684 0.61523 0.64047 0.62295
+ 1.      0.61279 1.      0.6334  1.      1.      0.64346 0.692   1.
+ 0.62996 0.64142 0.71767 1.      0.60856 0.70075 0.62616 0.61545 1.
+ 1.      0.75479 0.64631 0.92746 0.60676 0.60906 0.61662 1.      0.62738
+ 0.64333 1.      1.      0.69298 0.62088 0.6482  0.70289 0.60834 0.67784
+ 0.62438 1.      0.66996 1.      0.65114 1.      0.63918 1.      0.79652
+ 1.      0.65937 0.62826 0.76127]
+idx: [ 20  21  23  35  36  39  53  86  96 112 122 123 137 138 155 156 164 167
+ 187 189 194 205 209 221 224 230 231 242]
+new_ind: [255 144 228  26  46 176  94  19 170  73 229 145 163 170 104 226  70 245
+ 127 100  81  22  49 183  31  98  34  41]
+restart: [ 47  68  84  48  62  77 111  62 117  80  83  62  53 117  76  99  51  96
+ 106  73  52  63  46  44  89  45 110  60]
+oldind_ARRAY 20 21 23 35 36 39 53 86 96 112 122 123 137 138 155 156 164 167 187 189 194 205 209 221 224 230 231 242
+restart_ARRAY 47 68 84 48 62 77 111 62 117 80 83 62 53 117 76 99 51 96 106 73 52 63 46 44 89 45 110 60
+Levels 163
+Probability 0.20843429253959153
+Successful_traj 90
+Nf: 90
+##################################   ITERATION NUMBER 13  #####################################
+2024-12-07 07:57:40 running 20 traj from 47
+2024-12-07 07:57:40 running 21 traj from 68
+2024-12-07 07:57:40 running 23 traj from 84
+2024-12-07 07:57:40 running 35 traj from 48
+2024-12-07 07:57:40 running 36 traj from 62
+2024-12-07 07:57:40 running 39 traj from 77
+2024-12-07 07:57:40 running 53 traj from 111
+2024-12-07 07:57:40 running 86 traj from 62
+2024-12-07 07:57:40 running 96 traj from 117
+2024-12-07 07:57:40 running 112 traj from 80
+2024-12-07 07:57:40 running 122 traj from 83
+2024-12-07 07:57:40 running 123 traj from 62
+2024-12-07 07:57:40 running 137 traj from 53
+2024-12-07 07:57:40 running 138 traj from 117
+2024-12-07 07:57:40 running 155 traj from 76
+2024-12-07 07:57:40 running 156 traj from 99
+2024-12-07 07:57:40 running 164 traj from 51
+2024-12-07 07:57:40 running 167 traj from 96
+2024-12-07 07:57:40 running 187 traj from 106
+2024-12-07 07:57:40 running 189 traj from 73
+2024-12-07 07:57:40 running 194 traj from 52
+2024-12-07 07:57:40 running 205 traj from 63
+2024-12-07 07:57:40 running 209 traj from 46
+2024-12-07 07:57:40 running 221 traj from 44
+2024-12-07 07:57:40 running 224 traj from 89
+2024-12-07 07:57:40 running 230 traj from 45
+2024-12-07 07:57:40 running 231 traj from 110
+2024-12-07 07:57:40 running 242 traj from 60
+2024-12-07 08:00:24 finished running block 49 of traj 35
+2024-12-07 08:00:25 finished running block 77 of traj 155
+2024-12-07 08:00:29 finished running block 118 of traj 96
+2024-12-07 08:00:31 finished running block 63 of traj 86
+2024-12-07 08:00:33 finished running block 63 of traj 36
+2024-12-07 08:00:35 finished running block 100 of traj 156
+2024-12-07 08:00:35 finished running block 54 of traj 137
+2024-12-07 08:00:36 finished running block 111 of traj 231
+2024-12-07 08:00:38 finished running block 48 of traj 20
+2024-12-07 08:00:38 finished running block 46 of traj 230
+2024-12-07 08:00:38 finished running block 85 of traj 23
+2024-12-07 08:00:38 finished running block 45 of traj 221
+2024-12-07 08:00:38 finished running block 69 of traj 21
+2024-12-07 08:00:39 finished running block 78 of traj 39
+2024-12-07 08:00:39 finished running block 84 of traj 122
+2024-12-07 08:00:39 finished running block 47 of traj 209
+2024-12-07 08:00:39 finished running block 74 of traj 189
+2024-12-07 08:00:40 finished running block 52 of traj 164
+2024-12-07 08:00:43 finished running block 112 of traj 53
+2024-12-07 08:00:43 finished running block 61 of traj 242
+2024-12-07 08:00:43 finished running block 81 of traj 112
+2024-12-07 08:00:44 finished running block 63 of traj 123
+2024-12-07 08:00:47 finished running block 90 of traj 224
+2024-12-07 08:00:49 finished running block 53 of traj 194
+2024-12-07 08:00:53 finished running block 118 of traj 138
+2024-12-07 08:00:54 finished running block 64 of traj 205
+2024-12-07 08:01:08 finished running block 97 of traj 167
+2024-12-07 08:01:43 finished running block 107 of traj 187
+The minimum restartvalue is 44
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+Q: [1.      0.63772 1.      0.70482 0.91286 0.73816 0.65089 0.77905 0.64014
+ 1.      1.      1.      0.63865 0.66262 1.      0.616   0.68018 0.74486
+ 1.      1.      1.      1.      0.64377 1.      0.62882 1.      1.
+ 0.64318 0.63866 1.      0.7439  0.7493  1.      0.81216 0.63581 0.97636
+ 1.      1.      1.      1.      1.      0.66096 0.64837 1.      0.63698
+ 0.68502 1.      0.71524 0.6538  0.62771 0.77772 0.75592 0.67136 1.
+ 1.      1.      1.      0.80675 0.66329 1.      0.68625 0.61951 0.64139
+ 0.62202 0.81254 0.68297 1.      1.      0.65728 0.63173 0.65065 0.61966
+ 0.61878 1.      0.667   1.      0.66036 1.      0.7424  1.      1.
+ 0.66132 1.      0.67233 1.      1.      0.89385 0.64202 0.63087 1.
+ 1.      1.      1.      0.78515 1.      0.6271  0.66821 1.      1.
+ 0.85562 1.      1.      0.62312 0.79559 0.61808 0.7161  0.70914 0.7208
+ 1.      1.      1.      0.61878 1.      1.      1.      1.      0.6786
+ 1.      0.99634 1.      0.69668 0.64083 1.      1.      1.      0.66939
+ 0.62772 0.70243 0.6327  0.63179 0.66278 1.      0.6301  0.61718 1.
+ 0.90685 0.62082 0.65567 0.62083 0.64159 0.62357 1.      1.      1.
+ 0.67744 0.63399 1.      0.68835 0.63418 0.68951 1.      1.      1.
+ 0.70695 0.65903 1.      1.      0.63527 1.      1.      0.64046 0.63087
+ 0.62082 0.63173 0.7365  0.67264 1.      1.      1.      0.63916 0.6722
+ 0.64286 1.      0.64046 0.66322 1.      0.63285 0.65433 0.69018 0.61894
+ 0.62427 0.76536 1.      0.64896 0.71292 0.6982  0.67494 0.66271 1.
+ 1.      0.98548 0.61893 0.67301 1.      0.65422 1.      0.73958 1.
+ 0.63475 1.      0.6365  0.62934 0.76264 0.61684 1.      0.64047 0.62295
+ 1.      0.72729 1.      0.6334  1.      1.      0.64346 0.692   1.
+ 0.62996 0.64142 0.71767 1.      0.6307  0.70075 0.62616 0.61862 1.
+ 1.      0.75479 0.64631 0.92746 0.78598 0.69368 0.61662 1.      0.62738
+ 0.64333 1.      1.      0.69298 0.62088 0.6482  0.70289 1.      0.67784
+ 0.62438 1.      0.66996 1.      0.65114 1.      0.63918 1.      0.79652
+ 1.      0.65937 0.62826 0.76127]
+idx: [ 16  50  62  64  72  73  96 103 105 112 127 134 137 139 141 163 180 181
+ 192 204 207 223 224 232 234 239 244 255]
+new_ind: [150  31  26 201  36 194  94  41 143  39 209 135 240 245 111  90 122 191
+  69  78  68 256  99  31 254 212 246  65]
+restart: [ 36 107  50  67  62  53 113  60  60  82  63  32  34 104  76  47  83  43
+  89  45 103 104  98  89  85  73  72 103]
+oldind_ARRAY 16 50 62 64 72 73 96 103 105 112 127 134 137 139 141 163 180 181 192 204 207 223 224 232 234 239 244 255
+restart_ARRAY 36 107 50 67 62 53 113 60 60 82 63 32 34 104 76 47 83 43 89 45 103 104 98 89 85 73 72 103
+Levels 151
+Probability 0.1856367917930737
+Successful_traj 101
+Nf: 101
+##################################   ITERATION NUMBER 14  #####################################
+2024-12-07 14:08:19 running 16 traj from 36
+2024-12-07 14:08:19 running 50 traj from 107
+2024-12-07 14:08:19 running 62 traj from 50
+2024-12-07 14:08:19 running 64 traj from 67
+2024-12-07 14:08:19 running 72 traj from 62
+2024-12-07 14:08:19 running 73 traj from 53
+2024-12-07 14:08:19 running 96 traj from 113
+2024-12-07 14:08:19 running 103 traj from 60
+2024-12-07 14:08:19 running 105 traj from 60
+2024-12-07 14:08:19 running 112 traj from 82
+2024-12-07 14:08:19 running 127 traj from 63
+2024-12-07 14:08:19 running 134 traj from 32
+2024-12-07 14:08:19 running 137 traj from 34
+2024-12-07 14:08:19 running 139 traj from 104
+2024-12-07 14:08:19 running 141 traj from 76
+2024-12-07 14:08:19 running 163 traj from 47
+2024-12-07 14:08:19 running 180 traj from 83
+2024-12-07 14:08:19 running 181 traj from 43
+2024-12-07 14:08:19 running 192 traj from 89
+2024-12-07 14:08:19 running 204 traj from 45
+2024-12-07 14:08:19 running 207 traj from 103
+2024-12-07 14:08:19 running 223 traj from 104
+2024-12-07 14:08:19 running 224 traj from 98
+2024-12-07 14:08:19 running 232 traj from 89
+2024-12-07 14:08:19 running 234 traj from 85
+2024-12-07 14:08:19 running 239 traj from 73
+2024-12-07 14:08:19 running 244 traj from 72
+2024-12-07 14:08:19 running 255 traj from 103
+2024-12-07 14:11:09 finished running block 54 of traj 73
+2024-12-07 14:11:09 finished running block 83 of traj 112
+2024-12-07 14:11:10 finished running block 90 of traj 192
+2024-12-07 14:11:13 finished running block 61 of traj 103
+2024-12-07 14:11:13 finished running block 64 of traj 127
+2024-12-07 14:11:13 finished running block 68 of traj 64
+2024-12-07 14:11:14 finished running block 44 of traj 181
+2024-12-07 14:11:14 finished running block 104 of traj 207
+2024-12-07 14:11:15 finished running block 77 of traj 141
+2024-12-07 14:11:15 finished running block 84 of traj 180
+2024-12-07 14:11:15 finished running block 37 of traj 16
+2024-12-07 14:11:15 finished running block 90 of traj 232
+2024-12-07 14:11:16 finished running block 46 of traj 204
+2024-12-07 14:11:17 finished running block 61 of traj 105
+2024-12-07 14:11:17 finished running block 35 of traj 137
+2024-12-07 14:11:18 finished running block 108 of traj 50
+2024-12-07 14:11:19 finished running block 48 of traj 163
+2024-12-07 14:11:19 finished running block 104 of traj 255
+2024-12-07 14:11:20 finished running block 86 of traj 234
+2024-12-07 14:11:22 finished running block 74 of traj 239
+2024-12-07 14:11:22 finished running block 114 of traj 96
+2024-12-07 14:11:22 finished running block 105 of traj 139
+2024-12-07 14:11:22 finished running block 105 of traj 223
+2024-12-07 14:11:24 finished running block 99 of traj 224
+2024-12-07 14:11:24 finished running block 33 of traj 134
+2024-12-07 14:11:24 finished running block 51 of traj 62
+2024-12-07 14:11:42 finished running block 73 of traj 244
+2024-12-07 14:11:52 finished running block 63 of traj 72
+The minimum restartvalue is 32
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+Q: [1.      0.63772 1.      0.70482 0.91286 0.73816 0.65089 0.77905 0.64014
+ 1.      1.      1.      0.63865 0.66262 1.      1.      0.68018 0.74486
+ 1.      1.      1.      1.      0.64377 1.      0.62882 1.      1.
+ 0.64318 0.63866 1.      0.7439  0.7493  1.      0.81216 0.63581 0.97636
+ 1.      1.      1.      1.      1.      0.66096 0.64837 1.      0.63698
+ 0.68502 1.      0.71524 0.6538  1.      0.77772 0.75592 0.67136 1.
+ 1.      1.      1.      0.80675 0.66329 1.      0.68625 0.67457 0.64139
+ 1.      0.81254 0.68297 1.      1.      0.65728 0.63173 0.65065 1.
+ 1.      1.      0.667   1.      0.66036 1.      0.7424  1.      1.
+ 0.66132 1.      0.67233 1.      1.      0.89385 0.64202 0.63087 1.
+ 1.      1.      1.      0.78515 1.      0.64489 0.66821 1.      1.
+ 0.85562 1.      1.      1.      0.79559 1.      0.7161  0.70914 0.7208
+ 1.      1.      1.      1.      1.      1.      1.      1.      0.6786
+ 1.      0.99634 1.      0.69668 0.64083 1.      1.      1.      0.66939
+ 0.63149 0.70243 0.6327  0.63179 0.66278 1.      0.6301  0.62118 1.
+ 0.90685 0.65544 0.65567 0.76262 0.64159 1.      1.      1.      1.
+ 0.67744 0.63399 1.      0.68835 0.63418 0.68951 1.      1.      1.
+ 0.70695 0.65903 1.      1.      0.63527 1.      1.      0.64046 0.63087
+ 0.99657 0.63173 0.7365  0.67264 1.      1.      1.      0.63916 0.6722
+ 0.64286 1.      0.64046 0.66322 1.      0.63285 0.65433 0.69018 0.68133
+ 0.64865 0.76536 1.      0.64896 0.71292 0.6982  0.67494 0.66271 1.
+ 1.      0.98548 0.63882 0.67301 1.      0.65422 1.      0.73958 1.
+ 0.63475 1.      0.6365  0.62934 0.76264 0.7122  1.      0.64047 1.
+ 1.      0.72729 1.      0.6334  1.      1.      0.64346 0.692   1.
+ 0.62996 0.64142 0.71767 1.      0.6307  0.70075 0.6379  0.87038 1.
+ 1.      0.75479 0.64631 0.92746 0.78598 0.69368 0.7781  1.      1.
+ 0.64333 1.      1.      0.69298 1.      0.6482  0.70289 1.      0.67784
+ 0.85107 1.      0.66996 1.      0.65114 1.      0.63918 1.      0.79652
+ 1.      0.65937 0.69876 0.76127]
+idx: [  2  13  25  29  35  45  70  89 127 129 130 133 134 146 149 158 162 164
+ 170 177 192 199 201 202 211 217 221 223]
+new_ind: [ 55 220  84 226 101 151 181  12 173 119 209 237 106 176 109  15 184 137
+ 154  86  84  92 150  26  23 219 124 176]
+restart: [ 52  69  51 102  33  60  52  62  27  70  86 106 135  84  66  41 111  34
+  62  63  51  37  38  50  91  65  72  85]
+oldind_ARRAY 2 13 25 29 35 45 70 89 127 129 130 133 134 146 149 158 162 164 170 177 192 199 201 202 211 217 221 223
+restart_ARRAY 52 69 51 102 33 60 52 62 27 70 86 106 135 84 66 41 111 34 62 63 51 37 38 50 91 65 72 85
+Levels 141
+Probability 0.1653327676907063
+Successful_traj 113
+Nf: 113
+##################################   ITERATION NUMBER 15  #####################################
+2024-12-07 20:54:58 running 2 traj from 52
+2024-12-07 20:54:58 running 13 traj from 69
+2024-12-07 20:54:58 running 25 traj from 51
+2024-12-07 20:54:58 running 29 traj from 102
+2024-12-07 20:54:58 running 35 traj from 33
+2024-12-07 20:54:58 running 45 traj from 60
+2024-12-07 20:54:58 running 70 traj from 52
+2024-12-07 20:54:58 running 89 traj from 62
+2024-12-07 20:54:58 running 127 traj from 27
+2024-12-07 20:54:58 running 129 traj from 70
+2024-12-07 20:54:58 running 130 traj from 86
+2024-12-07 20:54:58 running 133 traj from 106
+2024-12-07 20:54:58 running 134 traj from 135
+2024-12-07 20:54:58 running 146 traj from 84
+2024-12-07 20:54:58 running 149 traj from 66
+2024-12-07 20:54:58 running 158 traj from 41
+2024-12-07 20:54:58 running 162 traj from 111
+2024-12-07 20:54:58 running 164 traj from 34
+2024-12-07 20:54:58 running 170 traj from 62
+2024-12-07 20:54:58 running 177 traj from 63
+2024-12-07 20:54:58 running 192 traj from 51
+2024-12-07 20:54:58 running 199 traj from 37
+2024-12-07 20:54:58 running 201 traj from 38
+2024-12-07 20:54:58 running 202 traj from 50
+2024-12-07 20:54:58 running 211 traj from 91
+2024-12-07 20:54:58 running 217 traj from 65
+2024-12-07 20:54:58 running 221 traj from 72
+2024-12-07 20:54:58 running 223 traj from 85
+2024-12-07 20:57:44 finished running block 70 of traj 13
+2024-12-07 20:57:46 finished running block 34 of traj 35
+2024-12-07 20:57:47 finished running block 39 of traj 201
+2024-12-07 20:57:52 finished running block 52 of traj 192
+2024-12-07 20:57:53 finished running block 86 of traj 223
+2024-12-07 20:57:53 finished running block 35 of traj 164
+2024-12-07 20:57:53 finished running block 73 of traj 221
+2024-12-07 20:57:55 finished running block 63 of traj 170
+2024-12-07 20:57:56 finished running block 136 of traj 134
+2024-12-07 20:57:56 finished running block 103 of traj 29
+2024-12-07 20:57:56 finished running block 64 of traj 177
+2024-12-07 20:57:56 finished running block 71 of traj 129
+2024-12-07 20:57:57 finished running block 107 of traj 133
+2024-12-07 20:57:57 finished running block 28 of traj 127
+2024-12-07 20:57:58 finished running block 52 of traj 25
+2024-12-07 20:58:00 finished running block 51 of traj 202
+2024-12-07 20:58:00 finished running block 67 of traj 149
+2024-12-07 20:58:00 finished running block 38 of traj 199
+2024-12-07 20:58:00 finished running block 53 of traj 70
+2024-12-07 20:58:01 finished running block 92 of traj 211
+2024-12-07 20:58:03 finished running block 112 of traj 162
+2024-12-07 20:58:04 finished running block 63 of traj 89
+2024-12-07 20:58:05 finished running block 42 of traj 158
+2024-12-07 20:58:08 finished running block 61 of traj 45
+2024-12-07 20:58:09 finished running block 66 of traj 217
+2024-12-07 20:58:14 finished running block 87 of traj 130
+2024-12-07 20:58:22 finished running block 53 of traj 2
+2024-12-07 20:58:25 finished running block 85 of traj 146
+The minimum restartvalue is 27
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+Not enough time for another cycle. Exiting.
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/run_LD_amoc/log_tams.%j.o': No such file or directory

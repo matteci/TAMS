@@ -23,9 +23,10 @@ expname=sys.argv[2]
 ntrajs=int(sys.argv[3])
 varname=sys.argv[4]
 nc=int(sys.argv[5])
-endblock=int(sys.argv[6])
-kt=float(sys.argv[7])
-wp=float(sys.argv[8])
+initblock=int(sys.argv[6])
+endblock=int(sys.argv[7])
+kt=float(sys.argv[8])
+wp=float(sys.argv[9])
 
 
 # define folders as in main script (many are not actually needed)
@@ -44,7 +45,7 @@ ctrlobsdir=postexpdir+'/ctrlobs'
         
 # Initialization of the trajectories and scores
 score=np.empty((ntrajs,endblock))
-for block in range(endblock):
+for block in range(initblock-1,endblock):
     for traj in range(ntrajs):
         datafilename=expname+'_score.'+str(traj+1).zfill(4)+'.'+str(block+1).zfill(4)+'.txt'
         dataset=postexpdir+'/ctrlobs/'+datafilename
@@ -82,28 +83,24 @@ if(len(np.unique(Q)) > nc):
     #print("new_ind:", new_ind+1, flush=True)
     #print("restart:", restart+1, flush=True)
     #Here copy files
-     for b in range(r):
+     for b in range(initblock-1,r):
          blockdir = f"block_{b+1:04d}"
-         dataname = f"{expname}_data.{t:04d}.{b+1:04d}"
-         icename = f"{expname}_ice.{t:04d}.{b+1:04d}"
-         oceanname = f"{expname}_ocean.{t:04d}.{b+1:04d}"
-         lsgname = f"{expname}_lsg.{t:04d}.{b+1:04d}"
+         dataname = f"{expname}_data.{t:04d}.{b+1:04d}_light.nc"
+         icename = f"{expname}_ice.{t:04d}.{b+1:04d}_light.nc"
+         oceanname = f"{expname}_ocean.{t:04d}.{b+1:04d}_light.nc"
+         lsgname = f"{expname}_lsg.{t:04d}.{b+1:04d}_light.nc"
          diagname = f"{expname}_diag.{t:04d}.{b+1:04d}"
-         restname = f"{expname}_rest.{t:04d}.{b+1:04d}"
-         lsgrestname = f"{expname}_lsgrest.{t:04d}.{b+1:04d}"
          initname = f"{expname}_init.{t:04d}.{b+1:04d}"
          lsginitname = f"{expname}_lsginit.{t:04d}.{b+1:04d}"
          ctrlobsname = f"{expname}_ctrlobs.{t:04d}.{b+1:04d}.txt"
          scorename = f"{expname}_score.{t:04d}.{b+1:04d}.txt"
 
 
-         newdataname = f"{expname}_data.{new_ind[i]+1:04d}.{b+1:04d}"
-         newicename = f"{expname}_ice.{new_ind[i]+1:04d}.{b+1:04d}"
-         newoceanname = f"{expname}_ocean.{new_ind[i]+1:04d}.{b+1:04d}"
-         newlsgname = f"{expname}_lsg.{new_ind[i]+1:04d}.{b+1:04d}"
+         newdataname = f"{expname}_data.{new_ind[i]+1:04d}.{b+1:04d}_light.nc"
+         newicename = f"{expname}_ice.{new_ind[i]+1:04d}.{b+1:04d}_light.nc"
+         newoceanname = f"{expname}_ocean.{new_ind[i]+1:04d}.{b+1:04d}_light.nc"
+         newlsgname = f"{expname}_lsg.{new_ind[i]+1:04d}.{b+1:04d}_light.nc"
          newdiagname = f"{expname}_diag.{new_ind[i]+1:04d}.{b+1:04d}"
-         newrestname = f"{expname}_rest.{new_ind[i]+1:04d}.{b+1:04d}"
-         newlsgrestname = f"{expname}_lsgrest.{new_ind[i]+1:04d}.{b+1:04d}"
          newinitname = f"{expname}_init.{new_ind[i]+1:04d}.{b+1:04d}"
          newlsginitname = f"{expname}_lsginit.{new_ind[i]+1:04d}.{b+1:04d}"
          newctrlobsname = f"{expname}_ctrlobs.{new_ind[i]+1:04d}.{b+1:04d}.txt"
@@ -118,8 +115,6 @@ if(len(np.unique(Q)) > nc):
          copy(f"{dataexpdir}/{blockdir}/{newoceanname}", f"{dataexpdir}/{blockdir}/{oceanname}")
          copy(f"{dataexpdir}/{blockdir}/{newlsgname}", f"{dataexpdir}/{blockdir}/{lsgname}")
          copy(f"{diagexpdir}/{blockdir}/{newdiagname}", f"{diagexpdir}/{blockdir}/{diagname}")
-         copy(f"{restexpdir}/{blockdir}/{newrestname}", f"{restexpdir}/{blockdir}/{restname}")
-         copy(f"{restexpdir}/{blockdir}/{newlsgrestname}", f"{restexpdir}/{blockdir}/{lsgrestname}")
          copy(f"{initexpdir}/{blockdir}/{newinitname}", f"{initexpdir}/{blockdir}/{initname}")
          copy(f"{initexpdir}/{blockdir}/{newlsginitname}", f"{initexpdir}/{blockdir}/{lsginitname}")
          copy(f"{ctrlobsdir}/{newctrlobsname}", f"{ctrlobsdir}/{ctrlobsname}")  #these two needed only here bc extract_score overwrite files
@@ -132,25 +127,22 @@ if(len(np.unique(Q)) > nc):
          initfilename=expname+'_init.'+str(t).zfill(4)+'.'+str(b+1).zfill(4)
          lsginitfilename=expname+'_lsginit.'+str(t).zfill(4)+'.'+str(b+1).zfill(4)
          blockdir = f"block_{b+1:04d}"
-         dataname = f"{expname}_data.{t:04d}.{b+1:04d}"
-         icename = f"{expname}_ice.{t:04d}.{b+1:04d}"
-         oceanname = f"{expname}_ocean.{t:04d}.{b+1:04d}"
-         lsgname = f"{expname}_lsg.{t:04d}.{b+1:04d}"
+         dataname = f"{expname}_data.{t:04d}.{b+1:04d}_light.nc"
+         icename = f"{expname}_ice.{t:04d}.{b+1:04d}_light.nc"
+         oceanname = f"{expname}_ocean.{t:04d}.{b+1:04d}_light.nc"
+         lsgname = f"{expname}_lsg.{t:04d}.{b+1:04d}_light.nc"
          diagname = f"{expname}_diag.{t:04d}.{b+1:04d}"
-         restname = f"{expname}_rest.{t:04d}.{b+1:04d}"
-         lsgrestname = f"{expname}_lsgrest.{t:04d}.{b+1:04d}"
+         
          files_to_remove = [
              f"{dataexpdir}/{blockdir}/{dataname}",
              f"{dataexpdir}/{blockdir}/{icename}",
              f"{dataexpdir}/{blockdir}/{oceanname}",
              f"{dataexpdir}/{blockdir}/{lsgname}",
              f"{diagexpdir}/{blockdir}/{diagname}",
-             f"{restexpdir}/{blockdir}/{restname}",
-             f"{restexpdir}/{blockdir}/{lsgrestname}",
              f"{initexpdir}/{blockdir}/{initfilename}",
              f"{initexpdir}/{blockdir}/{lsginitfilename}"
              ]
-         print(f"Removing file like: .{t:04d}.{b+1:04d} ", flush=True)
+        # print(f"Removing file like: .{t:04d}.{b+1:04d} ", flush=True)
          for file_path in files_to_remove:
              if os.path.exists(file_path):
                  os.remove(file_path)
@@ -170,14 +162,14 @@ if(len(np.unique(Q)) > nc):
 	
     #here copy rest of newind into init of t at time reset
      initfilename=expname+'_init.'+str(t).zfill(4)+'.'+str(r+1).zfill(4)
-     restfilename=expname+'_rest.'+str(new_ind[i]+1).zfill(4)+'.'+str(r).zfill(4)
-     copy(restexpdir+'/block_'+str(r).zfill(4)+'/'+restfilename,initexpdir+'/block_'+str(r+1).zfill(4)+'/'+initfilename)
+     restfilename=expname+'_init.'+str(new_ind[i]+1).zfill(4)+'.'+str(r+1).zfill(4)
+     copy(initexpdir+'/block_'+str(r+1).zfill(4)+'/'+restfilename,initexpdir+'/block_'+str(r+1).zfill(4)+'/'+initfilename)
 
      lsginitfilename=expname+'_lsginit.'+str(t).zfill(4)+'.'+str(r+1).zfill(4)
-     lsgrestfilename=expname+'_lsgrest.'+str(new_ind[i]+1).zfill(4)+'.'+str(r).zfill(4)
-     copy(restexpdir+'/block_'+str(r).zfill(4)+'/'+lsgrestfilename,initexpdir+'/block_'+str(r+1).zfill(4)+'/'+lsginitfilename)
-     copy(restexpdir+'/block_'+str(r).zfill(4)+'/kleiswi',initexpdir+'/block_'+str(r+1).zfill(4)+'/kleiswi')
-     copy(restexpdir+'/block_'+str(r).zfill(4)+'/mat77',initexpdir+'/block_'+str(r+1).zfill(4)+'/mat77')
+     lsgrestfilename=expname+'_lsginit.'+str(new_ind[i]+1).zfill(4)+'.'+str(r+1).zfill(4)
+     copy(initexpdir+'/block_'+str(r+1).zfill(4)+'/'+lsgrestfilename,initexpdir+'/block_'+str(r+1).zfill(4)+'/'+lsginitfilename)
+     #copy(initexpdir+'/block_'+str(r+1).zfill(4)+'/kleiswi',initexpdir+'/block_'+str(r+1).zfill(4)+'/kleiswi')
+     #copy(initexpdir+'/block_'+str(r+1).zfill(4)+'/mat77',initexpdir+'/block_'+str(r+1).zfill(4)+'/mat77')
 	
 	
 		

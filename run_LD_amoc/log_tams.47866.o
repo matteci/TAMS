@@ -1,0 +1,103 @@
+tasks
+26
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm
+2024-12-10 10:43:39 finished creating folders
+Skipped starting set, jumped to TAMS core!
+levels=256
+nc=26
+Q: [1.      1.      1.      1.      0.91286 1.      1.      0.77905 0.82318
+ 1.      1.      1.      1.      0.883   1.      1.      1.      1.
+ 1.      1.      1.      1.      1.      1.      1.      1.      1.
+ 1.      1.      1.      0.76644 1.      1.      0.81216 1.      0.97636
+ 1.      1.      1.      1.      1.      0.77446 1.      1.      1.
+ 1.      1.      0.87794 1.      1.      0.77772 0.75592 1.      1.
+ 1.      1.      1.      0.80675 1.      1.      1.      0.91432 1.
+ 1.      0.81254 1.      1.      1.      1.      1.      1.      1.
+ 1.      1.      0.95848 1.      1.      1.      1.      1.      1.
+ 0.89974 1.      1.      1.      1.      0.89385 1.      1.      1.
+ 1.      1.      1.      0.78515 1.      1.      1.      1.      1.
+ 0.85562 1.      1.      1.      0.79559 1.      1.      1.      1.
+ 1.      1.      1.      1.      1.      1.      1.      1.      1.
+ 1.      0.99634 1.      1.      0.7887  1.      1.      1.      1.
+ 1.      1.      0.77684 1.      0.98338 1.      1.      0.76588 1.
+ 0.90685 1.      0.90454 0.76262 1.      1.      1.      1.      1.
+ 1.      1.      1.      1.      0.80467 1.      1.      1.      1.
+ 1.      1.      1.      1.      1.      1.      1.      0.87719 1.
+ 0.99657 1.      1.      1.      1.      1.      1.      0.98221 1.
+ 1.      1.      1.      0.93852 1.      0.85754 1.      1.      1.
+ 1.      0.76536 1.      0.81575 0.91412 1.      1.      0.8333  1.
+ 1.      0.98548 1.      0.75044 1.      1.      1.      0.97244 1.
+ 1.      1.      1.      0.8188  0.76264 1.      1.      0.98707 1.
+ 1.      1.      1.      1.      1.      1.      0.80886 1.      1.
+ 1.      1.      0.7544  1.      1.      1.      1.      0.87038 1.
+ 1.      0.75479 1.      0.92746 0.78598 0.75946 0.7781  1.      1.
+ 0.76448 1.      1.      1.      1.      0.84844 1.      1.      1.
+ 0.85107 1.      1.      1.      1.      1.      1.      1.      0.79652
+ 1.      1.      1.      0.76127]
+idx: [  8  31  34  42  51  52  58  94 104 122 129 134 139 149 182 193 203 214
+ 219 227 230 231 232 235 252 256]
+new_ind: [228 237  43  23 146 224  13 190  81 228 177 160 145 158   3  24 146 237
+ 248 102 107  95 123  89 107  93]
+restart: [130 117 100  84 100 137  81  91  74 131 146 106 103  80 104 103  99 120
+  81  80  91  99 112 107  92  80]
+oldind_ARRAY 8 31 34 42 51 52 58 94 104 122 129 134 139 149 182 193 203 214 219 227 230 231 232 235 252 256
+restart_ARRAY 130 117 100 84 100 137 81 91 74 131 146 106 103 80 104 103 99 120 81 80 91 99 112 107 92 80
+Levels 58
+Probability 0.08507451345070477
+Successful_traj 199
+Nf: 199
+##################################   ITERATION NUMBER 21  #####################################
+2024-12-10 11:53:45 running 8 traj from 130
+2024-12-10 11:53:45 running 31 traj from 117
+2024-12-10 11:53:45 running 34 traj from 100
+2024-12-10 11:53:45 running 42 traj from 84
+2024-12-10 11:53:45 running 51 traj from 100
+2024-12-10 11:53:45 running 52 traj from 137
+2024-12-10 11:53:45 running 58 traj from 81
+2024-12-10 11:53:45 running 94 traj from 91
+2024-12-10 11:53:45 running 104 traj from 74
+2024-12-10 11:53:45 running 122 traj from 131
+2024-12-10 11:53:45 running 129 traj from 146
+2024-12-10 11:53:45 running 134 traj from 106
+2024-12-10 11:53:45 running 139 traj from 103
+2024-12-10 11:53:45 running 149 traj from 80
+2024-12-10 11:53:45 running 182 traj from 104
+2024-12-10 11:53:45 running 193 traj from 103
+2024-12-10 11:53:45 running 203 traj from 99
+2024-12-10 11:53:45 running 214 traj from 120
+2024-12-10 11:53:45 running 219 traj from 81
+2024-12-10 11:53:45 running 227 traj from 80
+2024-12-10 11:53:45 running 230 traj from 91
+2024-12-10 11:53:45 running 231 traj from 99
+2024-12-10 11:53:45 running 232 traj from 112
+2024-12-10 11:53:45 running 235 traj from 107
+2024-12-10 11:53:45 running 252 traj from 92
+2024-12-10 11:53:45 running 256 traj from 80
+2024-12-10 11:56:25 finished running block 104 of traj 193
+2024-12-10 11:56:25 finished running block 101 of traj 51
+2024-12-10 11:56:25 finished running block 101 of traj 34
+2024-12-10 11:56:25 finished running block 138 of traj 52
+2024-12-10 11:56:26 finished running block 82 of traj 58
+2024-12-10 11:56:26 finished running block 81 of traj 227
+2024-12-10 11:56:27 finished running block 81 of traj 149
+2024-12-10 11:56:27 finished running block 113 of traj 232
+2024-12-10 11:56:27 finished running block 147 of traj 129
+2024-12-10 11:56:28 finished running block 121 of traj 214
+2024-12-10 11:56:40 finished running block 85 of traj 42
+2024-12-10 11:56:41 finished running block 100 of traj 203
+2024-12-10 11:56:42 finished running block 131 of traj 8
+2024-12-10 11:56:42 finished running block 92 of traj 230
+2024-12-10 11:56:42 finished running block 105 of traj 182
+2024-12-10 11:56:42 finished running block 118 of traj 31
+2024-12-10 11:56:43 finished running block 82 of traj 219
+2024-12-10 11:56:43 finished running block 92 of traj 94
+2024-12-10 11:56:44 finished running block 100 of traj 231
+2024-12-10 11:56:44 finished running block 75 of traj 104
+2024-12-10 11:56:44 finished running block 108 of traj 235
+2024-12-10 11:56:45 finished running block 132 of traj 122
+2024-12-10 11:56:45 finished running block 104 of traj 139
+2024-12-10 11:56:46 finished running block 107 of traj 134
+2024-12-10 11:56:46 finished running block 93 of traj 252
+2024-12-10 11:56:49 finished running block 81 of traj 256

@@ -1,0 +1,3354 @@
+/nethome/cini0001/PLASIM-TAMS/AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y0990_r2_550.0ppm
+2024-10-30 13:36:26 started creating folders
+2024-10-30 13:36:35 finished creating folders
+co2 level=501.0
+2024-10-30 13:36:35 started running block 1
+2024-10-30 13:36:35 started running batch 1 of block 1
+2024-10-30 13:39:04 finished running batch 1 of block 1
+2024-10-30 13:39:04 started organizing output for batch 1 of block 1
+2024-10-30 13:39:04 finished organizing output for batch 1 of block 1
+2024-10-30 13:39:04 started extracting control observable for batch 1 of block 1
+2024-10-30 13:39:04 finished extracting control observable for batch 1 of block 1
+17.9482
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=502.0
+2024-10-30 13:39:12 started running block 2
+2024-10-30 13:39:12 started running batch 1 of block 2
+2024-10-30 13:41:43 finished running batch 1 of block 2
+2024-10-30 13:41:43 started organizing output for batch 1 of block 2
+2024-10-30 13:41:43 finished organizing output for batch 1 of block 2
+2024-10-30 13:41:43 started extracting control observable for batch 1 of block 2
+2024-10-30 13:41:43 finished extracting control observable for batch 1 of block 2
+18.2016
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=503.0
+2024-10-30 13:41:49 started running block 3
+2024-10-30 13:41:49 started running batch 1 of block 3
+2024-10-30 13:44:17 finished running batch 1 of block 3
+2024-10-30 13:44:17 started organizing output for batch 1 of block 3
+2024-10-30 13:44:17 finished organizing output for batch 1 of block 3
+2024-10-30 13:44:17 started extracting control observable for batch 1 of block 3
+2024-10-30 13:44:17 finished extracting control observable for batch 1 of block 3
+17.7477
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=504.0
+2024-10-30 13:44:23 started running block 4
+2024-10-30 13:44:23 started running batch 1 of block 4
+2024-10-30 13:46:54 finished running batch 1 of block 4
+2024-10-30 13:46:54 started organizing output for batch 1 of block 4
+2024-10-30 13:46:54 finished organizing output for batch 1 of block 4
+2024-10-30 13:46:54 started extracting control observable for batch 1 of block 4
+2024-10-30 13:46:54 finished extracting control observable for batch 1 of block 4
+18.2347
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=505.0
+2024-10-30 13:47:00 started running block 5
+2024-10-30 13:47:00 started running batch 1 of block 5
+2024-10-30 13:49:30 finished running batch 1 of block 5
+2024-10-30 13:49:30 started organizing output for batch 1 of block 5
+2024-10-30 13:49:30 finished organizing output for batch 1 of block 5
+2024-10-30 13:49:30 started extracting control observable for batch 1 of block 5
+2024-10-30 13:49:30 finished extracting control observable for batch 1 of block 5
+18.1864
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=506.0
+2024-10-30 13:49:36 started running block 6
+2024-10-30 13:49:36 started running batch 1 of block 6
+2024-10-30 13:52:06 finished running batch 1 of block 6
+2024-10-30 13:52:06 started organizing output for batch 1 of block 6
+2024-10-30 13:52:06 finished organizing output for batch 1 of block 6
+2024-10-30 13:52:06 started extracting control observable for batch 1 of block 6
+2024-10-30 13:52:06 finished extracting control observable for batch 1 of block 6
+17.7163
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=507.0
+2024-10-30 13:52:12 started running block 7
+2024-10-30 13:52:12 started running batch 1 of block 7
+2024-10-30 13:54:42 finished running batch 1 of block 7
+2024-10-30 13:54:42 started organizing output for batch 1 of block 7
+2024-10-30 13:54:42 finished organizing output for batch 1 of block 7
+2024-10-30 13:54:42 started extracting control observable for batch 1 of block 7
+2024-10-30 13:54:42 finished extracting control observable for batch 1 of block 7
+17.492
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=508.0
+2024-10-30 13:54:48 started running block 8
+2024-10-30 13:54:48 started running batch 1 of block 8
+2024-10-30 13:57:19 finished running batch 1 of block 8
+2024-10-30 13:57:19 started organizing output for batch 1 of block 8
+2024-10-30 13:57:19 finished organizing output for batch 1 of block 8
+2024-10-30 13:57:19 started extracting control observable for batch 1 of block 8
+2024-10-30 13:57:19 finished extracting control observable for batch 1 of block 8
+16.7654
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=509.0
+2024-10-30 13:57:25 started running block 9
+2024-10-30 13:57:25 started running batch 1 of block 9
+2024-10-30 13:59:57 finished running batch 1 of block 9
+2024-10-30 13:59:57 started organizing output for batch 1 of block 9
+2024-10-30 13:59:57 finished organizing output for batch 1 of block 9
+2024-10-30 13:59:57 started extracting control observable for batch 1 of block 9
+2024-10-30 13:59:57 finished extracting control observable for batch 1 of block 9
+17.0662
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=510.0
+2024-10-30 14:00:04 started running block 10
+2024-10-30 14:00:04 started running batch 1 of block 10
+2024-10-30 14:02:35 finished running batch 1 of block 10
+2024-10-30 14:02:35 started organizing output for batch 1 of block 10
+2024-10-30 14:02:35 finished organizing output for batch 1 of block 10
+2024-10-30 14:02:35 started extracting control observable for batch 1 of block 10
+2024-10-30 14:02:35 finished extracting control observable for batch 1 of block 10
+17.8708
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=511.0
+2024-10-30 14:02:42 started running block 11
+2024-10-30 14:02:42 started running batch 1 of block 11
+2024-10-30 14:05:12 finished running batch 1 of block 11
+2024-10-30 14:05:12 started organizing output for batch 1 of block 11
+2024-10-30 14:05:12 finished organizing output for batch 1 of block 11
+2024-10-30 14:05:12 started extracting control observable for batch 1 of block 11
+2024-10-30 14:05:12 finished extracting control observable for batch 1 of block 11
+17.5739
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=512.0
+2024-10-30 14:05:18 started running block 12
+2024-10-30 14:05:18 started running batch 1 of block 12
+2024-10-30 14:07:48 finished running batch 1 of block 12
+2024-10-30 14:07:48 started organizing output for batch 1 of block 12
+2024-10-30 14:07:49 finished organizing output for batch 1 of block 12
+2024-10-30 14:07:49 started extracting control observable for batch 1 of block 12
+2024-10-30 14:07:49 finished extracting control observable for batch 1 of block 12
+17.6863
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=513.0
+2024-10-30 14:07:55 started running block 13
+2024-10-30 14:07:55 started running batch 1 of block 13
+2024-10-30 14:10:26 finished running batch 1 of block 13
+2024-10-30 14:10:26 started organizing output for batch 1 of block 13
+2024-10-30 14:10:26 finished organizing output for batch 1 of block 13
+2024-10-30 14:10:26 started extracting control observable for batch 1 of block 13
+2024-10-30 14:10:26 finished extracting control observable for batch 1 of block 13
+17.936
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=514.0
+2024-10-30 14:10:32 started running block 14
+2024-10-30 14:10:32 started running batch 1 of block 14
+2024-10-30 14:13:07 finished running batch 1 of block 14
+2024-10-30 14:13:07 started organizing output for batch 1 of block 14
+2024-10-30 14:13:09 finished organizing output for batch 1 of block 14
+2024-10-30 14:13:09 started extracting control observable for batch 1 of block 14
+2024-10-30 14:13:10 finished extracting control observable for batch 1 of block 14
+17.5547
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=515.0
+2024-10-30 14:13:49 started running block 15
+2024-10-30 14:13:49 started running batch 1 of block 15
+2024-10-30 14:17:03 finished running batch 1 of block 15
+2024-10-30 14:17:04 started organizing output for batch 1 of block 15
+2024-10-30 14:21:55 finished organizing output for batch 1 of block 15
+2024-10-30 14:21:55 started extracting control observable for batch 1 of block 15
+2024-10-30 14:21:55 finished extracting control observable for batch 1 of block 15
+17.6578
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=516.0
+2024-10-30 14:22:06 started running block 16
+2024-10-30 14:22:06 started running batch 1 of block 16
+2024-10-30 14:24:30 finished running batch 1 of block 16
+2024-10-30 14:24:30 started organizing output for batch 1 of block 16
+2024-10-30 14:24:30 finished organizing output for batch 1 of block 16
+2024-10-30 14:24:30 started extracting control observable for batch 1 of block 16
+2024-10-30 14:24:30 finished extracting control observable for batch 1 of block 16
+18.2207
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=517.0
+2024-10-30 14:24:36 started running block 17
+2024-10-30 14:24:36 started running batch 1 of block 17
+2024-10-30 14:27:04 finished running batch 1 of block 17
+2024-10-30 14:27:04 started organizing output for batch 1 of block 17
+2024-10-30 14:27:04 finished organizing output for batch 1 of block 17
+2024-10-30 14:27:04 started extracting control observable for batch 1 of block 17
+2024-10-30 14:27:04 finished extracting control observable for batch 1 of block 17
+18.2144
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=518.0
+2024-10-30 14:27:11 started running block 18
+2024-10-30 14:27:11 started running batch 1 of block 18
+2024-10-30 14:29:42 finished running batch 1 of block 18
+2024-10-30 14:29:42 started organizing output for batch 1 of block 18
+2024-10-30 14:29:42 finished organizing output for batch 1 of block 18
+2024-10-30 14:29:42 started extracting control observable for batch 1 of block 18
+2024-10-30 14:29:42 finished extracting control observable for batch 1 of block 18
+18.6393
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=519.0
+2024-10-30 14:29:48 started running block 19
+2024-10-30 14:29:48 started running batch 1 of block 19
+2024-10-30 14:32:19 finished running batch 1 of block 19
+2024-10-30 14:32:19 started organizing output for batch 1 of block 19
+2024-10-30 14:32:19 finished organizing output for batch 1 of block 19
+2024-10-30 14:32:19 started extracting control observable for batch 1 of block 19
+2024-10-30 14:32:19 finished extracting control observable for batch 1 of block 19
+18.6786
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=520.0
+2024-10-30 14:32:25 started running block 20
+2024-10-30 14:32:25 started running batch 1 of block 20
+2024-10-30 14:34:56 finished running batch 1 of block 20
+2024-10-30 14:34:56 started organizing output for batch 1 of block 20
+2024-10-30 14:34:56 finished organizing output for batch 1 of block 20
+2024-10-30 14:34:56 started extracting control observable for batch 1 of block 20
+2024-10-30 14:34:56 finished extracting control observable for batch 1 of block 20
+18.3171
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=521.0
+2024-10-30 14:35:02 started running block 21
+2024-10-30 14:35:02 started running batch 1 of block 21
+2024-10-30 14:37:32 finished running batch 1 of block 21
+2024-10-30 14:37:32 started organizing output for batch 1 of block 21
+2024-10-30 14:37:32 finished organizing output for batch 1 of block 21
+2024-10-30 14:37:32 started extracting control observable for batch 1 of block 21
+2024-10-30 14:37:32 finished extracting control observable for batch 1 of block 21
+18.8273
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=522.0
+2024-10-30 14:37:38 started running block 22
+2024-10-30 14:37:38 started running batch 1 of block 22
+2024-10-30 14:40:10 finished running batch 1 of block 22
+2024-10-30 14:40:10 started organizing output for batch 1 of block 22
+2024-10-30 14:40:10 finished organizing output for batch 1 of block 22
+2024-10-30 14:40:10 started extracting control observable for batch 1 of block 22
+2024-10-30 14:40:10 finished extracting control observable for batch 1 of block 22
+18.7434
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=523.0
+2024-10-30 14:40:17 started running block 23
+2024-10-30 14:40:17 started running batch 1 of block 23
+2024-10-30 14:42:48 finished running batch 1 of block 23
+2024-10-30 14:42:48 started organizing output for batch 1 of block 23
+2024-10-30 14:42:48 finished organizing output for batch 1 of block 23
+2024-10-30 14:42:48 started extracting control observable for batch 1 of block 23
+2024-10-30 14:42:48 finished extracting control observable for batch 1 of block 23
+18.6922
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=524.0
+2024-10-30 14:42:54 started running block 24
+2024-10-30 14:42:54 started running batch 1 of block 24
+2024-10-30 14:45:25 finished running batch 1 of block 24
+2024-10-30 14:45:25 started organizing output for batch 1 of block 24
+2024-10-30 14:45:25 finished organizing output for batch 1 of block 24
+2024-10-30 14:45:25 started extracting control observable for batch 1 of block 24
+2024-10-30 14:45:25 finished extracting control observable for batch 1 of block 24
+19.0503
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=525.0
+2024-10-30 14:45:31 started running block 25
+2024-10-30 14:45:31 started running batch 1 of block 25
+2024-10-30 14:48:01 finished running batch 1 of block 25
+2024-10-30 14:48:01 started organizing output for batch 1 of block 25
+2024-10-30 14:48:02 finished organizing output for batch 1 of block 25
+2024-10-30 14:48:02 started extracting control observable for batch 1 of block 25
+2024-10-30 14:48:02 finished extracting control observable for batch 1 of block 25
+18.8412
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=526.0
+2024-10-30 14:48:08 started running block 26
+2024-10-30 14:48:08 started running batch 1 of block 26
+2024-10-30 14:50:38 finished running batch 1 of block 26
+2024-10-30 14:50:38 started organizing output for batch 1 of block 26
+2024-10-30 14:50:38 finished organizing output for batch 1 of block 26
+2024-10-30 14:50:38 started extracting control observable for batch 1 of block 26
+2024-10-30 14:50:38 finished extracting control observable for batch 1 of block 26
+18.0523
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=527.0
+2024-10-30 14:50:45 started running block 27
+2024-10-30 14:50:45 started running batch 1 of block 27
+2024-10-30 14:53:16 finished running batch 1 of block 27
+2024-10-30 14:53:16 started organizing output for batch 1 of block 27
+2024-10-30 14:53:16 finished organizing output for batch 1 of block 27
+2024-10-30 14:53:16 started extracting control observable for batch 1 of block 27
+2024-10-30 14:53:16 finished extracting control observable for batch 1 of block 27
+18.0239
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=528.0
+2024-10-30 14:53:22 started running block 28
+2024-10-30 14:53:22 started running batch 1 of block 28
+2024-10-30 14:55:52 finished running batch 1 of block 28
+2024-10-30 14:55:52 started organizing output for batch 1 of block 28
+2024-10-30 14:55:52 finished organizing output for batch 1 of block 28
+2024-10-30 14:55:52 started extracting control observable for batch 1 of block 28
+2024-10-30 14:55:52 finished extracting control observable for batch 1 of block 28
+18.39
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=529.0
+2024-10-30 14:55:59 started running block 29
+2024-10-30 14:55:59 started running batch 1 of block 29
+2024-10-30 14:58:29 finished running batch 1 of block 29
+2024-10-30 14:58:29 started organizing output for batch 1 of block 29
+2024-10-30 14:58:29 finished organizing output for batch 1 of block 29
+2024-10-30 14:58:29 started extracting control observable for batch 1 of block 29
+2024-10-30 14:58:29 finished extracting control observable for batch 1 of block 29
+18.9672
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=530.0
+2024-10-30 14:58:36 started running block 30
+2024-10-30 14:58:36 started running batch 1 of block 30
+2024-10-30 15:01:07 finished running batch 1 of block 30
+2024-10-30 15:01:07 started organizing output for batch 1 of block 30
+2024-10-30 15:01:07 finished organizing output for batch 1 of block 30
+2024-10-30 15:01:07 started extracting control observable for batch 1 of block 30
+2024-10-30 15:01:07 finished extracting control observable for batch 1 of block 30
+19.1545
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=531.0
+2024-10-30 15:01:14 started running block 31
+2024-10-30 15:01:14 started running batch 1 of block 31
+2024-10-30 15:03:45 finished running batch 1 of block 31
+2024-10-30 15:03:45 started organizing output for batch 1 of block 31
+2024-10-30 15:03:45 finished organizing output for batch 1 of block 31
+2024-10-30 15:03:45 started extracting control observable for batch 1 of block 31
+2024-10-30 15:03:45 finished extracting control observable for batch 1 of block 31
+18.7958
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=532.0
+2024-10-30 15:03:52 started running block 32
+2024-10-30 15:03:52 started running batch 1 of block 32
+2024-10-30 15:06:30 finished running batch 1 of block 32
+2024-10-30 15:06:30 started organizing output for batch 1 of block 32
+2024-10-30 15:10:48 finished organizing output for batch 1 of block 32
+2024-10-30 15:10:48 started extracting control observable for batch 1 of block 32
+2024-10-30 15:10:48 finished extracting control observable for batch 1 of block 32
+18.1357
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=533.0
+2024-10-30 15:10:57 started running block 33
+2024-10-30 15:10:57 started running batch 1 of block 33
+2024-10-30 15:13:27 finished running batch 1 of block 33
+2024-10-30 15:13:27 started organizing output for batch 1 of block 33
+2024-10-30 15:13:27 finished organizing output for batch 1 of block 33
+2024-10-30 15:13:27 started extracting control observable for batch 1 of block 33
+2024-10-30 15:13:27 finished extracting control observable for batch 1 of block 33
+18.1217
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=534.0
+2024-10-30 15:13:33 started running block 34
+2024-10-30 15:13:33 started running batch 1 of block 34
+2024-10-30 15:16:06 finished running batch 1 of block 34
+2024-10-30 15:16:06 started organizing output for batch 1 of block 34
+2024-10-30 15:16:07 finished organizing output for batch 1 of block 34
+2024-10-30 15:16:07 started extracting control observable for batch 1 of block 34
+2024-10-30 15:16:07 finished extracting control observable for batch 1 of block 34
+17.5942
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=535.0
+2024-10-30 15:16:14 started running block 35
+2024-10-30 15:16:14 started running batch 1 of block 35
+2024-10-30 15:18:46 finished running batch 1 of block 35
+2024-10-30 15:18:46 started organizing output for batch 1 of block 35
+2024-10-30 15:18:46 finished organizing output for batch 1 of block 35
+2024-10-30 15:18:46 started extracting control observable for batch 1 of block 35
+2024-10-30 15:18:46 finished extracting control observable for batch 1 of block 35
+17.8129
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=536.0
+2024-10-30 15:18:52 started running block 36
+2024-10-30 15:18:52 started running batch 1 of block 36
+2024-10-30 15:21:25 finished running batch 1 of block 36
+2024-10-30 15:21:25 started organizing output for batch 1 of block 36
+2024-10-30 15:21:25 finished organizing output for batch 1 of block 36
+2024-10-30 15:21:25 started extracting control observable for batch 1 of block 36
+2024-10-30 15:21:25 finished extracting control observable for batch 1 of block 36
+17.9612
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=537.0
+2024-10-30 15:21:32 started running block 37
+2024-10-30 15:21:32 started running batch 1 of block 37
+2024-10-30 15:24:03 finished running batch 1 of block 37
+2024-10-30 15:24:03 started organizing output for batch 1 of block 37
+2024-10-30 15:24:03 finished organizing output for batch 1 of block 37
+2024-10-30 15:24:03 started extracting control observable for batch 1 of block 37
+2024-10-30 15:24:03 finished extracting control observable for batch 1 of block 37
+17.3821
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=538.0
+2024-10-30 15:24:10 started running block 38
+2024-10-30 15:24:10 started running batch 1 of block 38
+2024-10-30 15:26:44 finished running batch 1 of block 38
+2024-10-30 15:26:44 started organizing output for batch 1 of block 38
+2024-10-30 15:26:44 finished organizing output for batch 1 of block 38
+2024-10-30 15:26:44 started extracting control observable for batch 1 of block 38
+2024-10-30 15:26:44 finished extracting control observable for batch 1 of block 38
+18.2203
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=539.0
+2024-10-30 15:26:51 started running block 39
+2024-10-30 15:26:51 started running batch 1 of block 39
+2024-10-30 15:29:24 finished running batch 1 of block 39
+2024-10-30 15:29:24 started organizing output for batch 1 of block 39
+2024-10-30 15:29:24 finished organizing output for batch 1 of block 39
+2024-10-30 15:29:24 started extracting control observable for batch 1 of block 39
+2024-10-30 15:29:24 finished extracting control observable for batch 1 of block 39
+18.9173
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=540.0
+2024-10-30 15:29:31 started running block 40
+2024-10-30 15:29:31 started running batch 1 of block 40
+2024-10-30 15:32:03 finished running batch 1 of block 40
+2024-10-30 15:32:03 started organizing output for batch 1 of block 40
+2024-10-30 15:32:04 finished organizing output for batch 1 of block 40
+2024-10-30 15:32:04 started extracting control observable for batch 1 of block 40
+2024-10-30 15:32:04 finished extracting control observable for batch 1 of block 40
+18.9164
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=541.0
+2024-10-30 15:32:10 started running block 41
+2024-10-30 15:32:10 started running batch 1 of block 41
+2024-10-30 15:34:40 finished running batch 1 of block 41
+2024-10-30 15:34:40 started organizing output for batch 1 of block 41
+2024-10-30 15:34:40 finished organizing output for batch 1 of block 41
+2024-10-30 15:34:40 started extracting control observable for batch 1 of block 41
+2024-10-30 15:34:40 finished extracting control observable for batch 1 of block 41
+18.8682
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=542.0
+2024-10-30 15:34:47 started running block 42
+2024-10-30 15:34:47 started running batch 1 of block 42
+2024-10-30 15:37:20 finished running batch 1 of block 42
+2024-10-30 15:37:20 started organizing output for batch 1 of block 42
+2024-10-30 15:37:20 finished organizing output for batch 1 of block 42
+2024-10-30 15:37:20 started extracting control observable for batch 1 of block 42
+2024-10-30 15:37:20 finished extracting control observable for batch 1 of block 42
+18.0929
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=543.0
+2024-10-30 15:37:26 started running block 43
+2024-10-30 15:37:26 started running batch 1 of block 43
+2024-10-30 15:39:59 finished running batch 1 of block 43
+2024-10-30 15:39:59 started organizing output for batch 1 of block 43
+2024-10-30 15:39:59 finished organizing output for batch 1 of block 43
+2024-10-30 15:39:59 started extracting control observable for batch 1 of block 43
+2024-10-30 15:39:59 finished extracting control observable for batch 1 of block 43
+17.0986
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=544.0
+2024-10-30 15:40:05 started running block 44
+2024-10-30 15:40:05 started running batch 1 of block 44
+2024-10-30 15:42:38 finished running batch 1 of block 44
+2024-10-30 15:42:38 started organizing output for batch 1 of block 44
+2024-10-30 15:42:38 finished organizing output for batch 1 of block 44
+2024-10-30 15:42:38 started extracting control observable for batch 1 of block 44
+2024-10-30 15:42:38 finished extracting control observable for batch 1 of block 44
+17.0024
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=545.0
+2024-10-30 15:42:45 started running block 45
+2024-10-30 15:42:45 started running batch 1 of block 45
+2024-10-30 15:45:15 finished running batch 1 of block 45
+2024-10-30 15:45:15 started organizing output for batch 1 of block 45
+2024-10-30 15:45:15 finished organizing output for batch 1 of block 45
+2024-10-30 15:45:15 started extracting control observable for batch 1 of block 45
+2024-10-30 15:45:15 finished extracting control observable for batch 1 of block 45
+17.7132
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=546.0
+2024-10-30 15:45:21 started running block 46
+2024-10-30 15:45:21 started running batch 1 of block 46
+2024-10-30 15:47:54 finished running batch 1 of block 46
+2024-10-30 15:47:54 started organizing output for batch 1 of block 46
+2024-10-30 15:47:55 finished organizing output for batch 1 of block 46
+2024-10-30 15:47:55 started extracting control observable for batch 1 of block 46
+2024-10-30 15:47:55 finished extracting control observable for batch 1 of block 46
+18.3218
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=547.0
+2024-10-30 15:48:01 started running block 47
+2024-10-30 15:48:01 started running batch 1 of block 47
+2024-10-30 15:50:34 finished running batch 1 of block 47
+2024-10-30 15:50:34 started organizing output for batch 1 of block 47
+2024-10-30 15:50:34 finished organizing output for batch 1 of block 47
+2024-10-30 15:50:34 started extracting control observable for batch 1 of block 47
+2024-10-30 15:50:34 finished extracting control observable for batch 1 of block 47
+18.3708
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=548.0
+2024-10-30 15:50:41 started running block 48
+2024-10-30 15:50:41 started running batch 1 of block 48
+2024-10-30 15:53:13 finished running batch 1 of block 48
+2024-10-30 15:53:13 started organizing output for batch 1 of block 48
+2024-10-30 15:53:13 finished organizing output for batch 1 of block 48
+2024-10-30 15:53:13 started extracting control observable for batch 1 of block 48
+2024-10-30 15:53:13 finished extracting control observable for batch 1 of block 48
+18.561
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=549.0
+2024-10-30 15:53:20 started running block 49
+2024-10-30 15:53:20 started running batch 1 of block 49
+2024-10-30 15:55:56 finished running batch 1 of block 49
+2024-10-30 15:55:56 started organizing output for batch 1 of block 49
+2024-10-30 15:55:58 finished organizing output for batch 1 of block 49
+2024-10-30 15:55:58 started extracting control observable for batch 1 of block 49
+2024-10-30 15:55:58 finished extracting control observable for batch 1 of block 49
+17.8951
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+co2 level=550.0
+2024-10-30 15:59:52 started running block 50
+2024-10-30 15:59:52 started running batch 1 of block 50
+2024-10-30 16:02:20 finished running batch 1 of block 50
+2024-10-30 16:02:20 started organizing output for batch 1 of block 50
+2024-10-30 16:02:20 finished organizing output for batch 1 of block 50
+2024-10-30 16:02:20 started extracting control observable for batch 1 of block 50
+2024-10-30 16:02:20 finished extracting control observable for batch 1 of block 50
+17.4271
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:02:28 started running block 51
+2024-10-30 16:02:28 started running batch 1 of block 51
+2024-10-30 16:04:58 finished running batch 1 of block 51
+2024-10-30 16:04:58 started organizing output for batch 1 of block 51
+2024-10-30 16:04:59 finished organizing output for batch 1 of block 51
+2024-10-30 16:04:59 started extracting control observable for batch 1 of block 51
+2024-10-30 16:04:59 finished extracting control observable for batch 1 of block 51
+18.0579
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:05:05 started running block 52
+2024-10-30 16:05:05 started running batch 1 of block 52
+2024-10-30 16:07:36 finished running batch 1 of block 52
+2024-10-30 16:07:36 started organizing output for batch 1 of block 52
+2024-10-30 16:07:36 finished organizing output for batch 1 of block 52
+2024-10-30 16:07:36 started extracting control observable for batch 1 of block 52
+2024-10-30 16:07:36 finished extracting control observable for batch 1 of block 52
+18.0955
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:07:43 started running block 53
+2024-10-30 16:07:43 started running batch 1 of block 53
+2024-10-30 16:10:13 finished running batch 1 of block 53
+2024-10-30 16:10:13 started organizing output for batch 1 of block 53
+2024-10-30 16:10:13 finished organizing output for batch 1 of block 53
+2024-10-30 16:10:13 started extracting control observable for batch 1 of block 53
+2024-10-30 16:10:13 finished extracting control observable for batch 1 of block 53
+17.9854
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:10:20 started running block 54
+2024-10-30 16:10:20 started running batch 1 of block 54
+2024-10-30 16:12:51 finished running batch 1 of block 54
+2024-10-30 16:12:51 started organizing output for batch 1 of block 54
+2024-10-30 16:12:51 finished organizing output for batch 1 of block 54
+2024-10-30 16:12:51 started extracting control observable for batch 1 of block 54
+2024-10-30 16:12:51 finished extracting control observable for batch 1 of block 54
+17.652
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:12:57 started running block 55
+2024-10-30 16:12:57 started running batch 1 of block 55
+2024-10-30 16:15:28 finished running batch 1 of block 55
+2024-10-30 16:15:28 started organizing output for batch 1 of block 55
+2024-10-30 16:15:29 finished organizing output for batch 1 of block 55
+2024-10-30 16:15:29 started extracting control observable for batch 1 of block 55
+2024-10-30 16:15:29 finished extracting control observable for batch 1 of block 55
+17.5973
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:15:35 started running block 56
+2024-10-30 16:15:35 started running batch 1 of block 56
+2024-10-30 16:18:06 finished running batch 1 of block 56
+2024-10-30 16:18:06 started organizing output for batch 1 of block 56
+2024-10-30 16:18:06 finished organizing output for batch 1 of block 56
+2024-10-30 16:18:06 started extracting control observable for batch 1 of block 56
+2024-10-30 16:18:06 finished extracting control observable for batch 1 of block 56
+17.5791
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:18:12 started running block 57
+2024-10-30 16:18:12 started running batch 1 of block 57
+2024-10-30 16:20:44 finished running batch 1 of block 57
+2024-10-30 16:20:44 started organizing output for batch 1 of block 57
+2024-10-30 16:20:44 finished organizing output for batch 1 of block 57
+2024-10-30 16:20:44 started extracting control observable for batch 1 of block 57
+2024-10-30 16:20:44 finished extracting control observable for batch 1 of block 57
+17.5581
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:20:50 started running block 58
+2024-10-30 16:20:50 started running batch 1 of block 58
+2024-10-30 16:23:20 finished running batch 1 of block 58
+2024-10-30 16:23:20 started organizing output for batch 1 of block 58
+2024-10-30 16:23:20 finished organizing output for batch 1 of block 58
+2024-10-30 16:23:20 started extracting control observable for batch 1 of block 58
+2024-10-30 16:23:20 finished extracting control observable for batch 1 of block 58
+16.8168
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:23:27 started running block 59
+2024-10-30 16:23:27 started running batch 1 of block 59
+2024-10-30 16:25:57 finished running batch 1 of block 59
+2024-10-30 16:25:57 started organizing output for batch 1 of block 59
+2024-10-30 16:25:57 finished organizing output for batch 1 of block 59
+2024-10-30 16:25:57 started extracting control observable for batch 1 of block 59
+2024-10-30 16:25:57 finished extracting control observable for batch 1 of block 59
+17.0172
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:26:04 started running block 60
+2024-10-30 16:26:04 started running batch 1 of block 60
+2024-10-30 16:28:34 finished running batch 1 of block 60
+2024-10-30 16:28:34 started organizing output for batch 1 of block 60
+2024-10-30 16:28:34 finished organizing output for batch 1 of block 60
+2024-10-30 16:28:34 started extracting control observable for batch 1 of block 60
+2024-10-30 16:28:34 finished extracting control observable for batch 1 of block 60
+17.6646
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:28:41 started running block 61
+2024-10-30 16:28:41 started running batch 1 of block 61
+2024-10-30 16:31:11 finished running batch 1 of block 61
+2024-10-30 16:31:11 started organizing output for batch 1 of block 61
+2024-10-30 16:31:11 finished organizing output for batch 1 of block 61
+2024-10-30 16:31:11 started extracting control observable for batch 1 of block 61
+2024-10-30 16:31:11 finished extracting control observable for batch 1 of block 61
+17.7536
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:31:18 started running block 62
+2024-10-30 16:31:18 started running batch 1 of block 62
+2024-10-30 16:33:47 finished running batch 1 of block 62
+2024-10-30 16:33:47 started organizing output for batch 1 of block 62
+2024-10-30 16:33:47 finished organizing output for batch 1 of block 62
+2024-10-30 16:33:47 started extracting control observable for batch 1 of block 62
+2024-10-30 16:33:47 finished extracting control observable for batch 1 of block 62
+17.7049
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:33:53 started running block 63
+2024-10-30 16:33:53 started running batch 1 of block 63
+2024-10-30 16:36:23 finished running batch 1 of block 63
+2024-10-30 16:36:23 started organizing output for batch 1 of block 63
+2024-10-30 16:36:23 finished organizing output for batch 1 of block 63
+2024-10-30 16:36:23 started extracting control observable for batch 1 of block 63
+2024-10-30 16:36:23 finished extracting control observable for batch 1 of block 63
+17.5175
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:36:29 started running block 64
+2024-10-30 16:36:29 started running batch 1 of block 64
+2024-10-30 16:39:00 finished running batch 1 of block 64
+2024-10-30 16:39:00 started organizing output for batch 1 of block 64
+2024-10-30 16:39:00 finished organizing output for batch 1 of block 64
+2024-10-30 16:39:00 started extracting control observable for batch 1 of block 64
+2024-10-30 16:39:00 finished extracting control observable for batch 1 of block 64
+17.7942
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:39:07 started running block 65
+2024-10-30 16:39:07 started running batch 1 of block 65
+2024-10-30 16:41:35 finished running batch 1 of block 65
+2024-10-30 16:41:35 started organizing output for batch 1 of block 65
+2024-10-30 16:41:35 finished organizing output for batch 1 of block 65
+2024-10-30 16:41:35 started extracting control observable for batch 1 of block 65
+2024-10-30 16:41:35 finished extracting control observable for batch 1 of block 65
+18.2967
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:41:42 started running block 66
+2024-10-30 16:41:42 started running batch 1 of block 66
+2024-10-30 16:44:34 finished running batch 1 of block 66
+2024-10-30 16:44:34 started organizing output for batch 1 of block 66
+2024-10-30 16:46:59 finished organizing output for batch 1 of block 66
+2024-10-30 16:46:59 started extracting control observable for batch 1 of block 66
+2024-10-30 16:46:59 finished extracting control observable for batch 1 of block 66
+18.0292
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:47:07 started running block 67
+2024-10-30 16:47:07 started running batch 1 of block 67
+2024-10-30 16:49:34 finished running batch 1 of block 67
+2024-10-30 16:49:34 started organizing output for batch 1 of block 67
+2024-10-30 16:49:34 finished organizing output for batch 1 of block 67
+2024-10-30 16:49:34 started extracting control observable for batch 1 of block 67
+2024-10-30 16:49:34 finished extracting control observable for batch 1 of block 67
+18.0591
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:49:40 started running block 68
+2024-10-30 16:49:40 started running batch 1 of block 68
+2024-10-30 16:52:11 finished running batch 1 of block 68
+2024-10-30 16:52:11 started organizing output for batch 1 of block 68
+2024-10-30 16:52:11 finished organizing output for batch 1 of block 68
+2024-10-30 16:52:11 started extracting control observable for batch 1 of block 68
+2024-10-30 16:52:11 finished extracting control observable for batch 1 of block 68
+18.2473
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:52:18 started running block 69
+2024-10-30 16:52:18 started running batch 1 of block 69
+2024-10-30 16:54:49 finished running batch 1 of block 69
+2024-10-30 16:54:49 started organizing output for batch 1 of block 69
+2024-10-30 16:54:49 finished organizing output for batch 1 of block 69
+2024-10-30 16:54:49 started extracting control observable for batch 1 of block 69
+2024-10-30 16:54:49 finished extracting control observable for batch 1 of block 69
+18.7971
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:54:55 started running block 70
+2024-10-30 16:54:55 started running batch 1 of block 70
+2024-10-30 16:57:27 finished running batch 1 of block 70
+2024-10-30 16:57:27 started organizing output for batch 1 of block 70
+2024-10-30 16:57:27 finished organizing output for batch 1 of block 70
+2024-10-30 16:57:27 started extracting control observable for batch 1 of block 70
+2024-10-30 16:57:27 finished extracting control observable for batch 1 of block 70
+19.1292
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 16:57:33 started running block 71
+2024-10-30 16:57:33 started running batch 1 of block 71
+2024-10-30 17:00:02 finished running batch 1 of block 71
+2024-10-30 17:00:02 started organizing output for batch 1 of block 71
+2024-10-30 17:00:02 finished organizing output for batch 1 of block 71
+2024-10-30 17:00:02 started extracting control observable for batch 1 of block 71
+2024-10-30 17:00:02 finished extracting control observable for batch 1 of block 71
+18.4484
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:00:09 started running block 72
+2024-10-30 17:00:09 started running batch 1 of block 72
+2024-10-30 17:02:40 finished running batch 1 of block 72
+2024-10-30 17:02:40 started organizing output for batch 1 of block 72
+2024-10-30 17:02:40 finished organizing output for batch 1 of block 72
+2024-10-30 17:02:40 started extracting control observable for batch 1 of block 72
+2024-10-30 17:02:40 finished extracting control observable for batch 1 of block 72
+18.5419
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:02:46 started running block 73
+2024-10-30 17:02:46 started running batch 1 of block 73
+2024-10-30 17:05:17 finished running batch 1 of block 73
+2024-10-30 17:05:17 started organizing output for batch 1 of block 73
+2024-10-30 17:05:17 finished organizing output for batch 1 of block 73
+2024-10-30 17:05:17 started extracting control observable for batch 1 of block 73
+2024-10-30 17:05:17 finished extracting control observable for batch 1 of block 73
+18.2667
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:05:24 started running block 74
+2024-10-30 17:05:24 started running batch 1 of block 74
+2024-10-30 17:07:54 finished running batch 1 of block 74
+2024-10-30 17:07:54 started organizing output for batch 1 of block 74
+2024-10-30 17:07:54 finished organizing output for batch 1 of block 74
+2024-10-30 17:07:54 started extracting control observable for batch 1 of block 74
+2024-10-30 17:07:54 finished extracting control observable for batch 1 of block 74
+18.6922
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:08:00 started running block 75
+2024-10-30 17:08:00 started running batch 1 of block 75
+2024-10-30 17:10:31 finished running batch 1 of block 75
+2024-10-30 17:10:31 started organizing output for batch 1 of block 75
+2024-10-30 17:10:31 finished organizing output for batch 1 of block 75
+2024-10-30 17:10:31 started extracting control observable for batch 1 of block 75
+2024-10-30 17:10:31 finished extracting control observable for batch 1 of block 75
+18.3828
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:10:37 started running block 76
+2024-10-30 17:10:37 started running batch 1 of block 76
+2024-10-30 17:13:09 finished running batch 1 of block 76
+2024-10-30 17:13:09 started organizing output for batch 1 of block 76
+2024-10-30 17:13:09 finished organizing output for batch 1 of block 76
+2024-10-30 17:13:09 started extracting control observable for batch 1 of block 76
+2024-10-30 17:13:09 finished extracting control observable for batch 1 of block 76
+18.5157
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:13:16 started running block 77
+2024-10-30 17:13:16 started running batch 1 of block 77
+2024-10-30 17:15:47 finished running batch 1 of block 77
+2024-10-30 17:15:47 started organizing output for batch 1 of block 77
+2024-10-30 17:15:47 finished organizing output for batch 1 of block 77
+2024-10-30 17:15:47 started extracting control observable for batch 1 of block 77
+2024-10-30 17:15:47 finished extracting control observable for batch 1 of block 77
+18.1863
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:15:54 started running block 78
+2024-10-30 17:15:54 started running batch 1 of block 78
+2024-10-30 17:18:24 finished running batch 1 of block 78
+2024-10-30 17:18:24 started organizing output for batch 1 of block 78
+2024-10-30 17:18:24 finished organizing output for batch 1 of block 78
+2024-10-30 17:18:24 started extracting control observable for batch 1 of block 78
+2024-10-30 17:18:24 finished extracting control observable for batch 1 of block 78
+17.9508
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:18:30 started running block 79
+2024-10-30 17:18:30 started running batch 1 of block 79
+2024-10-30 17:20:59 finished running batch 1 of block 79
+2024-10-30 17:20:59 started organizing output for batch 1 of block 79
+2024-10-30 17:20:59 finished organizing output for batch 1 of block 79
+2024-10-30 17:20:59 started extracting control observable for batch 1 of block 79
+2024-10-30 17:20:59 finished extracting control observable for batch 1 of block 79
+17.5376
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:21:06 started running block 80
+2024-10-30 17:21:06 started running batch 1 of block 80
+2024-10-30 17:23:36 finished running batch 1 of block 80
+2024-10-30 17:23:36 started organizing output for batch 1 of block 80
+2024-10-30 17:23:36 finished organizing output for batch 1 of block 80
+2024-10-30 17:23:36 started extracting control observable for batch 1 of block 80
+2024-10-30 17:23:36 finished extracting control observable for batch 1 of block 80
+18.1654
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:23:42 started running block 81
+2024-10-30 17:23:42 started running batch 1 of block 81
+2024-10-30 17:26:13 finished running batch 1 of block 81
+2024-10-30 17:26:13 started organizing output for batch 1 of block 81
+2024-10-30 17:26:13 finished organizing output for batch 1 of block 81
+2024-10-30 17:26:13 started extracting control observable for batch 1 of block 81
+2024-10-30 17:26:13 finished extracting control observable for batch 1 of block 81
+18.4547
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:26:20 started running block 82
+2024-10-30 17:26:20 started running batch 1 of block 82
+2024-10-30 17:28:53 finished running batch 1 of block 82
+2024-10-30 17:28:53 started organizing output for batch 1 of block 82
+2024-10-30 17:28:55 finished organizing output for batch 1 of block 82
+2024-10-30 17:28:55 started extracting control observable for batch 1 of block 82
+2024-10-30 17:28:56 finished extracting control observable for batch 1 of block 82
+18.2163
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:29:38 started running block 83
+2024-10-30 17:29:38 started running batch 1 of block 83
+2024-10-30 17:32:36 finished running batch 1 of block 83
+2024-10-30 17:32:37 started organizing output for batch 1 of block 83
+2024-10-30 17:33:50 finished organizing output for batch 1 of block 83
+2024-10-30 17:33:50 started extracting control observable for batch 1 of block 83
+2024-10-30 17:33:50 finished extracting control observable for batch 1 of block 83
+18.3769
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:33:57 started running block 84
+2024-10-30 17:33:57 started running batch 1 of block 84
+2024-10-30 17:36:24 finished running batch 1 of block 84
+2024-10-30 17:36:24 started organizing output for batch 1 of block 84
+2024-10-30 17:36:24 finished organizing output for batch 1 of block 84
+2024-10-30 17:36:24 started extracting control observable for batch 1 of block 84
+2024-10-30 17:36:24 finished extracting control observable for batch 1 of block 84
+18.6966
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:36:30 started running block 85
+2024-10-30 17:36:30 started running batch 1 of block 85
+2024-10-30 17:38:59 finished running batch 1 of block 85
+2024-10-30 17:38:59 started organizing output for batch 1 of block 85
+2024-10-30 17:38:59 finished organizing output for batch 1 of block 85
+2024-10-30 17:38:59 started extracting control observable for batch 1 of block 85
+2024-10-30 17:38:59 finished extracting control observable for batch 1 of block 85
+18.7711
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:39:05 started running block 86
+2024-10-30 17:39:05 started running batch 1 of block 86
+2024-10-30 17:41:36 finished running batch 1 of block 86
+2024-10-30 17:41:36 started organizing output for batch 1 of block 86
+2024-10-30 17:41:36 finished organizing output for batch 1 of block 86
+2024-10-30 17:41:36 started extracting control observable for batch 1 of block 86
+2024-10-30 17:41:36 finished extracting control observable for batch 1 of block 86
+18.2125
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:41:43 started running block 87
+2024-10-30 17:41:43 started running batch 1 of block 87
+2024-10-30 17:44:14 finished running batch 1 of block 87
+2024-10-30 17:44:14 started organizing output for batch 1 of block 87
+2024-10-30 17:44:14 finished organizing output for batch 1 of block 87
+2024-10-30 17:44:14 started extracting control observable for batch 1 of block 87
+2024-10-30 17:44:14 finished extracting control observable for batch 1 of block 87
+18.52
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:44:21 started running block 88
+2024-10-30 17:44:21 started running batch 1 of block 88
+2024-10-30 17:46:52 finished running batch 1 of block 88
+2024-10-30 17:46:52 started organizing output for batch 1 of block 88
+2024-10-30 17:46:52 finished organizing output for batch 1 of block 88
+2024-10-30 17:46:52 started extracting control observable for batch 1 of block 88
+2024-10-30 17:46:52 finished extracting control observable for batch 1 of block 88
+18.0821
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:46:58 started running block 89
+2024-10-30 17:46:58 started running batch 1 of block 89
+2024-10-30 17:49:29 finished running batch 1 of block 89
+2024-10-30 17:49:29 started organizing output for batch 1 of block 89
+2024-10-30 17:49:29 finished organizing output for batch 1 of block 89
+2024-10-30 17:49:29 started extracting control observable for batch 1 of block 89
+2024-10-30 17:49:29 finished extracting control observable for batch 1 of block 89
+18.1542
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:49:35 started running block 90
+2024-10-30 17:49:35 started running batch 1 of block 90
+2024-10-30 17:52:05 finished running batch 1 of block 90
+2024-10-30 17:52:05 started organizing output for batch 1 of block 90
+2024-10-30 17:52:06 finished organizing output for batch 1 of block 90
+2024-10-30 17:52:06 started extracting control observable for batch 1 of block 90
+2024-10-30 17:52:06 finished extracting control observable for batch 1 of block 90
+18.3059
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:52:12 started running block 91
+2024-10-30 17:52:12 started running batch 1 of block 91
+2024-10-30 17:54:44 finished running batch 1 of block 91
+2024-10-30 17:54:44 started organizing output for batch 1 of block 91
+2024-10-30 17:54:44 finished organizing output for batch 1 of block 91
+2024-10-30 17:54:44 started extracting control observable for batch 1 of block 91
+2024-10-30 17:54:44 finished extracting control observable for batch 1 of block 91
+18.0464
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:54:50 started running block 92
+2024-10-30 17:54:50 started running batch 1 of block 92
+2024-10-30 17:57:18 finished running batch 1 of block 92
+2024-10-30 17:57:18 started organizing output for batch 1 of block 92
+2024-10-30 17:57:18 finished organizing output for batch 1 of block 92
+2024-10-30 17:57:18 started extracting control observable for batch 1 of block 92
+2024-10-30 17:57:18 finished extracting control observable for batch 1 of block 92
+17.9346
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 17:57:25 started running block 93
+2024-10-30 17:57:25 started running batch 1 of block 93
+2024-10-30 17:59:56 finished running batch 1 of block 93
+2024-10-30 17:59:56 started organizing output for batch 1 of block 93
+2024-10-30 17:59:56 finished organizing output for batch 1 of block 93
+2024-10-30 17:59:56 started extracting control observable for batch 1 of block 93
+2024-10-30 17:59:56 finished extracting control observable for batch 1 of block 93
+18.2591
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:00:03 started running block 94
+2024-10-30 18:00:03 started running batch 1 of block 94
+2024-10-30 18:02:33 finished running batch 1 of block 94
+2024-10-30 18:02:33 started organizing output for batch 1 of block 94
+2024-10-30 18:02:33 finished organizing output for batch 1 of block 94
+2024-10-30 18:02:33 started extracting control observable for batch 1 of block 94
+2024-10-30 18:02:33 finished extracting control observable for batch 1 of block 94
+18.1375
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:02:40 started running block 95
+2024-10-30 18:02:40 started running batch 1 of block 95
+2024-10-30 18:05:10 finished running batch 1 of block 95
+2024-10-30 18:05:10 started organizing output for batch 1 of block 95
+2024-10-30 18:05:10 finished organizing output for batch 1 of block 95
+2024-10-30 18:05:10 started extracting control observable for batch 1 of block 95
+2024-10-30 18:05:10 finished extracting control observable for batch 1 of block 95
+17.4725
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:05:17 started running block 96
+2024-10-30 18:05:17 started running batch 1 of block 96
+2024-10-30 18:07:46 finished running batch 1 of block 96
+2024-10-30 18:07:46 started organizing output for batch 1 of block 96
+2024-10-30 18:07:46 finished organizing output for batch 1 of block 96
+2024-10-30 18:07:46 started extracting control observable for batch 1 of block 96
+2024-10-30 18:07:46 finished extracting control observable for batch 1 of block 96
+17.7985
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:07:52 started running block 97
+2024-10-30 18:07:52 started running batch 1 of block 97
+2024-10-30 18:10:22 finished running batch 1 of block 97
+2024-10-30 18:10:22 started organizing output for batch 1 of block 97
+2024-10-30 18:10:22 finished organizing output for batch 1 of block 97
+2024-10-30 18:10:22 started extracting control observable for batch 1 of block 97
+2024-10-30 18:10:22 finished extracting control observable for batch 1 of block 97
+17.5034
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:10:29 started running block 98
+2024-10-30 18:10:29 started running batch 1 of block 98
+2024-10-30 18:12:59 finished running batch 1 of block 98
+2024-10-30 18:12:59 started organizing output for batch 1 of block 98
+2024-10-30 18:12:59 finished organizing output for batch 1 of block 98
+2024-10-30 18:12:59 started extracting control observable for batch 1 of block 98
+2024-10-30 18:12:59 finished extracting control observable for batch 1 of block 98
+18.0448
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:13:05 started running block 99
+2024-10-30 18:13:05 started running batch 1 of block 99
+2024-10-30 18:15:35 finished running batch 1 of block 99
+2024-10-30 18:15:35 started organizing output for batch 1 of block 99
+2024-10-30 18:15:35 finished organizing output for batch 1 of block 99
+2024-10-30 18:15:35 started extracting control observable for batch 1 of block 99
+2024-10-30 18:15:35 finished extracting control observable for batch 1 of block 99
+18.5218
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:15:41 started running block 100
+2024-10-30 18:15:41 started running batch 1 of block 100
+2024-10-30 18:18:30 finished running batch 1 of block 100
+2024-10-30 18:18:30 started organizing output for batch 1 of block 100
+2024-10-30 18:20:47 finished organizing output for batch 1 of block 100
+2024-10-30 18:20:47 started extracting control observable for batch 1 of block 100
+2024-10-30 18:20:47 finished extracting control observable for batch 1 of block 100
+18.5171
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:20:54 started running block 101
+2024-10-30 18:20:54 started running batch 1 of block 101
+2024-10-30 18:23:20 finished running batch 1 of block 101
+2024-10-30 18:23:20 started organizing output for batch 1 of block 101
+2024-10-30 18:23:21 finished organizing output for batch 1 of block 101
+2024-10-30 18:23:21 started extracting control observable for batch 1 of block 101
+2024-10-30 18:23:21 finished extracting control observable for batch 1 of block 101
+18.3601
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:23:26 started running block 102
+2024-10-30 18:23:26 started running batch 1 of block 102
+2024-10-30 18:25:57 finished running batch 1 of block 102
+2024-10-30 18:25:57 started organizing output for batch 1 of block 102
+2024-10-30 18:25:57 finished organizing output for batch 1 of block 102
+2024-10-30 18:25:57 started extracting control observable for batch 1 of block 102
+2024-10-30 18:25:57 finished extracting control observable for batch 1 of block 102
+17.9776
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:26:03 started running block 103
+2024-10-30 18:26:03 started running batch 1 of block 103
+2024-10-30 18:28:34 finished running batch 1 of block 103
+2024-10-30 18:28:34 started organizing output for batch 1 of block 103
+2024-10-30 18:28:34 finished organizing output for batch 1 of block 103
+2024-10-30 18:28:34 started extracting control observable for batch 1 of block 103
+2024-10-30 18:28:34 finished extracting control observable for batch 1 of block 103
+17.9082
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:28:40 started running block 104
+2024-10-30 18:28:40 started running batch 1 of block 104
+2024-10-30 18:31:11 finished running batch 1 of block 104
+2024-10-30 18:31:11 started organizing output for batch 1 of block 104
+2024-10-30 18:31:11 finished organizing output for batch 1 of block 104
+2024-10-30 18:31:11 started extracting control observable for batch 1 of block 104
+2024-10-30 18:31:11 finished extracting control observable for batch 1 of block 104
+17.842
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:31:17 started running block 105
+2024-10-30 18:31:17 started running batch 1 of block 105
+2024-10-30 18:33:48 finished running batch 1 of block 105
+2024-10-30 18:33:48 started organizing output for batch 1 of block 105
+2024-10-30 18:33:49 finished organizing output for batch 1 of block 105
+2024-10-30 18:33:49 started extracting control observable for batch 1 of block 105
+2024-10-30 18:33:49 finished extracting control observable for batch 1 of block 105
+18.0241
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:33:55 started running block 106
+2024-10-30 18:33:55 started running batch 1 of block 106
+2024-10-30 18:36:26 finished running batch 1 of block 106
+2024-10-30 18:36:26 started organizing output for batch 1 of block 106
+2024-10-30 18:36:26 finished organizing output for batch 1 of block 106
+2024-10-30 18:36:26 started extracting control observable for batch 1 of block 106
+2024-10-30 18:36:26 finished extracting control observable for batch 1 of block 106
+17.6689
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:36:33 started running block 107
+2024-10-30 18:36:33 started running batch 1 of block 107
+2024-10-30 18:39:03 finished running batch 1 of block 107
+2024-10-30 18:39:03 started organizing output for batch 1 of block 107
+2024-10-30 18:39:03 finished organizing output for batch 1 of block 107
+2024-10-30 18:39:03 started extracting control observable for batch 1 of block 107
+2024-10-30 18:39:03 finished extracting control observable for batch 1 of block 107
+18.5088
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:39:09 started running block 108
+2024-10-30 18:39:09 started running batch 1 of block 108
+2024-10-30 18:41:40 finished running batch 1 of block 108
+2024-10-30 18:41:40 started organizing output for batch 1 of block 108
+2024-10-30 18:41:40 finished organizing output for batch 1 of block 108
+2024-10-30 18:41:40 started extracting control observable for batch 1 of block 108
+2024-10-30 18:41:40 finished extracting control observable for batch 1 of block 108
+18.4756
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:41:46 started running block 109
+2024-10-30 18:41:46 started running batch 1 of block 109
+2024-10-30 18:44:14 finished running batch 1 of block 109
+2024-10-30 18:44:14 started organizing output for batch 1 of block 109
+2024-10-30 18:44:14 finished organizing output for batch 1 of block 109
+2024-10-30 18:44:14 started extracting control observable for batch 1 of block 109
+2024-10-30 18:44:14 finished extracting control observable for batch 1 of block 109
+18.3394
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:44:21 started running block 110
+2024-10-30 18:44:21 started running batch 1 of block 110
+2024-10-30 18:46:51 finished running batch 1 of block 110
+2024-10-30 18:46:51 started organizing output for batch 1 of block 110
+2024-10-30 18:46:51 finished organizing output for batch 1 of block 110
+2024-10-30 18:46:51 started extracting control observable for batch 1 of block 110
+2024-10-30 18:46:51 finished extracting control observable for batch 1 of block 110
+18.3008
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:46:58 started running block 111
+2024-10-30 18:46:58 started running batch 1 of block 111
+2024-10-30 18:49:29 finished running batch 1 of block 111
+2024-10-30 18:49:29 started organizing output for batch 1 of block 111
+2024-10-30 18:49:29 finished organizing output for batch 1 of block 111
+2024-10-30 18:49:29 started extracting control observable for batch 1 of block 111
+2024-10-30 18:49:29 finished extracting control observable for batch 1 of block 111
+18.121
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:49:35 started running block 112
+2024-10-30 18:49:35 started running batch 1 of block 112
+2024-10-30 18:52:06 finished running batch 1 of block 112
+2024-10-30 18:52:06 started organizing output for batch 1 of block 112
+2024-10-30 18:52:06 finished organizing output for batch 1 of block 112
+2024-10-30 18:52:06 started extracting control observable for batch 1 of block 112
+2024-10-30 18:52:06 finished extracting control observable for batch 1 of block 112
+17.95
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:52:12 started running block 113
+2024-10-30 18:52:12 started running batch 1 of block 113
+2024-10-30 18:54:42 finished running batch 1 of block 113
+2024-10-30 18:54:42 started organizing output for batch 1 of block 113
+2024-10-30 18:54:43 finished organizing output for batch 1 of block 113
+2024-10-30 18:54:43 started extracting control observable for batch 1 of block 113
+2024-10-30 18:54:43 finished extracting control observable for batch 1 of block 113
+18.116
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:54:49 started running block 114
+2024-10-30 18:54:49 started running batch 1 of block 114
+2024-10-30 18:57:19 finished running batch 1 of block 114
+2024-10-30 18:57:19 started organizing output for batch 1 of block 114
+2024-10-30 18:57:19 finished organizing output for batch 1 of block 114
+2024-10-30 18:57:19 started extracting control observable for batch 1 of block 114
+2024-10-30 18:57:19 finished extracting control observable for batch 1 of block 114
+17.9212
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 18:57:26 started running block 115
+2024-10-30 18:57:26 started running batch 1 of block 115
+2024-10-30 18:59:57 finished running batch 1 of block 115
+2024-10-30 18:59:57 started organizing output for batch 1 of block 115
+2024-10-30 18:59:57 finished organizing output for batch 1 of block 115
+2024-10-30 18:59:57 started extracting control observable for batch 1 of block 115
+2024-10-30 18:59:57 finished extracting control observable for batch 1 of block 115
+17.7131
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:00:03 started running block 116
+2024-10-30 19:00:03 started running batch 1 of block 116
+2024-10-30 19:02:35 finished running batch 1 of block 116
+2024-10-30 19:02:35 started organizing output for batch 1 of block 116
+2024-10-30 19:02:40 finished organizing output for batch 1 of block 116
+2024-10-30 19:02:40 started extracting control observable for batch 1 of block 116
+2024-10-30 19:02:41 finished extracting control observable for batch 1 of block 116
+18.3458
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:03:24 started running block 117
+2024-10-30 19:03:24 started running batch 1 of block 117
+2024-10-30 19:06:37 finished running batch 1 of block 117
+2024-10-30 19:06:37 started organizing output for batch 1 of block 117
+2024-10-30 19:07:44 finished organizing output for batch 1 of block 117
+2024-10-30 19:07:44 started extracting control observable for batch 1 of block 117
+2024-10-30 19:07:44 finished extracting control observable for batch 1 of block 117
+19.0441
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:07:53 started running block 118
+2024-10-30 19:07:53 started running batch 1 of block 118
+2024-10-30 19:10:21 finished running batch 1 of block 118
+2024-10-30 19:10:21 started organizing output for batch 1 of block 118
+2024-10-30 19:10:21 finished organizing output for batch 1 of block 118
+2024-10-30 19:10:21 started extracting control observable for batch 1 of block 118
+2024-10-30 19:10:21 finished extracting control observable for batch 1 of block 118
+18.8448
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:10:27 started running block 119
+2024-10-30 19:10:27 started running batch 1 of block 119
+2024-10-30 19:12:58 finished running batch 1 of block 119
+2024-10-30 19:12:58 started organizing output for batch 1 of block 119
+2024-10-30 19:12:59 finished organizing output for batch 1 of block 119
+2024-10-30 19:12:59 started extracting control observable for batch 1 of block 119
+2024-10-30 19:12:59 finished extracting control observable for batch 1 of block 119
+19.0902
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:13:05 started running block 120
+2024-10-30 19:13:05 started running batch 1 of block 120
+2024-10-30 19:15:36 finished running batch 1 of block 120
+2024-10-30 19:15:36 started organizing output for batch 1 of block 120
+2024-10-30 19:15:36 finished organizing output for batch 1 of block 120
+2024-10-30 19:15:36 started extracting control observable for batch 1 of block 120
+2024-10-30 19:15:36 finished extracting control observable for batch 1 of block 120
+18.4979
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:15:43 started running block 121
+2024-10-30 19:15:43 started running batch 1 of block 121
+2024-10-30 19:18:14 finished running batch 1 of block 121
+2024-10-30 19:18:14 started organizing output for batch 1 of block 121
+2024-10-30 19:18:14 finished organizing output for batch 1 of block 121
+2024-10-30 19:18:14 started extracting control observable for batch 1 of block 121
+2024-10-30 19:18:14 finished extracting control observable for batch 1 of block 121
+18.5906
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:18:20 started running block 122
+2024-10-30 19:18:20 started running batch 1 of block 122
+2024-10-30 19:20:50 finished running batch 1 of block 122
+2024-10-30 19:20:50 started organizing output for batch 1 of block 122
+2024-10-30 19:20:50 finished organizing output for batch 1 of block 122
+2024-10-30 19:20:50 started extracting control observable for batch 1 of block 122
+2024-10-30 19:20:50 finished extracting control observable for batch 1 of block 122
+18.831
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:20:57 started running block 123
+2024-10-30 19:20:57 started running batch 1 of block 123
+2024-10-30 19:23:28 finished running batch 1 of block 123
+2024-10-30 19:23:28 started organizing output for batch 1 of block 123
+2024-10-30 19:23:28 finished organizing output for batch 1 of block 123
+2024-10-30 19:23:28 started extracting control observable for batch 1 of block 123
+2024-10-30 19:23:28 finished extracting control observable for batch 1 of block 123
+19.253
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:23:35 started running block 124
+2024-10-30 19:23:35 started running batch 1 of block 124
+2024-10-30 19:26:04 finished running batch 1 of block 124
+2024-10-30 19:26:04 started organizing output for batch 1 of block 124
+2024-10-30 19:26:05 finished organizing output for batch 1 of block 124
+2024-10-30 19:26:05 started extracting control observable for batch 1 of block 124
+2024-10-30 19:26:05 finished extracting control observable for batch 1 of block 124
+19.7394
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:26:11 started running block 125
+2024-10-30 19:26:11 started running batch 1 of block 125
+2024-10-30 19:28:42 finished running batch 1 of block 125
+2024-10-30 19:28:42 started organizing output for batch 1 of block 125
+2024-10-30 19:28:42 finished organizing output for batch 1 of block 125
+2024-10-30 19:28:42 started extracting control observable for batch 1 of block 125
+2024-10-30 19:28:42 finished extracting control observable for batch 1 of block 125
+19.4526
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:28:48 started running block 126
+2024-10-30 19:28:48 started running batch 1 of block 126
+2024-10-30 19:31:17 finished running batch 1 of block 126
+2024-10-30 19:31:17 started organizing output for batch 1 of block 126
+2024-10-30 19:31:17 finished organizing output for batch 1 of block 126
+2024-10-30 19:31:17 started extracting control observable for batch 1 of block 126
+2024-10-30 19:31:17 finished extracting control observable for batch 1 of block 126
+19.5271
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:31:24 started running block 127
+2024-10-30 19:31:24 started running batch 1 of block 127
+2024-10-30 19:33:55 finished running batch 1 of block 127
+2024-10-30 19:33:55 started organizing output for batch 1 of block 127
+2024-10-30 19:33:55 finished organizing output for batch 1 of block 127
+2024-10-30 19:33:55 started extracting control observable for batch 1 of block 127
+2024-10-30 19:33:55 finished extracting control observable for batch 1 of block 127
+19.224
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:34:01 started running block 128
+2024-10-30 19:34:01 started running batch 1 of block 128
+2024-10-30 19:36:32 finished running batch 1 of block 128
+2024-10-30 19:36:32 started organizing output for batch 1 of block 128
+2024-10-30 19:36:32 finished organizing output for batch 1 of block 128
+2024-10-30 19:36:32 started extracting control observable for batch 1 of block 128
+2024-10-30 19:36:32 finished extracting control observable for batch 1 of block 128
+18.5697
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:36:39 started running block 129
+2024-10-30 19:36:39 started running batch 1 of block 129
+2024-10-30 19:39:10 finished running batch 1 of block 129
+2024-10-30 19:39:10 started organizing output for batch 1 of block 129
+2024-10-30 19:39:10 finished organizing output for batch 1 of block 129
+2024-10-30 19:39:10 started extracting control observable for batch 1 of block 129
+2024-10-30 19:39:10 finished extracting control observable for batch 1 of block 129
+18.7034
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:39:16 started running block 130
+2024-10-30 19:39:16 started running batch 1 of block 130
+2024-10-30 19:41:47 finished running batch 1 of block 130
+2024-10-30 19:41:47 started organizing output for batch 1 of block 130
+2024-10-30 19:41:47 finished organizing output for batch 1 of block 130
+2024-10-30 19:41:47 started extracting control observable for batch 1 of block 130
+2024-10-30 19:41:47 finished extracting control observable for batch 1 of block 130
+19.5817
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:41:53 started running block 131
+2024-10-30 19:41:53 started running batch 1 of block 131
+2024-10-30 19:44:24 finished running batch 1 of block 131
+2024-10-30 19:44:24 started organizing output for batch 1 of block 131
+2024-10-30 19:44:24 finished organizing output for batch 1 of block 131
+2024-10-30 19:44:24 started extracting control observable for batch 1 of block 131
+2024-10-30 19:44:24 finished extracting control observable for batch 1 of block 131
+19.6448
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:44:30 started running block 132
+2024-10-30 19:44:30 started running batch 1 of block 132
+2024-10-30 19:47:02 finished running batch 1 of block 132
+2024-10-30 19:47:02 started organizing output for batch 1 of block 132
+2024-10-30 19:47:02 finished organizing output for batch 1 of block 132
+2024-10-30 19:47:02 started extracting control observable for batch 1 of block 132
+2024-10-30 19:47:02 finished extracting control observable for batch 1 of block 132
+19.4609
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:47:09 started running block 133
+2024-10-30 19:47:09 started running batch 1 of block 133
+2024-10-30 19:49:39 finished running batch 1 of block 133
+2024-10-30 19:49:39 started organizing output for batch 1 of block 133
+2024-10-30 19:49:42 finished organizing output for batch 1 of block 133
+2024-10-30 19:49:42 started extracting control observable for batch 1 of block 133
+2024-10-30 19:49:43 finished extracting control observable for batch 1 of block 133
+18.8782
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:50:27 started running block 134
+2024-10-30 19:50:27 started running batch 1 of block 134
+2024-10-30 19:53:32 finished running batch 1 of block 134
+2024-10-30 19:53:33 started organizing output for batch 1 of block 134
+2024-10-30 19:55:17 finished organizing output for batch 1 of block 134
+2024-10-30 19:55:17 started extracting control observable for batch 1 of block 134
+2024-10-30 19:55:17 finished extracting control observable for batch 1 of block 134
+18.4963
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:55:26 started running block 135
+2024-10-30 19:55:26 started running batch 1 of block 135
+2024-10-30 19:57:53 finished running batch 1 of block 135
+2024-10-30 19:57:53 started organizing output for batch 1 of block 135
+2024-10-30 19:57:53 finished organizing output for batch 1 of block 135
+2024-10-30 19:57:53 started extracting control observable for batch 1 of block 135
+2024-10-30 19:57:53 finished extracting control observable for batch 1 of block 135
+18.7894
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 19:57:59 started running block 136
+2024-10-30 19:57:59 started running batch 1 of block 136
+2024-10-30 20:00:29 finished running batch 1 of block 136
+2024-10-30 20:00:29 started organizing output for batch 1 of block 136
+2024-10-30 20:00:29 finished organizing output for batch 1 of block 136
+2024-10-30 20:00:29 started extracting control observable for batch 1 of block 136
+2024-10-30 20:00:29 finished extracting control observable for batch 1 of block 136
+18.9095
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:00:35 started running block 137
+2024-10-30 20:00:35 started running batch 1 of block 137
+2024-10-30 20:03:06 finished running batch 1 of block 137
+2024-10-30 20:03:06 started organizing output for batch 1 of block 137
+2024-10-30 20:03:06 finished organizing output for batch 1 of block 137
+2024-10-30 20:03:06 started extracting control observable for batch 1 of block 137
+2024-10-30 20:03:06 finished extracting control observable for batch 1 of block 137
+19.2578
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:03:13 started running block 138
+2024-10-30 20:03:13 started running batch 1 of block 138
+2024-10-30 20:05:43 finished running batch 1 of block 138
+2024-10-30 20:05:43 started organizing output for batch 1 of block 138
+2024-10-30 20:05:43 finished organizing output for batch 1 of block 138
+2024-10-30 20:05:43 started extracting control observable for batch 1 of block 138
+2024-10-30 20:05:43 finished extracting control observable for batch 1 of block 138
+19.2656
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:05:49 started running block 139
+2024-10-30 20:05:49 started running batch 1 of block 139
+2024-10-30 20:08:19 finished running batch 1 of block 139
+2024-10-30 20:08:19 started organizing output for batch 1 of block 139
+2024-10-30 20:08:19 finished organizing output for batch 1 of block 139
+2024-10-30 20:08:19 started extracting control observable for batch 1 of block 139
+2024-10-30 20:08:19 finished extracting control observable for batch 1 of block 139
+19.3653
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:08:25 started running block 140
+2024-10-30 20:08:25 started running batch 1 of block 140
+2024-10-30 20:10:54 finished running batch 1 of block 140
+2024-10-30 20:10:54 started organizing output for batch 1 of block 140
+2024-10-30 20:10:55 finished organizing output for batch 1 of block 140
+2024-10-30 20:10:55 started extracting control observable for batch 1 of block 140
+2024-10-30 20:10:55 finished extracting control observable for batch 1 of block 140
+18.7091
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:11:01 started running block 141
+2024-10-30 20:11:01 started running batch 1 of block 141
+2024-10-30 20:13:32 finished running batch 1 of block 141
+2024-10-30 20:13:32 started organizing output for batch 1 of block 141
+2024-10-30 20:13:32 finished organizing output for batch 1 of block 141
+2024-10-30 20:13:32 started extracting control observable for batch 1 of block 141
+2024-10-30 20:13:32 finished extracting control observable for batch 1 of block 141
+18.4515
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:13:38 started running block 142
+2024-10-30 20:13:38 started running batch 1 of block 142
+2024-10-30 20:16:09 finished running batch 1 of block 142
+2024-10-30 20:16:09 started organizing output for batch 1 of block 142
+2024-10-30 20:16:09 finished organizing output for batch 1 of block 142
+2024-10-30 20:16:09 started extracting control observable for batch 1 of block 142
+2024-10-30 20:16:09 finished extracting control observable for batch 1 of block 142
+17.808
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:16:15 started running block 143
+2024-10-30 20:16:15 started running batch 1 of block 143
+2024-10-30 20:18:44 finished running batch 1 of block 143
+2024-10-30 20:18:44 started organizing output for batch 1 of block 143
+2024-10-30 20:18:44 finished organizing output for batch 1 of block 143
+2024-10-30 20:18:44 started extracting control observable for batch 1 of block 143
+2024-10-30 20:18:44 finished extracting control observable for batch 1 of block 143
+17.4816
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:18:50 started running block 144
+2024-10-30 20:18:50 started running batch 1 of block 144
+2024-10-30 20:21:22 finished running batch 1 of block 144
+2024-10-30 20:21:22 started organizing output for batch 1 of block 144
+2024-10-30 20:21:22 finished organizing output for batch 1 of block 144
+2024-10-30 20:21:22 started extracting control observable for batch 1 of block 144
+2024-10-30 20:21:22 finished extracting control observable for batch 1 of block 144
+17.1441
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:21:28 started running block 145
+2024-10-30 20:21:28 started running batch 1 of block 145
+2024-10-30 20:23:58 finished running batch 1 of block 145
+2024-10-30 20:23:58 started organizing output for batch 1 of block 145
+2024-10-30 20:23:58 finished organizing output for batch 1 of block 145
+2024-10-30 20:23:58 started extracting control observable for batch 1 of block 145
+2024-10-30 20:23:58 finished extracting control observable for batch 1 of block 145
+16.9427
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:24:05 started running block 146
+2024-10-30 20:24:05 started running batch 1 of block 146
+2024-10-30 20:26:36 finished running batch 1 of block 146
+2024-10-30 20:26:36 started organizing output for batch 1 of block 146
+2024-10-30 20:26:36 finished organizing output for batch 1 of block 146
+2024-10-30 20:26:36 started extracting control observable for batch 1 of block 146
+2024-10-30 20:26:36 finished extracting control observable for batch 1 of block 146
+17.8385
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:26:42 started running block 147
+2024-10-30 20:26:42 started running batch 1 of block 147
+2024-10-30 20:29:13 finished running batch 1 of block 147
+2024-10-30 20:29:13 started organizing output for batch 1 of block 147
+2024-10-30 20:29:13 finished organizing output for batch 1 of block 147
+2024-10-30 20:29:13 started extracting control observable for batch 1 of block 147
+2024-10-30 20:29:13 finished extracting control observable for batch 1 of block 147
+17.8593
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:29:19 started running block 148
+2024-10-30 20:29:19 started running batch 1 of block 148
+2024-10-30 20:31:50 finished running batch 1 of block 148
+2024-10-30 20:31:50 started organizing output for batch 1 of block 148
+2024-10-30 20:31:51 finished organizing output for batch 1 of block 148
+2024-10-30 20:31:51 started extracting control observable for batch 1 of block 148
+2024-10-30 20:31:51 finished extracting control observable for batch 1 of block 148
+17.9978
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:31:57 started running block 149
+2024-10-30 20:31:57 started running batch 1 of block 149
+2024-10-30 20:34:28 finished running batch 1 of block 149
+2024-10-30 20:34:28 started organizing output for batch 1 of block 149
+2024-10-30 20:34:28 finished organizing output for batch 1 of block 149
+2024-10-30 20:34:28 started extracting control observable for batch 1 of block 149
+2024-10-30 20:34:28 finished extracting control observable for batch 1 of block 149
+17.5278
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:34:34 started running block 150
+2024-10-30 20:34:34 started running batch 1 of block 150
+2024-10-30 20:37:06 finished running batch 1 of block 150
+2024-10-30 20:37:06 started organizing output for batch 1 of block 150
+2024-10-30 20:37:06 finished organizing output for batch 1 of block 150
+2024-10-30 20:37:06 started extracting control observable for batch 1 of block 150
+2024-10-30 20:37:06 finished extracting control observable for batch 1 of block 150
+17.5115
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:37:12 started running block 151
+2024-10-30 20:37:12 started running batch 1 of block 151
+2024-10-30 20:39:54 finished running batch 1 of block 151
+2024-10-30 20:39:54 started organizing output for batch 1 of block 151
+2024-10-30 20:43:16 finished organizing output for batch 1 of block 151
+2024-10-30 20:43:16 started extracting control observable for batch 1 of block 151
+2024-10-30 20:43:16 finished extracting control observable for batch 1 of block 151
+17.155
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:43:24 started running block 152
+2024-10-30 20:43:24 started running batch 1 of block 152
+2024-10-30 20:45:51 finished running batch 1 of block 152
+2024-10-30 20:45:51 started organizing output for batch 1 of block 152
+2024-10-30 20:45:51 finished organizing output for batch 1 of block 152
+2024-10-30 20:45:51 started extracting control observable for batch 1 of block 152
+2024-10-30 20:45:51 finished extracting control observable for batch 1 of block 152
+16.9188
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:45:57 started running block 153
+2024-10-30 20:45:57 started running batch 1 of block 153
+2024-10-30 20:48:23 finished running batch 1 of block 153
+2024-10-30 20:48:23 started organizing output for batch 1 of block 153
+2024-10-30 20:48:23 finished organizing output for batch 1 of block 153
+2024-10-30 20:48:23 started extracting control observable for batch 1 of block 153
+2024-10-30 20:48:23 finished extracting control observable for batch 1 of block 153
+17.5289
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:48:29 started running block 154
+2024-10-30 20:48:29 started running batch 1 of block 154
+2024-10-30 20:51:00 finished running batch 1 of block 154
+2024-10-30 20:51:00 started organizing output for batch 1 of block 154
+2024-10-30 20:51:00 finished organizing output for batch 1 of block 154
+2024-10-30 20:51:00 started extracting control observable for batch 1 of block 154
+2024-10-30 20:51:00 finished extracting control observable for batch 1 of block 154
+17.7728
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:51:06 started running block 155
+2024-10-30 20:51:06 started running batch 1 of block 155
+2024-10-30 20:53:37 finished running batch 1 of block 155
+2024-10-30 20:53:37 started organizing output for batch 1 of block 155
+2024-10-30 20:53:37 finished organizing output for batch 1 of block 155
+2024-10-30 20:53:37 started extracting control observable for batch 1 of block 155
+2024-10-30 20:53:37 finished extracting control observable for batch 1 of block 155
+18.5036
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:53:43 started running block 156
+2024-10-30 20:53:43 started running batch 1 of block 156
+2024-10-30 20:56:14 finished running batch 1 of block 156
+2024-10-30 20:56:14 started organizing output for batch 1 of block 156
+2024-10-30 20:56:14 finished organizing output for batch 1 of block 156
+2024-10-30 20:56:14 started extracting control observable for batch 1 of block 156
+2024-10-30 20:56:14 finished extracting control observable for batch 1 of block 156
+18.6888
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:56:20 started running block 157
+2024-10-30 20:56:20 started running batch 1 of block 157
+2024-10-30 20:58:52 finished running batch 1 of block 157
+2024-10-30 20:58:52 started organizing output for batch 1 of block 157
+2024-10-30 20:58:52 finished organizing output for batch 1 of block 157
+2024-10-30 20:58:52 started extracting control observable for batch 1 of block 157
+2024-10-30 20:58:52 finished extracting control observable for batch 1 of block 157
+18.6628
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 20:58:58 started running block 158
+2024-10-30 20:58:58 started running batch 1 of block 158
+2024-10-30 21:01:28 finished running batch 1 of block 158
+2024-10-30 21:01:28 started organizing output for batch 1 of block 158
+2024-10-30 21:01:28 finished organizing output for batch 1 of block 158
+2024-10-30 21:01:28 started extracting control observable for batch 1 of block 158
+2024-10-30 21:01:28 finished extracting control observable for batch 1 of block 158
+18.1974
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:01:34 started running block 159
+2024-10-30 21:01:34 started running batch 1 of block 159
+2024-10-30 21:04:04 finished running batch 1 of block 159
+2024-10-30 21:04:04 started organizing output for batch 1 of block 159
+2024-10-30 21:04:05 finished organizing output for batch 1 of block 159
+2024-10-30 21:04:05 started extracting control observable for batch 1 of block 159
+2024-10-30 21:04:05 finished extracting control observable for batch 1 of block 159
+17.4445
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:04:11 started running block 160
+2024-10-30 21:04:11 started running batch 1 of block 160
+2024-10-30 21:06:39 finished running batch 1 of block 160
+2024-10-30 21:06:39 started organizing output for batch 1 of block 160
+2024-10-30 21:06:39 finished organizing output for batch 1 of block 160
+2024-10-30 21:06:39 started extracting control observable for batch 1 of block 160
+2024-10-30 21:06:39 finished extracting control observable for batch 1 of block 160
+18.0636
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:06:45 started running block 161
+2024-10-30 21:06:45 started running batch 1 of block 161
+2024-10-30 21:09:15 finished running batch 1 of block 161
+2024-10-30 21:09:15 started organizing output for batch 1 of block 161
+2024-10-30 21:09:15 finished organizing output for batch 1 of block 161
+2024-10-30 21:09:15 started extracting control observable for batch 1 of block 161
+2024-10-30 21:09:16 finished extracting control observable for batch 1 of block 161
+18.3487
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:09:22 started running block 162
+2024-10-30 21:09:22 started running batch 1 of block 162
+2024-10-30 21:11:52 finished running batch 1 of block 162
+2024-10-30 21:11:52 started organizing output for batch 1 of block 162
+2024-10-30 21:11:52 finished organizing output for batch 1 of block 162
+2024-10-30 21:11:52 started extracting control observable for batch 1 of block 162
+2024-10-30 21:11:52 finished extracting control observable for batch 1 of block 162
+18.2419
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:11:58 started running block 163
+2024-10-30 21:11:58 started running batch 1 of block 163
+2024-10-30 21:14:29 finished running batch 1 of block 163
+2024-10-30 21:14:29 started organizing output for batch 1 of block 163
+2024-10-30 21:14:29 finished organizing output for batch 1 of block 163
+2024-10-30 21:14:29 started extracting control observable for batch 1 of block 163
+2024-10-30 21:14:29 finished extracting control observable for batch 1 of block 163
+18.5443
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:14:35 started running block 164
+2024-10-30 21:14:35 started running batch 1 of block 164
+2024-10-30 21:17:04 finished running batch 1 of block 164
+2024-10-30 21:17:04 started organizing output for batch 1 of block 164
+2024-10-30 21:17:04 finished organizing output for batch 1 of block 164
+2024-10-30 21:17:04 started extracting control observable for batch 1 of block 164
+2024-10-30 21:17:04 finished extracting control observable for batch 1 of block 164
+17.7081
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:17:10 started running block 165
+2024-10-30 21:17:10 started running batch 1 of block 165
+2024-10-30 21:19:41 finished running batch 1 of block 165
+2024-10-30 21:19:41 started organizing output for batch 1 of block 165
+2024-10-30 21:19:41 finished organizing output for batch 1 of block 165
+2024-10-30 21:19:41 started extracting control observable for batch 1 of block 165
+2024-10-30 21:19:41 finished extracting control observable for batch 1 of block 165
+18.4507
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:19:47 started running block 166
+2024-10-30 21:19:47 started running batch 1 of block 166
+2024-10-30 21:22:18 finished running batch 1 of block 166
+2024-10-30 21:22:18 started organizing output for batch 1 of block 166
+2024-10-30 21:22:18 finished organizing output for batch 1 of block 166
+2024-10-30 21:22:18 started extracting control observable for batch 1 of block 166
+2024-10-30 21:22:18 finished extracting control observable for batch 1 of block 166
+18.4854
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:22:24 started running block 167
+2024-10-30 21:22:24 started running batch 1 of block 167
+2024-10-30 21:24:57 finished running batch 1 of block 167
+2024-10-30 21:24:57 started organizing output for batch 1 of block 167
+2024-10-30 21:25:03 finished organizing output for batch 1 of block 167
+2024-10-30 21:25:04 started extracting control observable for batch 1 of block 167
+2024-10-30 21:25:04 finished extracting control observable for batch 1 of block 167
+18.9843
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:25:49 started running block 168
+2024-10-30 21:25:49 started running batch 1 of block 168
+2024-10-30 21:28:45 finished running batch 1 of block 168
+2024-10-30 21:28:45 started organizing output for batch 1 of block 168
+2024-10-30 21:30:05 finished organizing output for batch 1 of block 168
+2024-10-30 21:30:05 started extracting control observable for batch 1 of block 168
+2024-10-30 21:30:05 finished extracting control observable for batch 1 of block 168
+19.577
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:30:11 started running block 169
+2024-10-30 21:30:11 started running batch 1 of block 169
+2024-10-30 21:32:38 finished running batch 1 of block 169
+2024-10-30 21:32:38 started organizing output for batch 1 of block 169
+2024-10-30 21:32:38 finished organizing output for batch 1 of block 169
+2024-10-30 21:32:38 started extracting control observable for batch 1 of block 169
+2024-10-30 21:32:38 finished extracting control observable for batch 1 of block 169
+19.3812
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:32:44 started running block 170
+2024-10-30 21:32:44 started running batch 1 of block 170
+2024-10-30 21:35:14 finished running batch 1 of block 170
+2024-10-30 21:35:14 started organizing output for batch 1 of block 170
+2024-10-30 21:35:14 finished organizing output for batch 1 of block 170
+2024-10-30 21:35:14 started extracting control observable for batch 1 of block 170
+2024-10-30 21:35:14 finished extracting control observable for batch 1 of block 170
+19.4199
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:35:20 started running block 171
+2024-10-30 21:35:20 started running batch 1 of block 171
+2024-10-30 21:37:52 finished running batch 1 of block 171
+2024-10-30 21:37:52 started organizing output for batch 1 of block 171
+2024-10-30 21:37:52 finished organizing output for batch 1 of block 171
+2024-10-30 21:37:52 started extracting control observable for batch 1 of block 171
+2024-10-30 21:37:52 finished extracting control observable for batch 1 of block 171
+19.3526
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:37:58 started running block 172
+2024-10-30 21:37:58 started running batch 1 of block 172
+2024-10-30 21:40:30 finished running batch 1 of block 172
+2024-10-30 21:40:30 started organizing output for batch 1 of block 172
+2024-10-30 21:40:30 finished organizing output for batch 1 of block 172
+2024-10-30 21:40:30 started extracting control observable for batch 1 of block 172
+2024-10-30 21:40:30 finished extracting control observable for batch 1 of block 172
+19.0262
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:40:36 started running block 173
+2024-10-30 21:40:36 started running batch 1 of block 173
+2024-10-30 21:43:05 finished running batch 1 of block 173
+2024-10-30 21:43:05 started organizing output for batch 1 of block 173
+2024-10-30 21:43:05 finished organizing output for batch 1 of block 173
+2024-10-30 21:43:05 started extracting control observable for batch 1 of block 173
+2024-10-30 21:43:05 finished extracting control observable for batch 1 of block 173
+19.4775
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:43:12 started running block 174
+2024-10-30 21:43:12 started running batch 1 of block 174
+2024-10-30 21:45:41 finished running batch 1 of block 174
+2024-10-30 21:45:41 started organizing output for batch 1 of block 174
+2024-10-30 21:45:41 finished organizing output for batch 1 of block 174
+2024-10-30 21:45:41 started extracting control observable for batch 1 of block 174
+2024-10-30 21:45:41 finished extracting control observable for batch 1 of block 174
+19.4412
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:45:48 started running block 175
+2024-10-30 21:45:48 started running batch 1 of block 175
+2024-10-30 21:48:18 finished running batch 1 of block 175
+2024-10-30 21:48:18 started organizing output for batch 1 of block 175
+2024-10-30 21:48:18 finished organizing output for batch 1 of block 175
+2024-10-30 21:48:18 started extracting control observable for batch 1 of block 175
+2024-10-30 21:48:18 finished extracting control observable for batch 1 of block 175
+19.2008
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:48:24 started running block 176
+2024-10-30 21:48:24 started running batch 1 of block 176
+2024-10-30 21:50:56 finished running batch 1 of block 176
+2024-10-30 21:50:56 started organizing output for batch 1 of block 176
+2024-10-30 21:50:56 finished organizing output for batch 1 of block 176
+2024-10-30 21:50:56 started extracting control observable for batch 1 of block 176
+2024-10-30 21:50:56 finished extracting control observable for batch 1 of block 176
+19.3536
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:51:02 started running block 177
+2024-10-30 21:51:02 started running batch 1 of block 177
+2024-10-30 21:53:32 finished running batch 1 of block 177
+2024-10-30 21:53:32 started organizing output for batch 1 of block 177
+2024-10-30 21:53:32 finished organizing output for batch 1 of block 177
+2024-10-30 21:53:32 started extracting control observable for batch 1 of block 177
+2024-10-30 21:53:33 finished extracting control observable for batch 1 of block 177
+18.8782
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:53:39 started running block 178
+2024-10-30 21:53:39 started running batch 1 of block 178
+2024-10-30 21:56:10 finished running batch 1 of block 178
+2024-10-30 21:56:10 started organizing output for batch 1 of block 178
+2024-10-30 21:56:10 finished organizing output for batch 1 of block 178
+2024-10-30 21:56:10 started extracting control observable for batch 1 of block 178
+2024-10-30 21:56:11 finished extracting control observable for batch 1 of block 178
+18.8104
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:56:17 started running block 179
+2024-10-30 21:56:17 started running batch 1 of block 179
+2024-10-30 21:58:48 finished running batch 1 of block 179
+2024-10-30 21:58:48 started organizing output for batch 1 of block 179
+2024-10-30 21:58:49 finished organizing output for batch 1 of block 179
+2024-10-30 21:58:49 started extracting control observable for batch 1 of block 179
+2024-10-30 21:58:49 finished extracting control observable for batch 1 of block 179
+18.3614
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 21:58:55 started running block 180
+2024-10-30 21:58:55 started running batch 1 of block 180
+2024-10-30 22:01:26 finished running batch 1 of block 180
+2024-10-30 22:01:26 started organizing output for batch 1 of block 180
+2024-10-30 22:01:26 finished organizing output for batch 1 of block 180
+2024-10-30 22:01:26 started extracting control observable for batch 1 of block 180
+2024-10-30 22:01:26 finished extracting control observable for batch 1 of block 180
+18.1251
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:01:32 started running block 181
+2024-10-30 22:01:32 started running batch 1 of block 181
+2024-10-30 22:04:01 finished running batch 1 of block 181
+2024-10-30 22:04:01 started organizing output for batch 1 of block 181
+2024-10-30 22:04:01 finished organizing output for batch 1 of block 181
+2024-10-30 22:04:01 started extracting control observable for batch 1 of block 181
+2024-10-30 22:04:01 finished extracting control observable for batch 1 of block 181
+18.5166
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:04:07 started running block 182
+2024-10-30 22:04:07 started running batch 1 of block 182
+2024-10-30 22:06:37 finished running batch 1 of block 182
+2024-10-30 22:06:37 started organizing output for batch 1 of block 182
+2024-10-30 22:06:37 finished organizing output for batch 1 of block 182
+2024-10-30 22:06:37 started extracting control observable for batch 1 of block 182
+2024-10-30 22:06:37 finished extracting control observable for batch 1 of block 182
+18.4694
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:06:44 started running block 183
+2024-10-30 22:06:44 started running batch 1 of block 183
+2024-10-30 22:09:14 finished running batch 1 of block 183
+2024-10-30 22:09:14 started organizing output for batch 1 of block 183
+2024-10-30 22:09:14 finished organizing output for batch 1 of block 183
+2024-10-30 22:09:14 started extracting control observable for batch 1 of block 183
+2024-10-30 22:09:14 finished extracting control observable for batch 1 of block 183
+18.4385
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:09:21 started running block 184
+2024-10-30 22:09:21 started running batch 1 of block 184
+2024-10-30 22:11:51 finished running batch 1 of block 184
+2024-10-30 22:11:51 started organizing output for batch 1 of block 184
+2024-10-30 22:11:51 finished organizing output for batch 1 of block 184
+2024-10-30 22:11:51 started extracting control observable for batch 1 of block 184
+2024-10-30 22:11:51 finished extracting control observable for batch 1 of block 184
+18.7224
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:11:58 started running block 185
+2024-10-30 22:11:58 started running batch 1 of block 185
+2024-10-30 22:14:39 finished running batch 1 of block 185
+2024-10-30 22:14:40 started organizing output for batch 1 of block 185
+2024-10-30 22:18:12 finished organizing output for batch 1 of block 185
+2024-10-30 22:18:12 started extracting control observable for batch 1 of block 185
+2024-10-30 22:18:12 finished extracting control observable for batch 1 of block 185
+19.0508
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:18:20 started running block 186
+2024-10-30 22:18:20 started running batch 1 of block 186
+2024-10-30 22:20:46 finished running batch 1 of block 186
+2024-10-30 22:20:46 started organizing output for batch 1 of block 186
+2024-10-30 22:20:46 finished organizing output for batch 1 of block 186
+2024-10-30 22:20:46 started extracting control observable for batch 1 of block 186
+2024-10-30 22:20:46 finished extracting control observable for batch 1 of block 186
+19.0491
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:20:52 started running block 187
+2024-10-30 22:20:52 started running batch 1 of block 187
+2024-10-30 22:23:22 finished running batch 1 of block 187
+2024-10-30 22:23:22 started organizing output for batch 1 of block 187
+2024-10-30 22:23:22 finished organizing output for batch 1 of block 187
+2024-10-30 22:23:22 started extracting control observable for batch 1 of block 187
+2024-10-30 22:23:22 finished extracting control observable for batch 1 of block 187
+18.9387
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:23:28 started running block 188
+2024-10-30 22:23:28 started running batch 1 of block 188
+2024-10-30 22:25:59 finished running batch 1 of block 188
+2024-10-30 22:25:59 started organizing output for batch 1 of block 188
+2024-10-30 22:25:59 finished organizing output for batch 1 of block 188
+2024-10-30 22:25:59 started extracting control observable for batch 1 of block 188
+2024-10-30 22:25:59 finished extracting control observable for batch 1 of block 188
+18.753
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:26:06 started running block 189
+2024-10-30 22:26:06 started running batch 1 of block 189
+2024-10-30 22:28:36 finished running batch 1 of block 189
+2024-10-30 22:28:36 started organizing output for batch 1 of block 189
+2024-10-30 22:28:36 finished organizing output for batch 1 of block 189
+2024-10-30 22:28:36 started extracting control observable for batch 1 of block 189
+2024-10-30 22:28:36 finished extracting control observable for batch 1 of block 189
+18.9749
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:28:43 started running block 190
+2024-10-30 22:28:43 started running batch 1 of block 190
+2024-10-30 22:31:13 finished running batch 1 of block 190
+2024-10-30 22:31:13 started organizing output for batch 1 of block 190
+2024-10-30 22:31:13 finished organizing output for batch 1 of block 190
+2024-10-30 22:31:13 started extracting control observable for batch 1 of block 190
+2024-10-30 22:31:13 finished extracting control observable for batch 1 of block 190
+18.6819
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:31:19 started running block 191
+2024-10-30 22:31:19 started running batch 1 of block 191
+2024-10-30 22:33:50 finished running batch 1 of block 191
+2024-10-30 22:33:50 started organizing output for batch 1 of block 191
+2024-10-30 22:33:50 finished organizing output for batch 1 of block 191
+2024-10-30 22:33:50 started extracting control observable for batch 1 of block 191
+2024-10-30 22:33:50 finished extracting control observable for batch 1 of block 191
+18.156
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:33:57 started running block 192
+2024-10-30 22:33:57 started running batch 1 of block 192
+2024-10-30 22:36:27 finished running batch 1 of block 192
+2024-10-30 22:36:27 started organizing output for batch 1 of block 192
+2024-10-30 22:36:28 finished organizing output for batch 1 of block 192
+2024-10-30 22:36:28 started extracting control observable for batch 1 of block 192
+2024-10-30 22:36:28 finished extracting control observable for batch 1 of block 192
+17.5823
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:36:34 started running block 193
+2024-10-30 22:36:34 started running batch 1 of block 193
+2024-10-30 22:39:05 finished running batch 1 of block 193
+2024-10-30 22:39:05 started organizing output for batch 1 of block 193
+2024-10-30 22:39:05 finished organizing output for batch 1 of block 193
+2024-10-30 22:39:05 started extracting control observable for batch 1 of block 193
+2024-10-30 22:39:05 finished extracting control observable for batch 1 of block 193
+17.0213
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:39:11 started running block 194
+2024-10-30 22:39:11 started running batch 1 of block 194
+2024-10-30 22:41:38 finished running batch 1 of block 194
+2024-10-30 22:41:38 started organizing output for batch 1 of block 194
+2024-10-30 22:41:38 finished organizing output for batch 1 of block 194
+2024-10-30 22:41:38 started extracting control observable for batch 1 of block 194
+2024-10-30 22:41:38 finished extracting control observable for batch 1 of block 194
+16.8766
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:41:45 started running block 195
+2024-10-30 22:41:45 started running batch 1 of block 195
+2024-10-30 22:44:16 finished running batch 1 of block 195
+2024-10-30 22:44:16 started organizing output for batch 1 of block 195
+2024-10-30 22:44:16 finished organizing output for batch 1 of block 195
+2024-10-30 22:44:16 started extracting control observable for batch 1 of block 195
+2024-10-30 22:44:16 finished extracting control observable for batch 1 of block 195
+17.0397
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:44:23 started running block 196
+2024-10-30 22:44:23 started running batch 1 of block 196
+2024-10-30 22:46:54 finished running batch 1 of block 196
+2024-10-30 22:46:54 started organizing output for batch 1 of block 196
+2024-10-30 22:46:54 finished organizing output for batch 1 of block 196
+2024-10-30 22:46:54 started extracting control observable for batch 1 of block 196
+2024-10-30 22:46:54 finished extracting control observable for batch 1 of block 196
+17.0112
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:47:00 started running block 197
+2024-10-30 22:47:00 started running batch 1 of block 197
+2024-10-30 22:49:30 finished running batch 1 of block 197
+2024-10-30 22:49:30 started organizing output for batch 1 of block 197
+2024-10-30 22:49:30 finished organizing output for batch 1 of block 197
+2024-10-30 22:49:30 started extracting control observable for batch 1 of block 197
+2024-10-30 22:49:30 finished extracting control observable for batch 1 of block 197
+17.0965
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:49:37 started running block 198
+2024-10-30 22:49:37 started running batch 1 of block 198
+2024-10-30 22:52:05 finished running batch 1 of block 198
+2024-10-30 22:52:05 started organizing output for batch 1 of block 198
+2024-10-30 22:52:05 finished organizing output for batch 1 of block 198
+2024-10-30 22:52:05 started extracting control observable for batch 1 of block 198
+2024-10-30 22:52:05 finished extracting control observable for batch 1 of block 198
+17.2948
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:52:11 started running block 199
+2024-10-30 22:52:11 started running batch 1 of block 199
+2024-10-30 22:54:41 finished running batch 1 of block 199
+2024-10-30 22:54:41 started organizing output for batch 1 of block 199
+2024-10-30 22:54:41 finished organizing output for batch 1 of block 199
+2024-10-30 22:54:41 started extracting control observable for batch 1 of block 199
+2024-10-30 22:54:41 finished extracting control observable for batch 1 of block 199
+17.5026
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:54:48 started running block 200
+2024-10-30 22:54:48 started running batch 1 of block 200
+2024-10-30 22:57:19 finished running batch 1 of block 200
+2024-10-30 22:57:19 started organizing output for batch 1 of block 200
+2024-10-30 22:57:19 finished organizing output for batch 1 of block 200
+2024-10-30 22:57:19 started extracting control observable for batch 1 of block 200
+2024-10-30 22:57:19 finished extracting control observable for batch 1 of block 200
+18.0043
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 22:57:25 started running block 201
+2024-10-30 22:57:25 started running batch 1 of block 201
+2024-10-30 22:59:56 finished running batch 1 of block 201
+2024-10-30 22:59:56 started organizing output for batch 1 of block 201
+2024-10-30 22:59:56 finished organizing output for batch 1 of block 201
+2024-10-30 22:59:56 started extracting control observable for batch 1 of block 201
+2024-10-30 22:59:56 finished extracting control observable for batch 1 of block 201
+18.7535
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:00:02 started running block 202
+2024-10-30 23:00:02 started running batch 1 of block 202
+2024-10-30 23:02:42 finished running batch 1 of block 202
+2024-10-30 23:02:42 started organizing output for batch 1 of block 202
+2024-10-30 23:06:28 finished organizing output for batch 1 of block 202
+2024-10-30 23:06:28 started extracting control observable for batch 1 of block 202
+2024-10-30 23:06:28 finished extracting control observable for batch 1 of block 202
+18.9061
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:06:35 started running block 203
+2024-10-30 23:06:35 started running batch 1 of block 203
+2024-10-30 23:09:02 finished running batch 1 of block 203
+2024-10-30 23:09:02 started organizing output for batch 1 of block 203
+2024-10-30 23:09:02 finished organizing output for batch 1 of block 203
+2024-10-30 23:09:02 started extracting control observable for batch 1 of block 203
+2024-10-30 23:09:02 finished extracting control observable for batch 1 of block 203
+18.5078
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:09:08 started running block 204
+2024-10-30 23:09:08 started running batch 1 of block 204
+2024-10-30 23:11:32 finished running batch 1 of block 204
+2024-10-30 23:11:32 started organizing output for batch 1 of block 204
+2024-10-30 23:11:33 finished organizing output for batch 1 of block 204
+2024-10-30 23:11:33 started extracting control observable for batch 1 of block 204
+2024-10-30 23:11:33 finished extracting control observable for batch 1 of block 204
+18.5316
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:11:39 started running block 205
+2024-10-30 23:11:39 started running batch 1 of block 205
+2024-10-30 23:14:09 finished running batch 1 of block 205
+2024-10-30 23:14:09 started organizing output for batch 1 of block 205
+2024-10-30 23:14:09 finished organizing output for batch 1 of block 205
+2024-10-30 23:14:09 started extracting control observable for batch 1 of block 205
+2024-10-30 23:14:09 finished extracting control observable for batch 1 of block 205
+18.2811
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:14:16 started running block 206
+2024-10-30 23:14:16 started running batch 1 of block 206
+2024-10-30 23:16:47 finished running batch 1 of block 206
+2024-10-30 23:16:47 started organizing output for batch 1 of block 206
+2024-10-30 23:16:47 finished organizing output for batch 1 of block 206
+2024-10-30 23:16:47 started extracting control observable for batch 1 of block 206
+2024-10-30 23:16:47 finished extracting control observable for batch 1 of block 206
+18.7035
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:16:54 started running block 207
+2024-10-30 23:16:54 started running batch 1 of block 207
+2024-10-30 23:19:25 finished running batch 1 of block 207
+2024-10-30 23:19:25 started organizing output for batch 1 of block 207
+2024-10-30 23:19:25 finished organizing output for batch 1 of block 207
+2024-10-30 23:19:25 started extracting control observable for batch 1 of block 207
+2024-10-30 23:19:25 finished extracting control observable for batch 1 of block 207
+18.0086
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:19:31 started running block 208
+2024-10-30 23:19:31 started running batch 1 of block 208
+2024-10-30 23:22:02 finished running batch 1 of block 208
+2024-10-30 23:22:02 started organizing output for batch 1 of block 208
+2024-10-30 23:22:02 finished organizing output for batch 1 of block 208
+2024-10-30 23:22:02 started extracting control observable for batch 1 of block 208
+2024-10-30 23:22:02 finished extracting control observable for batch 1 of block 208
+17.833
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:22:09 started running block 209
+2024-10-30 23:22:09 started running batch 1 of block 209
+2024-10-30 23:24:40 finished running batch 1 of block 209
+2024-10-30 23:24:40 started organizing output for batch 1 of block 209
+2024-10-30 23:24:40 finished organizing output for batch 1 of block 209
+2024-10-30 23:24:40 started extracting control observable for batch 1 of block 209
+2024-10-30 23:24:40 finished extracting control observable for batch 1 of block 209
+17.5587
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:24:47 started running block 210
+2024-10-30 23:24:47 started running batch 1 of block 210
+2024-10-30 23:27:16 finished running batch 1 of block 210
+2024-10-30 23:27:16 started organizing output for batch 1 of block 210
+2024-10-30 23:27:17 finished organizing output for batch 1 of block 210
+2024-10-30 23:27:17 started extracting control observable for batch 1 of block 210
+2024-10-30 23:27:17 finished extracting control observable for batch 1 of block 210
+17.8787
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:27:23 started running block 211
+2024-10-30 23:27:23 started running batch 1 of block 211
+2024-10-30 23:29:53 finished running batch 1 of block 211
+2024-10-30 23:29:53 started organizing output for batch 1 of block 211
+2024-10-30 23:29:53 finished organizing output for batch 1 of block 211
+2024-10-30 23:29:53 started extracting control observable for batch 1 of block 211
+2024-10-30 23:29:53 finished extracting control observable for batch 1 of block 211
+18.6663
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:30:00 started running block 212
+2024-10-30 23:30:00 started running batch 1 of block 212
+2024-10-30 23:32:30 finished running batch 1 of block 212
+2024-10-30 23:32:30 started organizing output for batch 1 of block 212
+2024-10-30 23:32:31 finished organizing output for batch 1 of block 212
+2024-10-30 23:32:31 started extracting control observable for batch 1 of block 212
+2024-10-30 23:32:31 finished extracting control observable for batch 1 of block 212
+18.4558
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:32:37 started running block 213
+2024-10-30 23:32:37 started running batch 1 of block 213
+2024-10-30 23:35:07 finished running batch 1 of block 213
+2024-10-30 23:35:07 started organizing output for batch 1 of block 213
+2024-10-30 23:35:07 finished organizing output for batch 1 of block 213
+2024-10-30 23:35:07 started extracting control observable for batch 1 of block 213
+2024-10-30 23:35:07 finished extracting control observable for batch 1 of block 213
+17.7688
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:35:13 started running block 214
+2024-10-30 23:35:13 started running batch 1 of block 214
+2024-10-30 23:37:43 finished running batch 1 of block 214
+2024-10-30 23:37:43 started organizing output for batch 1 of block 214
+2024-10-30 23:37:43 finished organizing output for batch 1 of block 214
+2024-10-30 23:37:44 started extracting control observable for batch 1 of block 214
+2024-10-30 23:37:44 finished extracting control observable for batch 1 of block 214
+17.8162
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:37:50 started running block 215
+2024-10-30 23:37:50 started running batch 1 of block 215
+2024-10-30 23:40:18 finished running batch 1 of block 215
+2024-10-30 23:40:18 started organizing output for batch 1 of block 215
+2024-10-30 23:40:18 finished organizing output for batch 1 of block 215
+2024-10-30 23:40:18 started extracting control observable for batch 1 of block 215
+2024-10-30 23:40:18 finished extracting control observable for batch 1 of block 215
+17.8017
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:40:24 started running block 216
+2024-10-30 23:40:24 started running batch 1 of block 216
+2024-10-30 23:42:54 finished running batch 1 of block 216
+2024-10-30 23:42:54 started organizing output for batch 1 of block 216
+2024-10-30 23:42:54 finished organizing output for batch 1 of block 216
+2024-10-30 23:42:54 started extracting control observable for batch 1 of block 216
+2024-10-30 23:42:54 finished extracting control observable for batch 1 of block 216
+17.1843
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:43:00 started running block 217
+2024-10-30 23:43:00 started running batch 1 of block 217
+2024-10-30 23:45:30 finished running batch 1 of block 217
+2024-10-30 23:45:30 started organizing output for batch 1 of block 217
+2024-10-30 23:45:30 finished organizing output for batch 1 of block 217
+2024-10-30 23:45:30 started extracting control observable for batch 1 of block 217
+2024-10-30 23:45:30 finished extracting control observable for batch 1 of block 217
+18.1969
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:45:37 started running block 218
+2024-10-30 23:45:37 started running batch 1 of block 218
+2024-10-30 23:48:08 finished running batch 1 of block 218
+2024-10-30 23:48:08 started organizing output for batch 1 of block 218
+2024-10-30 23:48:08 finished organizing output for batch 1 of block 218
+2024-10-30 23:48:08 started extracting control observable for batch 1 of block 218
+2024-10-30 23:48:08 finished extracting control observable for batch 1 of block 218
+18.5503
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:48:15 started running block 219
+2024-10-30 23:48:15 started running batch 1 of block 219
+2024-10-30 23:50:58 finished running batch 1 of block 219
+2024-10-30 23:50:58 started organizing output for batch 1 of block 219
+2024-10-30 23:53:52 finished organizing output for batch 1 of block 219
+2024-10-30 23:53:52 started extracting control observable for batch 1 of block 219
+2024-10-30 23:53:52 finished extracting control observable for batch 1 of block 219
+18.496
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:53:59 started running block 220
+2024-10-30 23:53:59 started running batch 1 of block 220
+2024-10-30 23:56:24 finished running batch 1 of block 220
+2024-10-30 23:56:24 started organizing output for batch 1 of block 220
+2024-10-30 23:56:24 finished organizing output for batch 1 of block 220
+2024-10-30 23:56:24 started extracting control observable for batch 1 of block 220
+2024-10-30 23:56:24 finished extracting control observable for batch 1 of block 220
+19.3634
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:56:31 started running block 221
+2024-10-30 23:56:31 started running batch 1 of block 221
+2024-10-30 23:59:00 finished running batch 1 of block 221
+2024-10-30 23:59:00 started organizing output for batch 1 of block 221
+2024-10-30 23:59:00 finished organizing output for batch 1 of block 221
+2024-10-30 23:59:00 started extracting control observable for batch 1 of block 221
+2024-10-30 23:59:00 finished extracting control observable for batch 1 of block 221
+18.7016
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-30 23:59:06 started running block 222
+2024-10-30 23:59:06 started running batch 1 of block 222
+2024-10-31 00:01:37 finished running batch 1 of block 222
+2024-10-31 00:01:37 started organizing output for batch 1 of block 222
+2024-10-31 00:01:37 finished organizing output for batch 1 of block 222
+2024-10-31 00:01:37 started extracting control observable for batch 1 of block 222
+2024-10-31 00:01:37 finished extracting control observable for batch 1 of block 222
+18.5471
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:01:44 started running block 223
+2024-10-31 00:01:44 started running batch 1 of block 223
+2024-10-31 00:04:16 finished running batch 1 of block 223
+2024-10-31 00:04:16 started organizing output for batch 1 of block 223
+2024-10-31 00:04:16 finished organizing output for batch 1 of block 223
+2024-10-31 00:04:16 started extracting control observable for batch 1 of block 223
+2024-10-31 00:04:16 finished extracting control observable for batch 1 of block 223
+18.7339
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:04:23 started running block 224
+2024-10-31 00:04:23 started running batch 1 of block 224
+2024-10-31 00:06:53 finished running batch 1 of block 224
+2024-10-31 00:06:53 started organizing output for batch 1 of block 224
+2024-10-31 00:06:53 finished organizing output for batch 1 of block 224
+2024-10-31 00:06:53 started extracting control observable for batch 1 of block 224
+2024-10-31 00:06:53 finished extracting control observable for batch 1 of block 224
+18.3877
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:06:59 started running block 225
+2024-10-31 00:06:59 started running batch 1 of block 225
+2024-10-31 00:09:29 finished running batch 1 of block 225
+2024-10-31 00:09:29 started organizing output for batch 1 of block 225
+2024-10-31 00:09:29 finished organizing output for batch 1 of block 225
+2024-10-31 00:09:29 started extracting control observable for batch 1 of block 225
+2024-10-31 00:09:29 finished extracting control observable for batch 1 of block 225
+18.2624
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:09:35 started running block 226
+2024-10-31 00:09:35 started running batch 1 of block 226
+2024-10-31 00:12:06 finished running batch 1 of block 226
+2024-10-31 00:12:06 started organizing output for batch 1 of block 226
+2024-10-31 00:12:06 finished organizing output for batch 1 of block 226
+2024-10-31 00:12:06 started extracting control observable for batch 1 of block 226
+2024-10-31 00:12:06 finished extracting control observable for batch 1 of block 226
+18.2146
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:12:12 started running block 227
+2024-10-31 00:12:12 started running batch 1 of block 227
+2024-10-31 00:14:42 finished running batch 1 of block 227
+2024-10-31 00:14:42 started organizing output for batch 1 of block 227
+2024-10-31 00:14:42 finished organizing output for batch 1 of block 227
+2024-10-31 00:14:42 started extracting control observable for batch 1 of block 227
+2024-10-31 00:14:42 finished extracting control observable for batch 1 of block 227
+18.0242
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:14:48 started running block 228
+2024-10-31 00:14:48 started running batch 1 of block 228
+2024-10-31 00:17:15 finished running batch 1 of block 228
+2024-10-31 00:17:15 started organizing output for batch 1 of block 228
+2024-10-31 00:17:15 finished organizing output for batch 1 of block 228
+2024-10-31 00:17:15 started extracting control observable for batch 1 of block 228
+2024-10-31 00:17:15 finished extracting control observable for batch 1 of block 228
+17.4331
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:17:22 started running block 229
+2024-10-31 00:17:22 started running batch 1 of block 229
+2024-10-31 00:19:53 finished running batch 1 of block 229
+2024-10-31 00:19:53 started organizing output for batch 1 of block 229
+2024-10-31 00:19:54 finished organizing output for batch 1 of block 229
+2024-10-31 00:19:54 started extracting control observable for batch 1 of block 229
+2024-10-31 00:19:54 finished extracting control observable for batch 1 of block 229
+17.1447
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:20:00 started running block 230
+2024-10-31 00:20:00 started running batch 1 of block 230
+2024-10-31 00:22:30 finished running batch 1 of block 230
+2024-10-31 00:22:30 started organizing output for batch 1 of block 230
+2024-10-31 00:22:30 finished organizing output for batch 1 of block 230
+2024-10-31 00:22:30 started extracting control observable for batch 1 of block 230
+2024-10-31 00:22:30 finished extracting control observable for batch 1 of block 230
+16.286
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:22:36 started running block 231
+2024-10-31 00:22:36 started running batch 1 of block 231
+2024-10-31 00:25:07 finished running batch 1 of block 231
+2024-10-31 00:25:07 started organizing output for batch 1 of block 231
+2024-10-31 00:25:07 finished organizing output for batch 1 of block 231
+2024-10-31 00:25:07 started extracting control observable for batch 1 of block 231
+2024-10-31 00:25:07 finished extracting control observable for batch 1 of block 231
+16.711
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:25:14 started running block 232
+2024-10-31 00:25:14 started running batch 1 of block 232
+2024-10-31 00:27:42 finished running batch 1 of block 232
+2024-10-31 00:27:42 started organizing output for batch 1 of block 232
+2024-10-31 00:27:42 finished organizing output for batch 1 of block 232
+2024-10-31 00:27:42 started extracting control observable for batch 1 of block 232
+2024-10-31 00:27:42 finished extracting control observable for batch 1 of block 232
+16.6626
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:27:49 started running block 233
+2024-10-31 00:27:49 started running batch 1 of block 233
+2024-10-31 00:30:19 finished running batch 1 of block 233
+2024-10-31 00:30:19 started organizing output for batch 1 of block 233
+2024-10-31 00:30:19 finished organizing output for batch 1 of block 233
+2024-10-31 00:30:19 started extracting control observable for batch 1 of block 233
+2024-10-31 00:30:19 finished extracting control observable for batch 1 of block 233
+17.1945
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:30:25 started running block 234
+2024-10-31 00:30:25 started running batch 1 of block 234
+2024-10-31 00:32:55 finished running batch 1 of block 234
+2024-10-31 00:32:55 started organizing output for batch 1 of block 234
+2024-10-31 00:32:55 finished organizing output for batch 1 of block 234
+2024-10-31 00:32:55 started extracting control observable for batch 1 of block 234
+2024-10-31 00:32:55 finished extracting control observable for batch 1 of block 234
+17.3438
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:33:01 started running block 235
+2024-10-31 00:33:01 started running batch 1 of block 235
+2024-10-31 00:35:32 finished running batch 1 of block 235
+2024-10-31 00:35:32 started organizing output for batch 1 of block 235
+2024-10-31 00:35:32 finished organizing output for batch 1 of block 235
+2024-10-31 00:35:32 started extracting control observable for batch 1 of block 235
+2024-10-31 00:35:32 finished extracting control observable for batch 1 of block 235
+17.2192
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:35:39 started running block 236
+2024-10-31 00:35:39 started running batch 1 of block 236
+2024-10-31 00:38:19 finished running batch 1 of block 236
+2024-10-31 00:38:19 started organizing output for batch 1 of block 236
+2024-10-31 00:41:50 finished organizing output for batch 1 of block 236
+2024-10-31 00:41:50 started extracting control observable for batch 1 of block 236
+2024-10-31 00:41:50 finished extracting control observable for batch 1 of block 236
+17.1922
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:41:57 started running block 237
+2024-10-31 00:41:57 started running batch 1 of block 237
+2024-10-31 00:44:24 finished running batch 1 of block 237
+2024-10-31 00:44:24 started organizing output for batch 1 of block 237
+2024-10-31 00:44:24 finished organizing output for batch 1 of block 237
+2024-10-31 00:44:24 started extracting control observable for batch 1 of block 237
+2024-10-31 00:44:24 finished extracting control observable for batch 1 of block 237
+17.6637
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:44:30 started running block 238
+2024-10-31 00:44:30 started running batch 1 of block 238
+2024-10-31 00:46:59 finished running batch 1 of block 238
+2024-10-31 00:46:59 started organizing output for batch 1 of block 238
+2024-10-31 00:46:59 finished organizing output for batch 1 of block 238
+2024-10-31 00:46:59 started extracting control observable for batch 1 of block 238
+2024-10-31 00:46:59 finished extracting control observable for batch 1 of block 238
+17.9799
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:47:06 started running block 239
+2024-10-31 00:47:06 started running batch 1 of block 239
+2024-10-31 00:49:37 finished running batch 1 of block 239
+2024-10-31 00:49:37 started organizing output for batch 1 of block 239
+2024-10-31 00:49:37 finished organizing output for batch 1 of block 239
+2024-10-31 00:49:37 started extracting control observable for batch 1 of block 239
+2024-10-31 00:49:37 finished extracting control observable for batch 1 of block 239
+18.4065
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:49:43 started running block 240
+2024-10-31 00:49:43 started running batch 1 of block 240
+2024-10-31 00:52:14 finished running batch 1 of block 240
+2024-10-31 00:52:14 started organizing output for batch 1 of block 240
+2024-10-31 00:52:14 finished organizing output for batch 1 of block 240
+2024-10-31 00:52:14 started extracting control observable for batch 1 of block 240
+2024-10-31 00:52:14 finished extracting control observable for batch 1 of block 240
+18.1068
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:52:21 started running block 241
+2024-10-31 00:52:21 started running batch 1 of block 241
+2024-10-31 00:54:51 finished running batch 1 of block 241
+2024-10-31 00:54:51 started organizing output for batch 1 of block 241
+2024-10-31 00:54:51 finished organizing output for batch 1 of block 241
+2024-10-31 00:54:51 started extracting control observable for batch 1 of block 241
+2024-10-31 00:54:51 finished extracting control observable for batch 1 of block 241
+18.2357
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:54:57 started running block 242
+2024-10-31 00:54:57 started running batch 1 of block 242
+2024-10-31 00:57:27 finished running batch 1 of block 242
+2024-10-31 00:57:27 started organizing output for batch 1 of block 242
+2024-10-31 00:57:27 finished organizing output for batch 1 of block 242
+2024-10-31 00:57:27 started extracting control observable for batch 1 of block 242
+2024-10-31 00:57:27 finished extracting control observable for batch 1 of block 242
+18.8924
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 00:57:34 started running block 243
+2024-10-31 00:57:34 started running batch 1 of block 243
+2024-10-31 01:00:04 finished running batch 1 of block 243
+2024-10-31 01:00:04 started organizing output for batch 1 of block 243
+2024-10-31 01:00:04 finished organizing output for batch 1 of block 243
+2024-10-31 01:00:04 started extracting control observable for batch 1 of block 243
+2024-10-31 01:00:04 finished extracting control observable for batch 1 of block 243
+18.6709
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:00:10 started running block 244
+2024-10-31 01:00:10 started running batch 1 of block 244
+2024-10-31 01:02:40 finished running batch 1 of block 244
+2024-10-31 01:02:40 started organizing output for batch 1 of block 244
+2024-10-31 01:02:40 finished organizing output for batch 1 of block 244
+2024-10-31 01:02:40 started extracting control observable for batch 1 of block 244
+2024-10-31 01:02:40 finished extracting control observable for batch 1 of block 244
+18.2976
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:02:47 started running block 245
+2024-10-31 01:02:47 started running batch 1 of block 245
+2024-10-31 01:05:15 finished running batch 1 of block 245
+2024-10-31 01:05:15 started organizing output for batch 1 of block 245
+2024-10-31 01:05:15 finished organizing output for batch 1 of block 245
+2024-10-31 01:05:15 started extracting control observable for batch 1 of block 245
+2024-10-31 01:05:15 finished extracting control observable for batch 1 of block 245
+18.6103
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:05:21 started running block 246
+2024-10-31 01:05:21 started running batch 1 of block 246
+2024-10-31 01:07:52 finished running batch 1 of block 246
+2024-10-31 01:07:52 started organizing output for batch 1 of block 246
+2024-10-31 01:07:52 finished organizing output for batch 1 of block 246
+2024-10-31 01:07:52 started extracting control observable for batch 1 of block 246
+2024-10-31 01:07:52 finished extracting control observable for batch 1 of block 246
+18.7462
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:07:59 started running block 247
+2024-10-31 01:07:59 started running batch 1 of block 247
+2024-10-31 01:10:29 finished running batch 1 of block 247
+2024-10-31 01:10:29 started organizing output for batch 1 of block 247
+2024-10-31 01:10:29 finished organizing output for batch 1 of block 247
+2024-10-31 01:10:29 started extracting control observable for batch 1 of block 247
+2024-10-31 01:10:29 finished extracting control observable for batch 1 of block 247
+18.1287
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:10:35 started running block 248
+2024-10-31 01:10:35 started running batch 1 of block 248
+2024-10-31 01:13:05 finished running batch 1 of block 248
+2024-10-31 01:13:05 started organizing output for batch 1 of block 248
+2024-10-31 01:13:06 finished organizing output for batch 1 of block 248
+2024-10-31 01:13:06 started extracting control observable for batch 1 of block 248
+2024-10-31 01:13:06 finished extracting control observable for batch 1 of block 248
+17.7637
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:13:12 started running block 249
+2024-10-31 01:13:12 started running batch 1 of block 249
+2024-10-31 01:15:40 finished running batch 1 of block 249
+2024-10-31 01:15:40 started organizing output for batch 1 of block 249
+2024-10-31 01:15:40 finished organizing output for batch 1 of block 249
+2024-10-31 01:15:40 started extracting control observable for batch 1 of block 249
+2024-10-31 01:15:40 finished extracting control observable for batch 1 of block 249
+17.8514
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:15:46 started running block 250
+2024-10-31 01:15:46 started running batch 1 of block 250
+2024-10-31 01:18:17 finished running batch 1 of block 250
+2024-10-31 01:18:17 started organizing output for batch 1 of block 250
+2024-10-31 01:18:17 finished organizing output for batch 1 of block 250
+2024-10-31 01:18:17 started extracting control observable for batch 1 of block 250
+2024-10-31 01:18:17 finished extracting control observable for batch 1 of block 250
+17.4541
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:18:23 started running block 251
+2024-10-31 01:18:23 started running batch 1 of block 251
+2024-10-31 01:20:54 finished running batch 1 of block 251
+2024-10-31 01:20:54 started organizing output for batch 1 of block 251
+2024-10-31 01:20:54 finished organizing output for batch 1 of block 251
+2024-10-31 01:20:54 started extracting control observable for batch 1 of block 251
+2024-10-31 01:20:54 finished extracting control observable for batch 1 of block 251
+17.2973
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:21:00 started running block 252
+2024-10-31 01:21:00 started running batch 1 of block 252
+2024-10-31 01:23:31 finished running batch 1 of block 252
+2024-10-31 01:23:31 started organizing output for batch 1 of block 252
+2024-10-31 01:23:31 finished organizing output for batch 1 of block 252
+2024-10-31 01:23:31 started extracting control observable for batch 1 of block 252
+2024-10-31 01:23:31 finished extracting control observable for batch 1 of block 252
+17.1358
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:23:38 started running block 253
+2024-10-31 01:23:38 started running batch 1 of block 253
+2024-10-31 01:26:19 finished running batch 1 of block 253
+2024-10-31 01:26:19 started organizing output for batch 1 of block 253
+2024-10-31 01:29:29 finished organizing output for batch 1 of block 253
+2024-10-31 01:29:29 started extracting control observable for batch 1 of block 253
+2024-10-31 01:29:30 finished extracting control observable for batch 1 of block 253
+17.6879
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:29:37 started running block 254
+2024-10-31 01:29:37 started running batch 1 of block 254
+2024-10-31 01:32:04 finished running batch 1 of block 254
+2024-10-31 01:32:04 started organizing output for batch 1 of block 254
+2024-10-31 01:32:04 finished organizing output for batch 1 of block 254
+2024-10-31 01:32:04 started extracting control observable for batch 1 of block 254
+2024-10-31 01:32:04 finished extracting control observable for batch 1 of block 254
+17.6582
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:32:10 started running block 255
+2024-10-31 01:32:10 started running batch 1 of block 255
+2024-10-31 01:34:40 finished running batch 1 of block 255
+2024-10-31 01:34:40 started organizing output for batch 1 of block 255
+2024-10-31 01:34:40 finished organizing output for batch 1 of block 255
+2024-10-31 01:34:40 started extracting control observable for batch 1 of block 255
+2024-10-31 01:34:40 finished extracting control observable for batch 1 of block 255
+16.9506
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:34:46 started running block 256
+2024-10-31 01:34:46 started running batch 1 of block 256
+2024-10-31 01:37:17 finished running batch 1 of block 256
+2024-10-31 01:37:17 started organizing output for batch 1 of block 256
+2024-10-31 01:37:17 finished organizing output for batch 1 of block 256
+2024-10-31 01:37:17 started extracting control observable for batch 1 of block 256
+2024-10-31 01:37:17 finished extracting control observable for batch 1 of block 256
+17.1764
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:37:23 started running block 257
+2024-10-31 01:37:23 started running batch 1 of block 257
+2024-10-31 01:39:54 finished running batch 1 of block 257
+2024-10-31 01:39:54 started organizing output for batch 1 of block 257
+2024-10-31 01:39:54 finished organizing output for batch 1 of block 257
+2024-10-31 01:39:54 started extracting control observable for batch 1 of block 257
+2024-10-31 01:39:54 finished extracting control observable for batch 1 of block 257
+16.9348
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:40:01 started running block 258
+2024-10-31 01:40:01 started running batch 1 of block 258
+2024-10-31 01:42:31 finished running batch 1 of block 258
+2024-10-31 01:42:31 started organizing output for batch 1 of block 258
+2024-10-31 01:42:31 finished organizing output for batch 1 of block 258
+2024-10-31 01:42:31 started extracting control observable for batch 1 of block 258
+2024-10-31 01:42:31 finished extracting control observable for batch 1 of block 258
+17.249
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:42:37 started running block 259
+2024-10-31 01:42:37 started running batch 1 of block 259
+2024-10-31 01:45:08 finished running batch 1 of block 259
+2024-10-31 01:45:08 started organizing output for batch 1 of block 259
+2024-10-31 01:45:08 finished organizing output for batch 1 of block 259
+2024-10-31 01:45:08 started extracting control observable for batch 1 of block 259
+2024-10-31 01:45:08 finished extracting control observable for batch 1 of block 259
+17.3383
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:45:15 started running block 260
+2024-10-31 01:45:15 started running batch 1 of block 260
+2024-10-31 01:47:45 finished running batch 1 of block 260
+2024-10-31 01:47:45 started organizing output for batch 1 of block 260
+2024-10-31 01:47:45 finished organizing output for batch 1 of block 260
+2024-10-31 01:47:45 started extracting control observable for batch 1 of block 260
+2024-10-31 01:47:45 finished extracting control observable for batch 1 of block 260
+16.9656
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:47:51 started running block 261
+2024-10-31 01:47:51 started running batch 1 of block 261
+2024-10-31 01:50:22 finished running batch 1 of block 261
+2024-10-31 01:50:22 started organizing output for batch 1 of block 261
+2024-10-31 01:50:22 finished organizing output for batch 1 of block 261
+2024-10-31 01:50:22 started extracting control observable for batch 1 of block 261
+2024-10-31 01:50:22 finished extracting control observable for batch 1 of block 261
+17.2983
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:50:28 started running block 262
+2024-10-31 01:50:28 started running batch 1 of block 262
+2024-10-31 01:52:55 finished running batch 1 of block 262
+2024-10-31 01:52:55 started organizing output for batch 1 of block 262
+2024-10-31 01:52:55 finished organizing output for batch 1 of block 262
+2024-10-31 01:52:55 started extracting control observable for batch 1 of block 262
+2024-10-31 01:52:55 finished extracting control observable for batch 1 of block 262
+17.5418
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:53:01 started running block 263
+2024-10-31 01:53:01 started running batch 1 of block 263
+2024-10-31 01:55:32 finished running batch 1 of block 263
+2024-10-31 01:55:32 started organizing output for batch 1 of block 263
+2024-10-31 01:55:32 finished organizing output for batch 1 of block 263
+2024-10-31 01:55:32 started extracting control observable for batch 1 of block 263
+2024-10-31 01:55:32 finished extracting control observable for batch 1 of block 263
+17.8755
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:55:38 started running block 264
+2024-10-31 01:55:38 started running batch 1 of block 264
+2024-10-31 01:58:09 finished running batch 1 of block 264
+2024-10-31 01:58:09 started organizing output for batch 1 of block 264
+2024-10-31 01:58:09 finished organizing output for batch 1 of block 264
+2024-10-31 01:58:09 started extracting control observable for batch 1 of block 264
+2024-10-31 01:58:09 finished extracting control observable for batch 1 of block 264
+17.779
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 01:58:16 started running block 265
+2024-10-31 01:58:16 started running batch 1 of block 265
+2024-10-31 02:00:46 finished running batch 1 of block 265
+2024-10-31 02:00:46 started organizing output for batch 1 of block 265
+2024-10-31 02:00:46 finished organizing output for batch 1 of block 265
+2024-10-31 02:00:46 started extracting control observable for batch 1 of block 265
+2024-10-31 02:00:47 finished extracting control observable for batch 1 of block 265
+17.1691
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:00:53 started running block 266
+2024-10-31 02:00:53 started running batch 1 of block 266
+2024-10-31 02:03:22 finished running batch 1 of block 266
+2024-10-31 02:03:22 started organizing output for batch 1 of block 266
+2024-10-31 02:03:22 finished organizing output for batch 1 of block 266
+2024-10-31 02:03:22 started extracting control observable for batch 1 of block 266
+2024-10-31 02:03:22 finished extracting control observable for batch 1 of block 266
+17.3696
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:03:29 started running block 267
+2024-10-31 02:03:29 started running batch 1 of block 267
+2024-10-31 02:05:59 finished running batch 1 of block 267
+2024-10-31 02:05:59 started organizing output for batch 1 of block 267
+2024-10-31 02:05:59 finished organizing output for batch 1 of block 267
+2024-10-31 02:05:59 started extracting control observable for batch 1 of block 267
+2024-10-31 02:05:59 finished extracting control observable for batch 1 of block 267
+16.7054
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:06:05 started running block 268
+2024-10-31 02:06:05 started running batch 1 of block 268
+2024-10-31 02:08:35 finished running batch 1 of block 268
+2024-10-31 02:08:35 started organizing output for batch 1 of block 268
+2024-10-31 02:08:35 finished organizing output for batch 1 of block 268
+2024-10-31 02:08:35 started extracting control observable for batch 1 of block 268
+2024-10-31 02:08:35 finished extracting control observable for batch 1 of block 268
+17.1803
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:08:42 started running block 269
+2024-10-31 02:08:42 started running batch 1 of block 269
+2024-10-31 02:11:12 finished running batch 1 of block 269
+2024-10-31 02:11:12 started organizing output for batch 1 of block 269
+2024-10-31 02:11:12 finished organizing output for batch 1 of block 269
+2024-10-31 02:11:12 started extracting control observable for batch 1 of block 269
+2024-10-31 02:11:12 finished extracting control observable for batch 1 of block 269
+17.6052
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:11:18 started running block 270
+2024-10-31 02:11:18 started running batch 1 of block 270
+2024-10-31 02:13:59 finished running batch 1 of block 270
+2024-10-31 02:13:59 started organizing output for batch 1 of block 270
+2024-10-31 02:17:19 finished organizing output for batch 1 of block 270
+2024-10-31 02:17:19 started extracting control observable for batch 1 of block 270
+2024-10-31 02:17:19 finished extracting control observable for batch 1 of block 270
+18.3931
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:17:25 started running block 271
+2024-10-31 02:17:25 started running batch 1 of block 271
+2024-10-31 02:19:53 finished running batch 1 of block 271
+2024-10-31 02:19:53 started organizing output for batch 1 of block 271
+2024-10-31 02:19:53 finished organizing output for batch 1 of block 271
+2024-10-31 02:19:53 started extracting control observable for batch 1 of block 271
+2024-10-31 02:19:53 finished extracting control observable for batch 1 of block 271
+18.4244
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:19:58 started running block 272
+2024-10-31 02:19:58 started running batch 1 of block 272
+2024-10-31 02:22:26 finished running batch 1 of block 272
+2024-10-31 02:22:26 started organizing output for batch 1 of block 272
+2024-10-31 02:22:26 finished organizing output for batch 1 of block 272
+2024-10-31 02:22:26 started extracting control observable for batch 1 of block 272
+2024-10-31 02:22:27 finished extracting control observable for batch 1 of block 272
+18.2112
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:22:33 started running block 273
+2024-10-31 02:22:33 started running batch 1 of block 273
+2024-10-31 02:25:04 finished running batch 1 of block 273
+2024-10-31 02:25:04 started organizing output for batch 1 of block 273
+2024-10-31 02:25:04 finished organizing output for batch 1 of block 273
+2024-10-31 02:25:04 started extracting control observable for batch 1 of block 273
+2024-10-31 02:25:04 finished extracting control observable for batch 1 of block 273
+18.5
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:25:11 started running block 274
+2024-10-31 02:25:11 started running batch 1 of block 274
+2024-10-31 02:27:42 finished running batch 1 of block 274
+2024-10-31 02:27:42 started organizing output for batch 1 of block 274
+2024-10-31 02:27:42 finished organizing output for batch 1 of block 274
+2024-10-31 02:27:42 started extracting control observable for batch 1 of block 274
+2024-10-31 02:27:42 finished extracting control observable for batch 1 of block 274
+18.2182
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:27:48 started running block 275
+2024-10-31 02:27:48 started running batch 1 of block 275
+2024-10-31 02:30:19 finished running batch 1 of block 275
+2024-10-31 02:30:19 started organizing output for batch 1 of block 275
+2024-10-31 02:30:19 finished organizing output for batch 1 of block 275
+2024-10-31 02:30:19 started extracting control observable for batch 1 of block 275
+2024-10-31 02:30:19 finished extracting control observable for batch 1 of block 275
+18.7022
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:30:25 started running block 276
+2024-10-31 02:30:25 started running batch 1 of block 276
+2024-10-31 02:32:54 finished running batch 1 of block 276
+2024-10-31 02:32:54 started organizing output for batch 1 of block 276
+2024-10-31 02:32:54 finished organizing output for batch 1 of block 276
+2024-10-31 02:32:54 started extracting control observable for batch 1 of block 276
+2024-10-31 02:32:54 finished extracting control observable for batch 1 of block 276
+18.5345
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:33:01 started running block 277
+2024-10-31 02:33:01 started running batch 1 of block 277
+2024-10-31 02:35:32 finished running batch 1 of block 277
+2024-10-31 02:35:32 started organizing output for batch 1 of block 277
+2024-10-31 02:35:32 finished organizing output for batch 1 of block 277
+2024-10-31 02:35:32 started extracting control observable for batch 1 of block 277
+2024-10-31 02:35:32 finished extracting control observable for batch 1 of block 277
+17.8451
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:35:38 started running block 278
+2024-10-31 02:35:38 started running batch 1 of block 278
+2024-10-31 02:38:09 finished running batch 1 of block 278
+2024-10-31 02:38:09 started organizing output for batch 1 of block 278
+2024-10-31 02:38:09 finished organizing output for batch 1 of block 278
+2024-10-31 02:38:09 started extracting control observable for batch 1 of block 278
+2024-10-31 02:38:09 finished extracting control observable for batch 1 of block 278
+17.5516
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:38:16 started running block 279
+2024-10-31 02:38:16 started running batch 1 of block 279
+2024-10-31 02:40:45 finished running batch 1 of block 279
+2024-10-31 02:40:45 started organizing output for batch 1 of block 279
+2024-10-31 02:40:45 finished organizing output for batch 1 of block 279
+2024-10-31 02:40:45 started extracting control observable for batch 1 of block 279
+2024-10-31 02:40:45 finished extracting control observable for batch 1 of block 279
+17.463
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:40:51 started running block 280
+2024-10-31 02:40:51 started running batch 1 of block 280
+2024-10-31 02:43:24 finished running batch 1 of block 280
+2024-10-31 02:43:24 started organizing output for batch 1 of block 280
+2024-10-31 02:43:24 finished organizing output for batch 1 of block 280
+2024-10-31 02:43:24 started extracting control observable for batch 1 of block 280
+2024-10-31 02:43:24 finished extracting control observable for batch 1 of block 280
+17.5811
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:43:31 started running block 281
+2024-10-31 02:43:31 started running batch 1 of block 281
+2024-10-31 02:46:02 finished running batch 1 of block 281
+2024-10-31 02:46:02 started organizing output for batch 1 of block 281
+2024-10-31 02:46:02 finished organizing output for batch 1 of block 281
+2024-10-31 02:46:02 started extracting control observable for batch 1 of block 281
+2024-10-31 02:46:02 finished extracting control observable for batch 1 of block 281
+17.1433
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:46:09 started running block 282
+2024-10-31 02:46:09 started running batch 1 of block 282
+2024-10-31 02:48:40 finished running batch 1 of block 282
+2024-10-31 02:48:40 started organizing output for batch 1 of block 282
+2024-10-31 02:48:41 finished organizing output for batch 1 of block 282
+2024-10-31 02:48:41 started extracting control observable for batch 1 of block 282
+2024-10-31 02:48:41 finished extracting control observable for batch 1 of block 282
+17.5334
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:48:47 started running block 283
+2024-10-31 02:48:47 started running batch 1 of block 283
+2024-10-31 02:51:15 finished running batch 1 of block 283
+2024-10-31 02:51:15 started organizing output for batch 1 of block 283
+2024-10-31 02:51:15 finished organizing output for batch 1 of block 283
+2024-10-31 02:51:15 started extracting control observable for batch 1 of block 283
+2024-10-31 02:51:15 finished extracting control observable for batch 1 of block 283
+17.4131
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:51:22 started running block 284
+2024-10-31 02:51:22 started running batch 1 of block 284
+2024-10-31 02:53:52 finished running batch 1 of block 284
+2024-10-31 02:53:52 started organizing output for batch 1 of block 284
+2024-10-31 02:53:52 finished organizing output for batch 1 of block 284
+2024-10-31 02:53:52 started extracting control observable for batch 1 of block 284
+2024-10-31 02:53:52 finished extracting control observable for batch 1 of block 284
+17.263
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:53:59 started running block 285
+2024-10-31 02:53:59 started running batch 1 of block 285
+2024-10-31 02:56:29 finished running batch 1 of block 285
+2024-10-31 02:56:29 started organizing output for batch 1 of block 285
+2024-10-31 02:56:29 finished organizing output for batch 1 of block 285
+2024-10-31 02:56:29 started extracting control observable for batch 1 of block 285
+2024-10-31 02:56:29 finished extracting control observable for batch 1 of block 285
+17.5649
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:56:35 started running block 286
+2024-10-31 02:56:35 started running batch 1 of block 286
+2024-10-31 02:59:06 finished running batch 1 of block 286
+2024-10-31 02:59:06 started organizing output for batch 1 of block 286
+2024-10-31 02:59:06 finished organizing output for batch 1 of block 286
+2024-10-31 02:59:06 started extracting control observable for batch 1 of block 286
+2024-10-31 02:59:06 finished extracting control observable for batch 1 of block 286
+17.8253
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 02:59:12 started running block 287
+2024-10-31 02:59:12 started running batch 1 of block 287
+2024-10-31 03:01:52 finished running batch 1 of block 287
+2024-10-31 03:01:52 started organizing output for batch 1 of block 287
+2024-10-31 03:05:09 finished organizing output for batch 1 of block 287
+2024-10-31 03:05:09 started extracting control observable for batch 1 of block 287
+2024-10-31 03:05:09 finished extracting control observable for batch 1 of block 287
+17.8496
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:05:17 started running block 288
+2024-10-31 03:05:17 started running batch 1 of block 288
+2024-10-31 03:07:43 finished running batch 1 of block 288
+2024-10-31 03:07:43 started organizing output for batch 1 of block 288
+2024-10-31 03:07:43 finished organizing output for batch 1 of block 288
+2024-10-31 03:07:43 started extracting control observable for batch 1 of block 288
+2024-10-31 03:07:43 finished extracting control observable for batch 1 of block 288
+17.776
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:07:49 started running block 289
+2024-10-31 03:07:49 started running batch 1 of block 289
+2024-10-31 03:10:16 finished running batch 1 of block 289
+2024-10-31 03:10:16 started organizing output for batch 1 of block 289
+2024-10-31 03:10:16 finished organizing output for batch 1 of block 289
+2024-10-31 03:10:16 started extracting control observable for batch 1 of block 289
+2024-10-31 03:10:16 finished extracting control observable for batch 1 of block 289
+17.7929
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:10:23 started running block 290
+2024-10-31 03:10:23 started running batch 1 of block 290
+2024-10-31 03:12:53 finished running batch 1 of block 290
+2024-10-31 03:12:53 started organizing output for batch 1 of block 290
+2024-10-31 03:12:53 finished organizing output for batch 1 of block 290
+2024-10-31 03:12:53 started extracting control observable for batch 1 of block 290
+2024-10-31 03:12:53 finished extracting control observable for batch 1 of block 290
+18.3239
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:13:00 started running block 291
+2024-10-31 03:13:00 started running batch 1 of block 291
+2024-10-31 03:15:31 finished running batch 1 of block 291
+2024-10-31 03:15:31 started organizing output for batch 1 of block 291
+2024-10-31 03:15:32 finished organizing output for batch 1 of block 291
+2024-10-31 03:15:32 started extracting control observable for batch 1 of block 291
+2024-10-31 03:15:32 finished extracting control observable for batch 1 of block 291
+18.2329
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:15:38 started running block 292
+2024-10-31 03:15:38 started running batch 1 of block 292
+2024-10-31 03:18:09 finished running batch 1 of block 292
+2024-10-31 03:18:09 started organizing output for batch 1 of block 292
+2024-10-31 03:18:09 finished organizing output for batch 1 of block 292
+2024-10-31 03:18:09 started extracting control observable for batch 1 of block 292
+2024-10-31 03:18:09 finished extracting control observable for batch 1 of block 292
+18.3212
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:18:16 started running block 293
+2024-10-31 03:18:16 started running batch 1 of block 293
+2024-10-31 03:20:46 finished running batch 1 of block 293
+2024-10-31 03:20:46 started organizing output for batch 1 of block 293
+2024-10-31 03:20:46 finished organizing output for batch 1 of block 293
+2024-10-31 03:20:46 started extracting control observable for batch 1 of block 293
+2024-10-31 03:20:46 finished extracting control observable for batch 1 of block 293
+17.982
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:20:52 started running block 294
+2024-10-31 03:20:52 started running batch 1 of block 294
+2024-10-31 03:23:22 finished running batch 1 of block 294
+2024-10-31 03:23:22 started organizing output for batch 1 of block 294
+2024-10-31 03:23:22 finished organizing output for batch 1 of block 294
+2024-10-31 03:23:22 started extracting control observable for batch 1 of block 294
+2024-10-31 03:23:22 finished extracting control observable for batch 1 of block 294
+17.8418
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:23:29 started running block 295
+2024-10-31 03:23:29 started running batch 1 of block 295
+2024-10-31 03:26:00 finished running batch 1 of block 295
+2024-10-31 03:26:00 started organizing output for batch 1 of block 295
+2024-10-31 03:26:00 finished organizing output for batch 1 of block 295
+2024-10-31 03:26:00 started extracting control observable for batch 1 of block 295
+2024-10-31 03:26:00 finished extracting control observable for batch 1 of block 295
+17.7002
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:26:06 started running block 296
+2024-10-31 03:26:06 started running batch 1 of block 296
+2024-10-31 03:28:35 finished running batch 1 of block 296
+2024-10-31 03:28:35 started organizing output for batch 1 of block 296
+2024-10-31 03:28:35 finished organizing output for batch 1 of block 296
+2024-10-31 03:28:35 started extracting control observable for batch 1 of block 296
+2024-10-31 03:28:35 finished extracting control observable for batch 1 of block 296
+17.1279
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:28:42 started running block 297
+2024-10-31 03:28:42 started running batch 1 of block 297
+2024-10-31 03:31:13 finished running batch 1 of block 297
+2024-10-31 03:31:13 started organizing output for batch 1 of block 297
+2024-10-31 03:31:13 finished organizing output for batch 1 of block 297
+2024-10-31 03:31:13 started extracting control observable for batch 1 of block 297
+2024-10-31 03:31:13 finished extracting control observable for batch 1 of block 297
+17.4525
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:31:20 started running block 298
+2024-10-31 03:31:20 started running batch 1 of block 298
+2024-10-31 03:33:51 finished running batch 1 of block 298
+2024-10-31 03:33:51 started organizing output for batch 1 of block 298
+2024-10-31 03:33:52 finished organizing output for batch 1 of block 298
+2024-10-31 03:33:52 started extracting control observable for batch 1 of block 298
+2024-10-31 03:33:52 finished extracting control observable for batch 1 of block 298
+17.1901
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:33:58 started running block 299
+2024-10-31 03:33:58 started running batch 1 of block 299
+2024-10-31 03:36:29 finished running batch 1 of block 299
+2024-10-31 03:36:29 started organizing output for batch 1 of block 299
+2024-10-31 03:36:30 finished organizing output for batch 1 of block 299
+2024-10-31 03:36:30 started extracting control observable for batch 1 of block 299
+2024-10-31 03:36:30 finished extracting control observable for batch 1 of block 299
+18.1112
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+2024-10-31 03:36:36 started running block 300
+2024-10-31 03:36:36 started running batch 1 of block 300
+2024-10-31 03:39:05 finished running batch 1 of block 300
+2024-10-31 03:39:05 started organizing output for batch 1 of block 300
+2024-10-31 03:39:06 finished organizing output for batch 1 of block 300
+2024-10-31 03:39:06 started extracting control observable for batch 1 of block 300
+2024-10-31 03:39:06 finished extracting control observable for batch 1 of block 300
+18.2458
+[1.]
+cdo    ml2pl (Warning): surface_geopotential not found - set to zero!
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/run_LD_amoc/PLASIM-large-dev_0001.log': No such file or directory

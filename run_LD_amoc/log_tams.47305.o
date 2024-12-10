@@ -1,0 +1,1124 @@
+tasks
+26
+mem-per-cpu
+5994
+/var/spool/slurm/slurmd/job47305/slurm_script: riga 97: /nethome/cini0001/PLASIM-TAMS/scorefunction/plasim/run/plasim_namelist: No such file or directory
+/var/spool/slurm/slurmd/job47305/slurm_script: riga 100: /nethome/cini0001/PLASIM-TAMS/scorefunction/plasim/run/radmod_namelist: No such file or directory
+cp: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/plasim/run/input_Angeloni': No such file or directory
+/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm
+2024-11-23 19:37:06 finished creating folders
+Skipped starting set, jumped to TAMS core!
+levels=256
+nc=26
+Q: [0.52454 0.63772 0.6011  0.56328 0.56987 0.73816 0.65089 0.51451 0.56838
+ 1.      0.57136 0.5515  0.5277  0.56696 1.      0.54939 0.5701  0.56433
+ 0.55504 0.52702 0.57446 0.60502 0.58618 0.58569 0.5631  0.5187  1.
+ 0.53112 0.52704 1.      0.5075  0.57034 1.      0.59136 0.61489 0.60665
+ 0.60507 0.54114 0.6075  0.60052 0.52333 0.59499 0.54828 0.53904 0.58599
+ 0.59605 1.      0.60042 0.57508 0.51826 0.77772 0.53314 0.51235 0.55442
+ 0.58713 0.52921 0.55564 0.58225 0.52018 1.      0.68625 0.51075 0.52321
+ 0.62202 0.81254 0.49918 0.58142 0.53046 0.65728 0.52048 0.56269 0.50214
+ 0.56945 0.52108 0.56966 0.51932 0.66036 1.      0.7424  0.56664 0.56982
+ 0.4882  1.      0.67233 1.      0.59424 0.53613 0.56948 0.52909 0.55656
+ 0.6022  0.54718 0.59676 0.78515 0.55924 0.612   0.66821 0.54516 1.
+ 0.5406  0.5257  0.59729 0.5753  0.59792 0.58782 0.58464 0.53598 0.47952
+ 1.      1.      0.54198 0.61314 1.      0.55949 0.50695 0.58192 0.6786
+ 0.56114 0.53703 0.50368 0.5296  0.61474 0.516   1.      0.51065 0.53417
+ 0.55842 0.5588  0.52926 0.63179 0.557   0.53797 0.56372 0.56828 1.
+ 0.58355 0.59326 0.56278 0.62083 0.56104 0.54136 0.54029 0.58436 0.51722
+ 0.57657 0.52738 1.      0.59766 0.54602 0.68951 0.5527  0.52918 0.57798
+ 0.70695 0.53052 0.6032  0.55106 0.54502 0.53989 0.56101 0.53275 0.63087
+ 0.5885  0.61413 0.54692 0.49544 0.57177 0.59254 1.      0.63916 0.60402
+ 0.58692 1.      0.55441 0.66322 0.53961 0.52377 0.49934 0.57976 0.49632
+ 0.57898 0.76536 0.55516 0.56154 0.59748 0.53606 0.54199 0.54948 0.61589
+ 0.49173 0.50192 0.59908 0.67301 0.50521 0.56228 0.5547  0.59294 0.56998
+ 0.59813 0.59442 0.6365  0.51484 0.58867 0.56828 0.55484 0.51207 0.53442
+ 0.53152 0.52418 0.49857 0.51674 0.49878 0.52272 0.49358 0.5922  1.
+ 0.62996 0.54164 0.52473 1.      0.56728 0.70075 0.54164 0.5043  1.
+ 0.47508 0.75479 0.64631 0.60186 0.58304 0.55216 0.52826 1.      0.62738
+ 0.64333 0.54853 1.      0.53265 0.55552 0.6482  0.51067 0.56018 0.49608
+ 0.56044 0.48174 0.51393 1.      0.55358 0.57075 0.49931 0.6028  0.57656
+ 1.      0.55186 0.62826 0.76127]
+idx: [ 31  53  62  66  72  82 108 115 120 125 166 178 180 190 191 194 206 210
+ 212 214 224 226 241 243 245 250]
+new_ind: [ 67  70 174  26  73 154 249  26  25  79 185 253  89 119  32  52 200  39
+ 168 228   7 223 179  59  59  23]
+restart: [15 83 37 34 26  7  8 34 45 26 21 13 20 34 24 28 82 14 33 35 74 24 48  7
+  7 11]
+oldind_ARRAY 31 53 62 66 72 82 108 115 120 125 166 178 180 190 191 194 206 210 212 214 224 226 241 243 245 250
+restart_ARRAY 15 83 37 34 26 7 8 34 45 26 21 13 20 34 24 28 82 14 33 35 74 24 48 7 7 11
+Levels 229
+Probability 0.8984375
+Successful_traj 26
+Nf: 26
+##################################   ITERATION NUMBER 1  #####################################
+2024-11-23 20:40:11 running 31 traj from 15
+2024-11-23 20:40:11 running 53 traj from 83
+2024-11-23 20:40:11 running 62 traj from 37
+2024-11-23 20:40:11 running 66 traj from 34
+2024-11-23 20:40:11 running 72 traj from 26
+2024-11-23 20:40:11 running 82 traj from 7
+2024-11-23 20:40:11 running 108 traj from 8
+2024-11-23 20:40:11 running 115 traj from 34
+2024-11-23 20:40:11 running 120 traj from 45
+2024-11-23 20:40:11 running 125 traj from 26
+2024-11-23 20:40:11 running 166 traj from 21
+2024-11-23 20:40:11 running 178 traj from 13
+2024-11-23 20:40:11 running 180 traj from 20
+2024-11-23 20:40:11 running 190 traj from 34
+2024-11-23 20:40:11 running 191 traj from 24
+2024-11-23 20:40:11 running 194 traj from 28
+2024-11-23 20:40:11 running 206 traj from 82
+2024-11-23 20:40:11 running 210 traj from 14
+2024-11-23 20:40:11 running 212 traj from 33
+2024-11-23 20:40:11 running 214 traj from 35
+2024-11-23 20:40:11 running 224 traj from 74
+2024-11-23 20:40:11 running 226 traj from 24
+2024-11-23 20:40:11 running 241 traj from 48
+2024-11-23 20:40:11 running 243 traj from 7
+2024-11-23 20:40:11 running 245 traj from 7
+2024-11-23 20:40:11 running 250 traj from 11
+2024-11-23 20:44:44 finished running block 84 of traj 53
+2024-11-23 20:44:46 finished running block 75 of traj 224
+2024-11-23 20:44:47 finished running block 36 of traj 214
+2024-11-23 20:44:51 finished running block 8 of traj 245
+2024-11-23 20:44:52 finished running block 25 of traj 226
+2024-11-23 20:44:56 finished running block 29 of traj 194
+2024-11-23 20:44:57 finished running block 46 of traj 120
+2024-11-23 20:44:57 finished running block 22 of traj 166
+2024-11-23 20:44:57 finished running block 14 of traj 178
+2024-11-23 20:44:57 finished running block 8 of traj 82
+2024-11-23 20:44:58 finished running block 15 of traj 210
+2024-11-23 20:44:58 finished running block 16 of traj 31
+2024-11-23 20:44:59 finished running block 27 of traj 125
+2024-11-23 20:44:59 finished running block 35 of traj 66
+2024-11-23 20:44:59 finished running block 34 of traj 212
+2024-11-23 20:44:59 finished running block 9 of traj 108
+2024-11-23 20:44:59 finished running block 21 of traj 180
+2024-11-23 20:45:00 finished running block 38 of traj 62
+2024-11-23 20:45:02 finished running block 25 of traj 191
+2024-11-23 20:45:03 finished running block 8 of traj 243
+2024-11-23 20:45:03 finished running block 27 of traj 72
+2024-11-23 20:45:05 finished running block 12 of traj 250
+2024-11-23 20:45:06 finished running block 35 of traj 115
+2024-11-23 20:45:07 finished running block 49 of traj 241
+2024-11-23 20:45:10 finished running block 35 of traj 190
+2024-11-23 20:45:10 finished running block 83 of traj 206
+The minimum restartvalue is 7
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0008/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0009/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0010/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0011/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0012/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0013/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0014/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0015/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0016/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0017/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0018/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0019/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0020/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0021/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0022/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0023/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0024/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0025/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0026/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0027/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0028/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0029/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0030/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0031/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0032/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0033/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0034/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0035/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0036/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0037/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0038/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0039/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0040/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0041/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0042/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0043/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0044/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0045/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0046/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0047/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0048/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0049/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0050/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0051/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0052/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0053/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0054/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0055/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0056/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0057/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0058/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0059/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0060/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0061/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0062/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0063/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0064/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0065/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0066/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0067/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0068/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0069/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0070/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0071/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0072/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0073/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0074/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0075/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0076/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0077/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0078/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0079/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0080/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0081/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0082/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0083/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0084/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0085/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0086/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0087/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0088/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0089/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0090/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0091/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0092/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0093/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0094/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0095/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0096/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0097/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0098/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0099/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0100/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0101/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0102/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0103/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0104/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0105/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0106/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0107/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0108/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0109/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0110/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0111/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0112/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0113/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0114/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0115/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0116/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0117/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0118/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0119/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0120/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0121/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0122/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0123/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0124/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0125/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0126/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0127/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0128/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0129/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0130/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0131/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0132/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0133/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0134/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0135/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0136/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0137/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0138/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0139/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0140/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0141/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0142/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0143/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0144/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0145/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0146/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0147/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0148/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0149/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0150/netcdf/*': No such file or directory
+Q: [0.52454 0.63772 0.6011  0.56328 0.56987 0.73816 0.65089 0.51451 0.56838
+ 1.      0.57136 0.5515  0.5277  0.56696 1.      0.54939 0.5701  0.56433
+ 0.55504 0.52702 0.57446 0.60502 0.58618 0.58569 0.5631  0.5187  1.
+ 0.53112 0.52704 1.      1.      0.57034 1.      0.59136 0.61489 0.60665
+ 0.60507 0.54114 0.6075  0.60052 0.52333 0.59499 0.54828 0.53904 0.58599
+ 0.59605 1.      0.60042 0.57508 0.51826 0.77772 0.53314 0.51263 0.55442
+ 0.58713 0.52921 0.55564 0.58225 0.52018 1.      0.68625 0.60951 0.52321
+ 0.62202 0.81254 0.52631 0.58142 0.53046 0.65728 0.52048 0.56269 0.57597
+ 0.56945 0.52108 0.56966 0.51932 0.66036 1.      0.7424  0.56664 0.56982
+ 0.5274  1.      0.67233 1.      0.59424 0.53613 0.56948 0.52909 0.55656
+ 0.6022  0.54718 0.59676 0.78515 0.55924 0.612   0.66821 0.54516 1.
+ 0.5406  0.5257  0.59729 0.5753  0.59792 0.58782 0.58464 0.53598 0.53471
+ 1.      1.      0.54198 0.61314 1.      0.55949 0.5217  0.58192 0.6786
+ 0.56114 0.53703 0.73694 0.5296  0.61474 0.516   1.      0.56061 0.53417
+ 0.55842 0.5588  0.52926 0.63179 0.557   0.53797 0.56372 0.56828 1.
+ 0.58355 0.59326 0.56278 0.62083 0.56104 0.54136 0.54029 0.58436 0.51722
+ 0.57657 0.52738 1.      0.59766 0.54602 0.68951 0.5527  0.52918 0.57798
+ 0.70695 0.53052 0.6032  0.55106 0.54502 0.53989 0.56101 0.53275 0.63087
+ 0.5885  0.61413 0.54692 0.51132 0.57177 0.59254 1.      0.63916 0.60402
+ 0.58692 1.      0.55441 0.66322 0.53961 0.52377 0.51232 0.57976 0.57008
+ 0.57898 0.76536 0.55516 0.56154 0.59748 0.53606 0.54199 0.54948 0.61589
+ 0.545   0.60886 0.59908 0.67301 0.55784 0.56228 0.5547  0.59294 0.56998
+ 0.59813 0.59442 0.6365  0.51484 0.58867 0.56828 0.55484 0.5723  0.53442
+ 0.53152 0.52418 0.55476 0.51674 0.54012 0.52272 0.51934 0.5922  1.
+ 0.62996 0.54164 0.52473 1.      0.56728 0.70075 0.54164 0.54158 1.
+ 0.49164 0.75479 0.64631 0.60186 0.58304 0.55216 0.52826 1.      0.62738
+ 0.64333 0.54853 1.      0.53265 0.55552 0.6482  0.51964 0.56018 0.52018
+ 0.56044 1.      0.51393 1.      0.55358 0.57075 0.58699 0.6028  0.57656
+ 1.      0.55186 0.62826 0.76127]
+idx: [  1   8  26  41  50  53  59  63  70  74  76 115 123 144 166 177 178 202
+ 209 211 213 214 219 226 241 243 246]
+new_ind: [ 44  22 222  32 192 189 104  79 139 154 218  85 207 148  27 150  16 130
+  49  81 192  69  98 146 113  35 172]
+restart: [ 14  16  24  24  53  25  27  26  61  25  60  15  81  56  34  28  46  38
+  20  46  53  21 113  12  21  29 150]
+oldind_ARRAY 1 8 26 41 50 53 59 63 70 74 76 115 123 144 166 177 178 202 209 211 213 214 219 226 241 243 246
+restart_ARRAY 14 16 24 24 53 25 27 26 61 25 60 15 81 56 34 28 46 38 20 46 53 21 113 12 21 29 150
+Levels 226
+Probability 0.803680419921875
+Successful_traj 28
+Nf: 28
+##################################   ITERATION NUMBER 2  #####################################
+2024-11-24 08:05:46 running 1 traj from 14
+2024-11-24 08:05:46 running 8 traj from 16
+2024-11-24 08:05:46 running 26 traj from 24
+2024-11-24 08:05:46 running 41 traj from 24
+2024-11-24 08:05:46 running 50 traj from 53
+2024-11-24 08:05:46 running 53 traj from 25
+2024-11-24 08:05:46 running 59 traj from 27
+2024-11-24 08:05:46 running 63 traj from 26
+2024-11-24 08:05:46 running 70 traj from 61
+2024-11-24 08:05:46 running 74 traj from 25
+2024-11-24 08:05:46 running 76 traj from 60
+2024-11-24 08:05:46 running 115 traj from 15
+2024-11-24 08:05:46 running 123 traj from 81
+2024-11-24 08:05:46 running 144 traj from 56
+2024-11-24 08:05:46 running 166 traj from 34
+2024-11-24 08:05:46 running 177 traj from 28
+2024-11-24 08:05:46 running 178 traj from 46
+2024-11-24 08:05:46 running 202 traj from 38
+2024-11-24 08:05:46 running 209 traj from 20
+2024-11-24 08:05:46 running 211 traj from 46
+2024-11-24 08:05:46 running 213 traj from 53
+2024-11-24 08:05:46 running 214 traj from 21
+2024-11-24 08:05:46 running 219 traj from 113
+2024-11-24 08:05:46 running 226 traj from 12
+2024-11-24 08:05:46 running 241 traj from 21
+2024-11-24 08:05:46 running 243 traj from 29
+2024-11-24 08:05:46 running 246 traj from 150
+2024-11-24 08:10:18 finished running block 22 of traj 214
+2024-11-24 08:10:22 finished running block 114 of traj 219
+2024-11-24 08:10:23 finished running block 13 of traj 226
+2024-11-24 08:10:24 finished running block 30 of traj 243
+2024-11-24 08:10:27 finished running block 35 of traj 166
+2024-11-24 08:10:29 finished running block 26 of traj 74
+2024-11-24 08:10:29 finished running block 25 of traj 26
+2024-11-24 08:10:31 finished running block 62 of traj 70
+2024-11-24 08:10:32 finished running block 61 of traj 76
+2024-11-24 08:10:32 finished running block 22 of traj 241
+2024-11-24 08:10:33 finished running block 16 of traj 115
+2024-11-24 08:10:34 finished running block 54 of traj 213
+2024-11-24 08:10:35 finished running block 21 of traj 209
+2024-11-24 08:10:36 finished running block 47 of traj 211
+2024-11-24 08:10:37 finished running block 26 of traj 53
+2024-11-24 08:10:37 finished running block 15 of traj 1
+2024-11-24 08:10:37 finished running block 47 of traj 178
+2024-11-24 08:10:38 finished running block 29 of traj 177
+2024-11-24 08:10:39 finished running block 57 of traj 144
+2024-11-24 08:10:39 finished running block 28 of traj 59
+2024-11-24 08:10:40 finished running block 17 of traj 8
+2024-11-24 08:10:41 finished running block 27 of traj 63
+2024-11-24 08:10:42 finished running block 39 of traj 202
+2024-11-24 08:10:42 finished running block 54 of traj 50
+2024-11-24 08:10:45 finished running block 25 of traj 41
+2024-11-24 08:10:49 finished running block 82 of traj 123
+The minimum restartvalue is 12
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0013/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0014/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0015/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0016/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0017/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0018/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0019/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0020/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0021/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0022/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0023/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0024/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0025/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0026/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0027/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0028/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0029/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0030/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0031/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0032/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0033/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0034/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0035/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0036/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0037/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0038/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0039/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0040/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0041/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0042/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0043/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0044/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0045/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0046/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0047/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0048/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0049/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0050/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0051/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0052/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0053/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0054/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0055/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0056/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0057/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0058/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0059/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0060/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0061/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0062/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0063/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0064/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0065/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0066/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0067/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0068/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0069/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0070/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0071/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0072/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0073/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0074/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0075/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0076/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0077/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0078/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0079/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0080/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0081/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0082/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0083/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0084/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0085/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0086/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0087/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0088/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0089/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0090/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0091/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0092/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0093/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0094/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0095/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0096/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0097/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0098/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0099/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0100/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0101/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0102/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0103/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0104/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0105/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0106/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0107/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0108/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0109/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0110/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0111/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0112/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0113/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0114/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0115/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0116/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0117/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0118/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0119/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0120/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0121/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0122/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0123/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0124/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0125/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0126/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0127/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0128/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0129/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0130/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0131/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0132/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0133/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0134/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0135/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0136/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0137/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0138/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0139/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0140/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0141/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0142/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0143/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0144/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0145/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0146/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0147/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0148/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0149/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0150/netcdf/*': No such file or directory
+Q: [0.55738 0.63772 0.6011  0.56328 0.56987 0.73816 0.65089 0.60384 0.56838
+ 1.      0.57136 0.5515  0.5277  0.56696 1.      0.54939 0.5701  0.56433
+ 0.55504 0.52702 0.57446 0.60502 0.58618 0.58569 0.5631  1.      1.
+ 0.53112 0.52704 1.      1.      0.57034 1.      0.59136 0.61489 0.60665
+ 0.60507 0.54114 0.6075  0.60052 1.      0.59499 0.54828 0.53904 0.58599
+ 0.59605 1.      0.60042 0.57508 0.60336 0.77772 0.53314 0.64054 0.55442
+ 0.58713 0.52921 0.55564 0.58225 0.6255  1.      0.68625 0.60951 0.57249
+ 0.62202 0.81254 0.52631 0.58142 0.53046 0.65728 0.99911 0.56269 0.57597
+ 0.56945 0.90974 0.56966 0.54164 0.66036 1.      0.7424  0.56664 0.56982
+ 0.5274  1.      0.67233 1.      0.59424 0.53613 0.56948 0.52909 0.55656
+ 0.6022  0.54718 0.59676 0.78515 0.55924 0.612   0.66821 0.54516 1.
+ 0.5406  0.5257  0.59729 0.5753  0.59792 0.58782 0.58464 0.53598 0.53471
+ 1.      1.      0.54198 0.61314 1.      0.55949 1.      0.58192 0.6786
+ 0.56114 0.53703 0.73694 0.5296  0.61474 0.63446 1.      0.56061 0.53417
+ 0.55842 0.5588  0.52926 0.63179 0.557   0.53797 0.56372 0.56828 1.
+ 0.58355 0.59326 0.56278 0.62083 0.56104 0.54136 0.54029 0.58436 0.56403
+ 0.57657 0.52738 1.      0.59766 0.54602 0.68951 0.5527  0.52918 0.57798
+ 0.70695 0.53052 0.6032  0.55106 0.54502 0.53989 0.56101 0.53275 0.63087
+ 0.5885  0.61413 0.54692 0.66331 0.57177 0.59254 1.      0.63916 0.60402
+ 0.58692 1.      0.55441 0.66322 0.53961 0.61765 0.54855 0.57976 0.57008
+ 0.57898 0.76536 0.55516 0.56154 0.59748 0.53606 0.54199 0.54948 0.61589
+ 0.545   0.60886 0.59908 0.67301 0.55784 0.56228 0.5547  0.59294 0.56998
+ 0.59813 0.59442 0.6365  0.57441 0.58867 0.56828 0.55484 0.5723  0.53442
+ 0.53152 0.54705 0.55476 0.56982 0.54012 0.53102 0.5511  0.5922  1.
+ 0.62996 0.54164 0.54516 1.      0.56728 0.70075 0.54164 0.54158 1.
+ 0.53015 0.75479 0.64631 0.60186 0.58304 0.55216 0.52826 1.      0.62738
+ 0.64333 0.54853 1.      0.53265 0.55552 0.6482  0.53461 0.56018 0.56575
+ 0.56044 1.      0.58692 1.      0.55358 0.57075 0.58699 0.6028  0.57656
+ 1.      0.55186 0.62826 0.76127]
+idx: [ 13  20  28  29  52  56  66  68  82  89 101 108 121 126 129 146 152 155
+ 161 207 208 213 226 232 238 241]
+new_ind: [127  99 116  60 102 183  59 153  54 122  46 251 220  79 170  65 235 119
+   4  73 206  17  51 193  77 183]
+restart: [ 36  50  77  19  33  32  27  23  27  48  49  67  57  28  43  87  53  34
+ 110  35  82  94  32  30  91  32]
+oldind_ARRAY 13 20 28 29 52 56 66 68 82 89 101 108 121 126 129 146 152 155 161 207 208 213 226 232 238 241
+restart_ARRAY 36 50 77 19 33 32 27 23 27 48 49 67 57 28 43 87 53 34 110 35 82 94 32 30 91 32
+Levels 220
+Probability 0.7220566272735596
+Successful_traj 31
+Nf: 31
+##################################   ITERATION NUMBER 3  #####################################
+2024-11-24 18:55:39 running 13 traj from 36
+2024-11-24 18:55:39 running 20 traj from 50
+2024-11-24 18:55:39 running 28 traj from 77
+2024-11-24 18:55:39 running 29 traj from 19
+2024-11-24 18:55:39 running 52 traj from 33
+2024-11-24 18:55:39 running 56 traj from 32
+2024-11-24 18:55:39 running 66 traj from 27
+2024-11-24 18:55:39 running 68 traj from 23
+2024-11-24 18:55:39 running 82 traj from 27
+2024-11-24 18:55:39 running 89 traj from 48
+2024-11-24 18:55:39 running 101 traj from 49
+2024-11-24 18:55:39 running 108 traj from 67
+2024-11-24 18:55:39 running 121 traj from 57
+2024-11-24 18:55:39 running 126 traj from 28
+2024-11-24 18:55:39 running 129 traj from 43
+2024-11-24 18:55:39 running 146 traj from 87
+2024-11-24 18:55:39 running 152 traj from 53
+2024-11-24 18:55:39 running 155 traj from 34
+2024-11-24 18:55:39 running 161 traj from 110
+2024-11-24 18:55:39 running 207 traj from 35
+2024-11-24 18:55:39 running 208 traj from 82
+2024-11-24 18:55:39 running 213 traj from 94
+2024-11-24 18:55:39 running 226 traj from 32
+2024-11-24 18:55:39 running 232 traj from 30
+2024-11-24 18:55:39 running 238 traj from 91
+2024-11-24 18:55:39 running 241 traj from 32
+2024-11-24 19:00:17 finished running block 44 of traj 129
+2024-11-24 19:00:18 finished running block 50 of traj 101
+2024-11-24 19:00:19 finished running block 33 of traj 241
+2024-11-24 19:00:20 finished running block 111 of traj 161
+2024-11-24 19:00:21 finished running block 35 of traj 155
+2024-11-24 19:00:21 finished running block 28 of traj 82
+2024-11-24 19:00:22 finished running block 29 of traj 126
+2024-11-24 19:00:24 finished running block 49 of traj 89
+2024-11-24 19:00:27 finished running block 20 of traj 29
+2024-11-24 19:00:27 finished running block 36 of traj 207
+2024-11-24 19:00:28 finished running block 33 of traj 56
+2024-11-24 19:00:28 finished running block 31 of traj 232
+2024-11-24 19:00:29 finished running block 78 of traj 28
+2024-11-24 19:00:29 finished running block 68 of traj 108
+2024-11-24 19:00:29 finished running block 54 of traj 152
+2024-11-24 19:00:29 finished running block 58 of traj 121
+2024-11-24 19:00:30 finished running block 88 of traj 146
+2024-11-24 19:00:30 finished running block 95 of traj 213
+2024-11-24 19:00:30 finished running block 24 of traj 68
+2024-11-24 19:00:31 finished running block 92 of traj 238
+2024-11-24 19:00:31 finished running block 34 of traj 52
+2024-11-24 19:00:31 finished running block 83 of traj 208
+2024-11-24 19:00:32 finished running block 51 of traj 20
+2024-11-24 19:00:32 finished running block 33 of traj 226
+2024-11-24 19:00:33 finished running block 37 of traj 13
+2024-11-24 19:00:34 finished running block 28 of traj 66
+The minimum restartvalue is 19
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0020/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0021/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0022/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0023/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0024/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0025/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0026/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0027/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0028/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0029/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0030/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0031/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0032/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0033/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0034/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0035/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0036/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0037/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0038/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0039/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0040/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0041/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0042/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0043/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0044/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0045/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0046/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0047/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0048/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0049/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0050/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0051/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0052/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0053/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0054/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0055/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0056/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0057/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0058/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0059/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0060/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0061/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0062/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0063/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0064/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0065/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0066/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0067/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0068/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0069/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0070/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0071/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0072/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0073/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0074/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0075/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0076/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0077/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0078/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0079/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0080/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0081/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0082/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0083/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0084/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0085/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0086/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0087/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0088/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0089/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0090/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0091/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0092/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0093/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0094/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0095/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0096/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0097/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0098/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0099/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0100/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0101/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0102/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0103/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0104/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0105/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0106/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0107/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0108/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0109/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0110/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0111/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0112/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0113/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0114/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0115/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0116/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0117/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0118/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0119/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0120/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0121/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0122/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0123/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0124/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0125/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0126/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0127/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0128/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0129/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0130/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0131/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0132/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0133/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0134/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0135/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0136/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0137/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0138/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0139/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0140/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0141/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0142/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0143/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0144/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0145/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0146/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0147/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0148/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0149/netcdf/*': No such file or directory
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm/data/block_0150/netcdf/*': No such file or directory
+Not enough time for another cycle. Exiting.
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/run_LD_amoc/log_tams.%j.o': No such file or directory

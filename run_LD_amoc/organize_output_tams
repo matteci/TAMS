@@ -43,7 +43,7 @@ mv ${runexpdir}/${runtrajdir}/plasim_diag ${diagexpdir}/${blockdir}/${diagname}
 
 cp ${runexpdir}/${runtrajdir}/plasim_status ${initexpdir}/${nextblockdir}/${initname}
 cp ${runexpdir}/${runtrajdir}/kleiin1 ${initexpdir}/${nextblockdir}/${lsginitname}
-mv ${runexpdir}/${runtrajdir}/plasim_status ${restexpdir}/${blockdir}/${restname}
-mv ${runexpdir}/${runtrajdir}/kleiin1 ${restexpdir}/${blockdir}/${lsgrestname}
-mv ${runexpdir}/${runtrajdir}/mat77 ${restexpdir}/${blockdir}/.
-cp ${runexpdir}/${runtrajdir}/kleiswi ${restexpdir}/${blockdir}/.
+#mv ${runexpdir}/${runtrajdir}/plasim_status ${restexpdir}/${blockdir}/${restname}
+#mv ${runexpdir}/${runtrajdir}/kleiin1 ${restexpdir}/${blockdir}/${lsgrestname}
+#mv ${runexpdir}/${runtrajdir}/mat77 ${restexpdir}/${blockdir}/.
+#cp ${runexpdir}/${runtrajdir}/kleiswi ${restexpdir}/${blockdir}/.

@@ -1,0 +1,208 @@
+tasks
+26
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/scorefunction/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0350_r2_600ppm
+2024-11-30 17:45:40 finished creating folders
+Skipped starting set, jumped to TAMS core!
+Nf: 31
+##################################   ITERATION NUMBER 1  #####################################
+2024-11-30 17:45:50 running 13 traj from 34
+2024-11-30 17:45:50 running 20 traj from 67
+2024-11-30 17:45:50 running 28 traj from 46
+2024-11-30 17:45:50 running 29 traj from 62
+2024-11-30 17:45:50 running 52 traj from 142
+2024-11-30 17:45:50 running 56 traj from 27
+2024-11-30 17:45:50 running 68 traj from 20
+2024-11-30 17:45:50 running 82 traj from 29
+2024-11-30 17:45:50 running 89 traj from 77
+2024-11-30 17:45:50 running 121 traj from 33
+2024-11-30 17:45:50 running 125 traj from 43
+2024-11-30 17:45:50 running 126 traj from 25
+2024-11-30 17:45:50 running 129 traj from 110
+2024-11-30 17:45:50 running 146 traj from 34
+2024-11-30 17:45:50 running 152 traj from 44
+2024-11-30 17:45:50 running 155 traj from 24
+2024-11-30 17:45:50 running 161 traj from 51
+2024-11-30 17:45:51 running 177 traj from 110
+2024-11-30 17:45:51 running 180 traj from 68
+2024-11-30 17:45:51 running 190 traj from 53
+2024-11-30 17:45:51 running 194 traj from 57
+2024-11-30 17:45:51 running 202 traj from 38
+2024-11-30 17:45:51 running 207 traj from 60
+2024-11-30 17:45:51 running 208 traj from 15
+2024-11-30 17:45:51 running 214 traj from 29
+2024-11-30 17:45:51 running 224 traj from 66
+2024-11-30 17:45:51 running 232 traj from 21
+2024-11-30 17:45:51 running 238 traj from 12
+2024-11-30 17:45:51 running 246 traj from 18
+2024-11-30 17:49:45 finished running block 78 of traj 89
+2024-11-30 17:49:46 finished running block 111 of traj 129
+2024-11-30 17:49:49 finished running block 26 of traj 126
+2024-11-30 17:49:50 finished running block 35 of traj 13
+2024-11-30 17:49:52 finished running block 39 of traj 202
+2024-11-30 17:49:53 finished running block 45 of traj 152
+2024-11-30 17:50:06 finished running block 54 of traj 190
+2024-11-30 17:50:10 finished running block 34 of traj 121
+2024-11-30 17:50:14 finished running block 21 of traj 68
+2024-11-30 17:50:16 finished running block 63 of traj 29
+2024-11-30 17:50:18 finished running block 61 of traj 207
+2024-11-30 17:50:19 finished running block 67 of traj 224
+2024-11-30 17:50:21 finished running block 28 of traj 56
+2024-11-30 17:50:24 finished running block 44 of traj 125
+2024-11-30 17:50:30 finished running block 143 of traj 52
+2024-11-30 17:50:35 finished running block 58 of traj 194
+2024-11-30 17:50:35 finished running block 35 of traj 146
+2024-11-30 17:50:39 finished running block 30 of traj 214
+2024-11-30 17:50:49 finished running block 13 of traj 238
+2024-11-30 17:50:51 finished running block 68 of traj 20
+2024-11-30 17:51:05 finished running block 47 of traj 28
+2024-11-30 17:51:16 finished running block 69 of traj 180
+2024-11-30 17:51:16 finished running block 25 of traj 155
+2024-11-30 17:51:24 finished running block 16 of traj 208
+2024-11-30 17:51:55 finished running block 30 of traj 82
+2024-11-30 17:52:33 finished running block 22 of traj 232
+2024-11-30 17:54:03 finished running block 19 of traj 246
+2024-11-30 17:54:10 finished running block 52 of traj 161
+2024-11-30 17:54:11 finished running block 111 of traj 177
+The minimum restartvalue is 12
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+/var/spool/slurm/slurmd/job47593/slurm_script: riga 489: errore di sintassi vicino al token non atteso "done"
+/var/spool/slurm/slurmd/job47593/slurm_script: riga 489: `done'

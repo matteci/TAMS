@@ -1,26 +1,31 @@
 #!/bin/bash -l
 #
 #SBATCH -J testraePL              # the name of your job   
-#SBATCH -p short            # request the short partition, job takes less than 3 hours  
+#SBATCH -p normal            # request the short partition, job takes less than 3 hours  
 #SBATCH -t 3:00:00          # time in hh:mm:ss you want to reserve for the job
-#SBATCH -n 18               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
+#SBATCH -n 10               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
 #SBATCH -o log_him.%j.o     # the name of the file where the standard output will be written to. %j will be the jobid determined by SLURM
-#SBATCH -e log_him.%j.e     # the name of the file where potential errors will be written to. %j will be the jobid determined by SLURM
+#SBATCH -e log_him.%j.o     # the name of the file where potential errors will be written to. %j will be the jobid determined by SLURM
 
 ##### LOAD PYTHON VIRTUAL ENVIRONMENT WITH MODULES: numpy, math, netCDF4
 #source $HOME/my_venv/bin/activate
 
 
-source /opt/apps/miniconda3/etc/profile.d/conda.sh
+#source /opt/apps/miniconda3/etc/profile.d/conda.sh
 
 # Activate the Conda environment
-conda activate myenv
+conda deactivate
 
-env > env_output.txt
-
-module purge 
+# Load necessary modules
+module purge
+#module load mpi/latest  # Load the Intel MPI module
 #module load cdo
 #module load netCDF/GCC
+#unset I_MPI_PMI_LIBRARY
+
+#export I_MPI_DEBUG=5
+
+#which mpirun
 
 #module show cdo
  
@@ -32,7 +37,7 @@ expname="AMOC_LD_VARNAME_pos"
 newexperiment=1     # 1: nuovo
 resty=2480
 initblock=1        # block è periodo lungo come resampling. 
-endblock=15        # ultimo blocco: ti definisce lunghezza integrazione
+endblock=3        # ultimo blocco: ti definisce lunghezza integrazione
 force=0           # sovrascrittura delle cartelle di output
 light=1           # light postprocessing as defined in postpro_light.sh
 
@@ -44,7 +49,7 @@ varname='amoc'    #variabile usata per resampling
 domain='DIAG'     # domain in PLASIM output of varname
 
 resamplingname='resampling_Amoc.py'   # file che fa il resampling
-ntrajs=10
+ntrajs=20
 k=0
 NMonths=12     # length resampling block
 NDays=0      # length resampling block
@@ -59,7 +64,7 @@ nparallel=1 # cores usati da PLASIM. with nparallel=2 there are memory problems,
 #
 # Directory names
 scriptdir=`pwd`
-homedir='/nethome/cini0001/PLASIM-TAMS/PLASIM_LSG_CO2-master'
+homedir='/nethome/cini0001/PLASIM-TAMS'
 modeldir=${homedir}/plasim/run # cartella con eseguibili di PLASIM compilato per processori con namelist etc
 modelname=`printf 'most_plasim_t21_l10_p%d.x' ${nparallel}` # nome eseguibile
 # 
@@ -67,7 +72,7 @@ modelname=`printf 'most_plasim_t21_l10_p%d.x' ${nparallel}` # nome eseguibile
 debug=0
 #
 # Restart file info (if new experiment)
-sourcerestdir=/nethome/cini0001/PLASIM-TAMS/PLASIM_LSG_CO2-master/restart/
+sourcerestdir=/nethome/cini0001/PLASIM-TAMS/restart/
 plasimrestname=l207_REST.${resty}
 lsgrestname=l207_LSGREST.${resty}
 #
@@ -262,9 +267,10 @@ do
       cp ${initexpdir}/${blockdir}/${lsginitname} ${runexpdir}/${runtrajdir}/kleiin1     # impostalo come restart
       
       cd ${runexpdir}/${runtrajdir}
-#      srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=${nparallel} --mem=${mem} ${modelname} & # fai partire modello
+ #      mpirun  -n ${nparallel} ${modelname} &
+	#srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=${nparallel} --mem=${mem} ${modelname} & # fai partire modello
       ./${modelname} & # fai partire modello
-
+      
       if [ ${debug} -eq 1 ]; then echo "$(date +"%Y-%m-%d %T") started traj ${traj}"; fi
       traj=`expr ${traj} + 1`
     done
@@ -285,8 +291,8 @@ do
     while [ ${traj} -le ${endtraj} ]
     do
       trajrun=`expr ${batch} - 1`; trajrun=`expr ${trajrun} \* ${ntrajsperbatch}`; trajrun=`expr ${traj} - ${trajrun}`;
-      ./${organizename} ${expdir} ${expname} ${trajrun} ${traj} ${block} & 
-      #      srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=1 --mem=${mem} ./${organizename} ${expdir} ${expname} ${trajrun} ${traj} ${block} & # sottomette per organizzare output dei runs
+     ./${organizename} ${expdir} ${expname} ${trajrun} ${traj} ${block} & 
+     #       srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=1 --mem=${mem} ./${organizename} ${expdir} ${expname} ${trajrun} ${traj} ${block} & # sottomette per organizzare output dei runs
       if [ ${debug} -eq 1 ]; then echo "$(date +"%Y-%m-%d %T") started organizing output of traj ${traj} of block ${block}"; fi
       traj=`expr $traj + 1`
     done

@@ -1,0 +1,11 @@
+tasks
+26
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0990_r2_500ppm
+2024-11-23 19:39:39 finished creating folders
+Skipped starting set, jumped to TAMS core!
+levels=256
+nc=26
+External stop flag detected. Exiting after current iteration.
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/run_LD_amoc/log_tams.%j.o': No such file or directory

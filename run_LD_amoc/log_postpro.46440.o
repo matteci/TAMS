@@ -1,0 +1,154 @@
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0990_r2_500ppm
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+cdo(1) selname (Warning): Variable name psi not found!
+cdo(1) selname (Warning): Variable name fluwat not found!
+cdo(1) selname (Warning): Variable name utot not found!
+cdo(1) selname (Warning): Variable name vtot not found!
+cdo(1) selname (Warning): Variable name convad not found!
+cdo(1) selname (Warning): Variable name s not found!
+cdo(1) selname (Warning): Variable name t not found!
+cdo(1) selname (Warning): Variable name w not found!
+
+cdo(1) selname (Abort): No variables selected!
+cdo(1) selname (Warning): Variable name psi not found!
+cdo(1) selname (Warning): Variable name fluwat not found!
+cdo(1) selname (Warning): Variable name utot not found!
+cdo(1) selname (Warning): Variable name vtot not found!
+cdo(1) selname (Warning): Variable name convad not found!
+cdo(1) selname (Warning): Variable name s not found!
+cdo(1) selname (Warning): Variable name t not found!
+cdo(1) selname (Warning): Variable name w not found!
+
+cdo(1) selname (Abort): No variables selected!
+cdo(1) selname (Warning): Variable name psi not found!
+cdo(1) selname (Warning): Variable name fluwat not found!
+cdo(1) selname (Warning): Variable name utot not found!
+cdo(1) selname (Warning): Variable name vtot not found!
+cdo(1) selname (Warning): Variable name convad not found!
+cdo(1) selname (Warning): Variable name s not found!
+cdo(1) selname (Warning): Variable name t not found!
+cdo(1) selname (Warning): Variable name w not found!
+
+cdo(1) selname (Abort): No variables selected!
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0990_r2_500ppm/data/block_0127/*.nc': No such file or directory
+mv: impossibile eseguire stat di '/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0990_r2_500ppm/data/block_0127/netcdf/*': No such file or directory

@@ -2,8 +2,8 @@
 #
 #SBATCH -J initTAMS              # the name of your job   
 #SBATCH -p normal            # request the short partition, job takes less than 3 hours  
-#SBATCH -t 10:00:00          # time in dd-hh:mm:ss you want to reserve for the job
-#SBATCH -n 50               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
+#SBATCH -t 8:00:00          # time in dd-hh:mm:ss you want to reserve for the job
+#SBATCH -n 64               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
 #SBATCH -o log_inittams.%j.o     # the name of the file where the standard output will be written to. %j will be the jobid determined by SLURM
 #SBATCH -e log_inittams.%j.o     # the name of the file where potential errors will be written to. %j will be the jobid determined by SLURM
 
@@ -35,30 +35,30 @@ nameThisFile='Lorenz_TAMS_plasim'
 expname="TAMS_VARNAME"
 #
 # Parameters controlling length of experiment<
-newexperiment=1     # 1: nuovo 0: esperimento che ha già calcolato il set di base  othervalues: dovrebbe non ricreare le cartelle ma ricalcolare tutti gli anni di simulazioni (comunque sconsigliato perchè il noise non riparte!
-resty=0990
-initblock=1        # block è periodo lungo come resampling. 
-endblock=120        # ultimo blocco: ti definisce lunghezza integrazione
+newexperiment=0     # 1: nuovo 0: esperimento che ha già calcolato il set di base  othervalues: dovrebbe non ricreare le cartelle ma ricalcolare tutti gli anni di simulazioni (comunque sconsigliato perchè il noise non riparte!
+resty=0200
+initblock=14        # block è periodo lungo come resampling. 
+endblock=150        # ultimo blocco: ti definisce lunghezza integrazione
 force=0           # sovrascrittura delle cartelle di output
 light=1           # light postprocessing as defined in postpro_light.sh
 
 #Parameters controlling climate mean state
-CO2=500 #at the moment not updated
+co2=400 #at the moment not updated
 
 # Parameters controlling resampling, observable and weights
 varname='amoc'    #variabile usata per resampling
 domain='DIAG'     # domain in PLASIM output of varname
 
 resamplingname='TAMS_Matteo.py'   # file che fa il resampling
-ntrajs=200
+ntrajs=256
 NMonths=12     # length resampling block
 NDays=0      # length resampling block
 LYear=360     # 
 startID=l207-y${resty}_r2  # 0BCD (B: ocean state, C: atmospheric state, D: repeat)
 
 # TAMS Parameters
-nc=26  #number of LEVES -thus less than traj- discarded at each iteration. 
-targetstate=8 #Sv
+nc=15  #number of LEVES -thus less than traj- discarded at each iteration. 
+targetstate=9.4 #Sv
 
 # Refine experiment name
 expname=${expname/VARNAME/${varname}}
@@ -76,10 +76,14 @@ modelname=`printf 'most_plasim_t21_l10_p%d.x' ${nparallel}` # nome eseguibile
 debug=0
 #
 # Restart file info (if new experiment)
-sourcerestdir=/nethome/cini0001/PLASIM-TAMS/AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y2482_r2/init/block_${resty}
-plasimrestname=AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y2482_r2_init.0001.${resty}
-lsgrestname=AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y2482_r2_lsginit.0001.${resty}
-#
+sourcerestdir=/nethome/cini0001/PLASIM-TAMS/AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y2480_r2_${co2}.0ppm/init/block_${resty}
+plasimrestname=AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y2480_r2_${co2}.0ppm_init.0001.${resty}
+lsgrestname=AMOC_LD_amoc_pos_changeco2_1y1_ntraj1_k0_LBlock360_p1_startIDl207-y2480_r2_${co2}.0ppm_lsginit.0001.${resty}
+
+#sourcerestdir=/nethome/cini0001/PLASIM-TAMS/restart/
+#plasimrestname=l207_REST.${resty}
+#lsgrestname=l207_LSGREST.${resty}
+
 # EXPERIMENT SPECIFIC FLAGS
 # Ocean Configuration
 diffusion=Angeloni
@@ -97,6 +101,9 @@ KR=1
 sed  -e "s/LYear/${LYear}/" -e "s/NMonths/${NMonths}/" -e "s/NDays/${NDays}/" -e "s/kickres/${KR}/" \
      plasim_namelist0 > ${modeldir}/plasim_namelist
 
+sed  -e "s/co2/${co2}/" \
+     radmod_namelist0 > ${modeldir}/radmod_namelist
+
 # prepare ocean namelist
 cp ${modeldir}/input_${diffusion} ${modeldir}/input
 
@@ -105,7 +112,7 @@ TotDaysBlock=$((${NDays}+${NMonths}*30))
 NBlocks=$((${endblock}-${initblock}+1))
 
 # update expname to include parameter setting
-expname=${expname}_ntraj${ntrajs}_LBlock${TotDaysBlock}_p${nparallel}_startID${startID}_500ppm
+expname=${expname}_ntraj${ntrajs}_LBlock${TotDaysBlock}_p${nparallel}_startID${startID}_${co2}ppm
 echo ${homedir}/${expname}
 if [[ -d ${homedir}/${expname} && ${force} -eq 1 && ${newexperiment} -eq 1 ]]; then
     rm -rf ${homedir}/${expname}
@@ -231,12 +238,6 @@ fi
 
 ####### RUN SIMULATIONS: STARTING SET  ###############################
 #  This if one wants to skip inital phase
-if [ ${newexperiment} -eq 0 ]; then
-    # Jump to specific label
-    echo "Skipped starting set, jumped to TAMS core!"
-
-
-else
 ####################################
 # start loop on time blocks
 
@@ -329,12 +330,28 @@ do
                ${scriptdir}/plasim_namelist0 > ${f}
       done
   fi
+blocklabel=`printf 'block_%04d' ${block}`
+blocknumber=`printf '%04d' ${block}`
+
+## postprocess to netcdf ##
+  mkdir -p ${expdir}/data/${blocklabel}/netcdf/
+  for a in `ls ${expdir}/data/${blocklabel}/*.${blocknumber}`; do 
+      fname=`echo $a | rev | cut -d / -f 1 | rev`
+      #${homedir}/scripts/srv2nc -m -p ${a} ${expdir}/data/${blocklabel}/netcdf/${fname}.nc & 
+      (${homedir}/scripts/srv2nc -m -p ${a} ${expdir}/data/${blocklabel}/netcdf/${fname}.nc 2>>warnings.log) &
+
+  done
+  wait
+ echo "light mode on"
+    ${scriptdir}/tamspostpro_light.sh ${expdir} ${expname} ${blocklabel} ${block} ${ntrajs}
+ rm ${expdir}/data/${blocklabel}/*.${blocknumber}  
+ mv ${expdir}/data/${blocklabel}/netcdf/* ${expdir}/data/${blocklabel}/
 
   block=`expr $block + 1`
 done
-fi
 #######FINE CALCOLO Iniziale########
 
+mv ${scriptdir}/log_inittams.${SLURM_JOB_ID}.o ${expdir}/. ## COPIA FILE LOG DENTRO CARTELLA ESPERIMENTO
 
 
 exit 0

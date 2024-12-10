@@ -2,11 +2,11 @@
 #
 #SBATCH -J testTAMS              # the name of your job   
 #SBATCH -p normal            # request the short partition, job takes less than 3 hours  
-#SBATCH -t 05-00:00:00          # time in dd-hh:mm:ss you want to reserve for the job
+#SBATCH -t 02-00:00:00          # time in dd-hh:mm:ss you want to reserve for the job
 #SBATCH -n 26               # the number of cores you want to use for the job, SLURM automatically determines how many nodes are needed
 #SBATCH -o log_tams.%j.o     # the name of the file where the standard output will be written to. %j will be the jobid determined by SLURM
 #SBATCH -e log_tams.%j.o     # the name of the file where potential errors will be written to. %j will be the jobid determined by SLURM
-#SBATCH --dependency=afterok:46072   #set dependency to initial job
+
 ##### LOAD PYTHON VIRTUAL ENVIRONMENT WITH MODULES: numpy, math, netCDF4
 #source $HOME/my_venv/bin/activate
 
@@ -30,30 +30,31 @@ expname="TAMS_VARNAME"
 #
 # Parameters controlling length of experiment<
 newexperiment=0     # 1: nuovo 0: esperimento che ha già calcolato il set di base  othervalues: dovrebbe non ricreare le cartelle ma ricalcolare tutti gli anni di simulazioni (comunque sconsigliato perchè il noise non riparte!
-resty=2482
+resty=0990
 initblock=1        # block è periodo lungo come resampling. 
-endblock=30        # ultimo blocco: ti definisce lunghezza integrazione
-force=0           # sovrascrittura delle cartelle di output
-light=1           # light postprocessing as defined in postpro_light.sh
-
-#Parameters controlling climate mean state
-#CO2=554 #at the moment not updated
+endblock=150        # ultimo blocco: ti definisce lunghezza integrazione
+rn=2              # simulation number
 
 # Parameters controlling resampling, observable and weights
 varname='amoc'    #variabile usata per resampling
 domain='DIAG'     # domain in PLASIM output of varname
 
 resamplingname='TAMS_Matteo.py'   # file che fa il resampling
-ntrajs=100
+ntrajs=256
 NMonths=12     # length resampling block
 NDays=0      # length resampling block
 LYear=360     # 
-startID=l207-y${resty}_r2  # 0BCD (B: ocean state, C: atmospheric state, D: repeat)
+startID=l207-y${resty}_r${rn}  # 0BCD (B: ocean state, C: atmospheric state, D: repeat)
+
+#CO2
+co2=500 #not really updated here, just an indication
 
 # TAMS Parameters
-nc=15  #number of LEVES -thus less than traj- discarded at each iteration. 
-targetstate=15 #Sv
-
+nc=26  #number of LEVES -thus less than traj- discarded at each iteration. 
+targetstate=9.4 #Sv
+Ktmax=34 #number of max iteration before stopping. This is due only to sbatch capcity. NB: next time you re-run you have to change starting prob!
+wp=0.017488583578362266 #starting prob
+ktinit=32 #starting iteration of Tams, first iter =0
 # Refine experiment name
 expname=${expname/VARNAME/${varname}}
 
@@ -68,7 +69,12 @@ modelname=`printf 'most_plasim_t21_l10_p%d.x' ${nparallel}` # nome eseguibile
 # 
 # Parameters controlling dubug
 debug=0
-#
+
+#Parameters controlling directory and size
+force=0           # sovrascrittura delle cartelle di output
+light=1           # light postprocessing as defined in postpro_light.sh
+
+
 # Restart file info (if new experiment)
 sourcerestdir=/nethome/cini0001/PLASIM-TAMS/restart/
 plasimrestname=l207_REST.${resty}
@@ -91,6 +97,8 @@ KR=1
 sed  -e "s/LYear/${LYear}/" -e "s/NMonths/${NMonths}/" -e "s/NDays/${NDays}/" -e "s/kickres/${KR}/" \
      plasim_namelist0 > ${modeldir}/plasim_namelist
 
+sed  -e "s/co2/${co2}/" \
+     radmod_namelist0 > ${modeldir}/radmod_namelist
 # prepare ocean namelist
 cp ${modeldir}/input_${diffusion} ${modeldir}/input
 
@@ -99,7 +107,7 @@ TotDaysBlock=$((${NDays}+${NMonths}*30))
 NBlocks=$((${endblock}-${initblock}+1))
 
 # update expname to include parameter setting
-expname=${expname}_ntraj${ntrajs}_nc${nc}_targetstate${targetstate}_LBlock${TotDaysBlock}_p${nparallel}_startID${startID}
+expname=${expname}_ntraj${ntrajs}_LBlock${TotDaysBlock}_p${nparallel}_startID${startID}_${co2}ppm
 echo ${homedir}/${expname}
 if [[ -d ${homedir}/${expname} && ${force} -eq 1 && ${newexperiment} -eq 1 ]]; then
     rm -rf ${homedir}/${expname}
@@ -333,17 +341,60 @@ fi
 
 
 
+
+
 #Intialization TAMS
-kt=0 #current number of iteration
-wp=1 #current probability
+kt=${ktinit} #current number of iteration
+
 levels=${ntrajs} #initialization, it is important to be > nc
 echo "levels=${levels}"
 echo "nc=${nc}"
 
+block=${initblock}
+while [ ${block} -le ${endblock} ]
+do
+traj=1
+while [ ${traj} -le ${ntrajs} ]
+    do
+      	./${extractname} ${expdir} ${expname} ${traj} ${block} ${varname} ${domain} ${targetstate} & # sottomette estrazione variabile 
+        
+	wait
+	#srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=1 --mem=${mem} ./${extractname} ${expdir} ${expname} ${traj} ${block} & # sottomette estrazione variabile da osservare
+      if [ ${debug} -eq 1 ]; then echo "$(date +"%Y-%m-%d %T") started extracting control observable of traj ${traj} of block ${block}"; fi
+      traj=`expr $traj + 1`
+    done
+    wait
+
+block=`expr $block + 1`
+done
+
+
+controlscore=0
+if [ ${controlscore} -eq 1 ]; then
+
+  echo "Control done. Exiting."
+        exit 0
+    fi
+
+
 
 while [ ${nc} -lt ${levels} ]
 do
- output=$(python3 -t ${resamplingname} ${expdir} ${expname} ${ntrajs} ${varname} ${nc} ${endblock} ${kt} ${wp})  
+
+    if ((kt >= Ktmax)); then
+        echo "Not enough time for another cycle. Exiting."
+	mv ${scriptdir}/log_tams.%j.o ${expdir}/. ## COPIA FILE LOG DENTRO CARTELLA ESPERIMENTO
+
+        exit 0
+    fi
+    if [ -f "stop_flag" ]; then 
+	echo "External stop flag detected. Exiting after current iteration." 
+	mv ${scriptdir}/log_tams.%j.o ${expdir}/. 
+	rm stop_flag # Rimuove il file di flag per evitare terminazioni future non intenzionali 
+	exit 0 
+    fi
+
+ output=$(python3 -t ${resamplingname} ${expdir} ${expname} ${ntrajs} ${varname} ${nc} ${initblock} ${endblock} ${kt} ${wp})  
  
   # Save the Python script's output to log files
     echo "$output" > log.o
@@ -372,20 +423,21 @@ do
  kt=`expr $kt + 1`
 echo "##################################   ITERATION NUMBER ${kt}  #####################################"
  # Loop through each index of the arrays
- for i in "${!oldind_array[@]}"; do
-  oldind="${oldind_array[i]}"
-  restart="${restart_array[i]}"
-  block=$((${restart}))
-  for f in `ls ${expdir}/run/run_*/plasim_namelist`; do
+for f in `ls ${expdir}/run/run_*/plasim_namelist`; do
           sed  -e "s/LYear/${LYear}/" -e "s/NMonths/${NMonths}/" -e "s/NDays/${NDays}/" -e "s/kickres/1/" \
                ${scriptdir}/plasim_namelist0 > ${f}
   done
-  #echo "running ${oldind} traj"
+
+ for i in "${!oldind_array[@]}"; do
+  oldind="${oldind_array[i]}"
+  restart="${restart_array[i]}"
+  block=`expr $restart + 1`
+  echo "$(date +"%Y-%m-%d %T") running ${oldind} traj from ${restart}"
   (
   while [ ${block} -le ${endblock} ]
   do
    blockdir=`printf 'block_%04d' ${block}`
-   echo "$(date +"%Y-%m-%d %T") started running block ${block} of traj ${oldind}"
+   #echo "$(date +"%Y-%m-%d %T") started running block ${block} of traj ${oldind}"
    #MC important: here we consider 1 batch sufficient!
    # run the trajectories in the current batch
      traj=${oldind}
@@ -422,7 +474,7 @@ echo "##################################   ITERATION NUMBER ${kt}  #############
     # the output of the current batch is organized
 
     # extract the observable used in the definition of the weights of the current batch
-    echo "$(date +"%Y-%m-%d %T") started extracting control observable for traj ${traj} of block ${block}"
+    #echo "$(date +"%Y-%m-%d %T") started extracting control observable for traj ${traj} of block ${block}"
     
       	./${extractname} ${expdir} ${expname} ${traj} ${block} ${varname} ${domain} ${targetstate} & # sottomette estrazione variabile 
         #srun --mpi=pmi2 -K1 --resv-ports --exclusive --nodes=1 --ntasks=1 --mem=${mem} ./${extractname} ${expdir} ${expname} ${traj} ${block} & # sottomette estrazione variabile da osservare
@@ -434,16 +486,56 @@ echo "##################################   ITERATION NUMBER ${kt}  #############
     # the observable used in the definition of the weights of the current batch is extracted
     
   
-  if [[ ${block} -eq ${restart} ]]; then
-      for f in `ls ${expdir}/run/run_*/plasim_namelist`; do
+  if [[ ${block} -eq $(expr $restart + 1) ]]; then
+    
           sed  -e "s/LYear/${LYear}/" -e "s/NMonths/${NMonths}/" -e "s/NDays/${NDays}/" -e "s/kickres/0/" \
-               ${scriptdir}/plasim_namelist0 > ${f}
-      done
+               ${scriptdir}/plasim_namelist0 > ${expdir}/run/${runtrajdir}/plasim_namelist
+      echo "$(date +"%Y-%m-%d %T") finished running block ${block} of traj ${oldind}"
   fi
+  
+  
 
   block=`expr $block + 1`
   done
  ) &
+
+done
+wait
+
+minrest=${restart_array[0]}
+
+for i in "${restart_array[@]}"; do
+    if [[ $i -lt $minrest ]]; then
+        minrest=$i
+    fi
+done
+
+echo "The minimum restartvalue is $minrest"
+
+block=`expr $minrest + 1`
+while [ ${block} -le ${endblock} ]
+do
+  blocklabel=`printf 'block_%04d' ${block}`
+  blocknumber=`printf '%04d' ${block}`
+
+## postprocess to netcdf ##
+if compgen -G "${expdir}/data/${blocklabel}/*.${blocknumber}" > /dev/null; then  
+  for a in `ls ${expdir}/data/${blocklabel}/*.${blocknumber}`; do 
+      fname=`echo $a | rev | cut -d / -f 1 | rev`
+      (${homedir}/scripts/srv2nc -m -p ${a} ${expdir}/data/${blocklabel}/netcdf/${fname}.nc 2>>warnings.log) &
+  done
+  wait
+
+  ## tar files according to flag light
+    echo "light mode on"
+    ${scriptdir}/tamspostpro_light.sh ${expdir} ${expname} ${blocklabel} ${block} ${ntrajs}
+wait
+ rm ${expdir}/data/${blocklabel}/*.${blocknumber}  
+ mv ${expdir}/data/${blocklabel}/netcdf/* ${expdir}/data/${blocklabel}/
+else
+        echo "No files found in ${expdir}/data/${blocklabel} matching *.${blocknumber}, skipping."
+    fi
+block=`expr $block + 1`
 
 done
 wait    
@@ -461,65 +553,8 @@ wp=$(echo "$wp * $Nf / $ntrajs" | bc -l)
 #SIMUAZIONE FINITA
 
 
-#NOW  manage output files
-block=${initblock}
-while [ ${block} -le ${endblock} ]
-do 
 
-  blocklabel=`printf 'block_%04d' ${block}`
-  blocknumber=`printf '%04d' ${block}`
-
-## postprocess to netcdf ##
-  mkdir -p ${expdir}/data/${blocklabel}/netcdf/
-  for a in `ls ${expdir}/data/${blocklabel}/*.${blocknumber}`; do 
-      fname=`echo $a | rev | cut -d / -f 1 | rev`
-      ${homedir}/scripts/srv2nc -m -p ${a} ${expdir}/data/${blocklabel}/netcdf/${fname}.nc &
-  done
-  wait
-
-  ## tar files according to flag light
-  if [ ${light} -eq 1 ]; then
-       echo "ligh mode on"
-     ${scriptdir}/postpro_light.sh ${expdir} ${expname} ${blocklabel} ${block} ${ntrajs}
-  else
-      echo "light mode off"
-       tar -cf ${expdir}/diag/${expname}_diag_${blocklabel}.tar -C ${expdir}/diag/${blocklabel} .
-       rm ${expdir}/diag/${blocklabel}/*
-       tar -cf ${expdir}/resampling/${expname}_resampling_${blocklabel}.tar -C ${expdir}/resampling/${blocklabel} .
-       rm ${expdir}/resampling/${blocklabel}/*
-       tar -cf ${expdir}/init/${expname}_init_${blocklabel}.tar -C ${expdir}/init/${blocklabel} .
-       rm ${expdir}/init/${blocklabel}/*
-       tar -cf ${expdir}/rest/${expname}_rest_${blocklabel}.tar -C ${expdir}/rest/${blocklabel} .
-       rm ${expdir}/rest/${blocklabel}/*
-       tar -cf ${expdir}/data/${expname}_data_${blocklabel}.tar -C ${expdir}/data/${blocklabel}/netcdf/ .
-       rm ${expdir}/data/${blocklabel}/*.${blocknumber}
-       rm ${expdir}/data/${blocklabel}/netcdf/*
-  fi
-
-
-  
-  blocknumber=`printf '%04d' ${block}`
-  cd ${expdir}/post/ctrlobs
-  if [ $domain == DIAG ]; then
-      tar cf ${expname}_ctrlobs_${blocklabel}.tar ${expname}_ctrlobs.*.${blocknumber}.txt
-      rm ${expname}_ctrlobs.*.${blocknumber}.txt
-      tar cf ${expname}_score_${blocklabel}.tar ${expname}_score.*.${blocknumber}.txt
-      rm ${expname}_score.*.${blocknumber}.txt
-  else
-      tar cf ${expname}_ctrlobs_${blocklabel}.tar ${expname}_ctrlobs.*.${blocknumber}.nc
-      rm ${expname}_ctrlobs.*.${blocknumber}.nc
-      tar cf ${expname}_score_${blocklabel}.tar ${expname}_score.*.${blocknumber}.nc
-      rm ${expname}_score.*.${blocknumber}.nc
-#MC I guess the following is not at all necessary
-      tar cf ${expname}_burn_ctrlobs_log_${blocklabel}.tar ${expname}_burn_ctrlobs.*.${blocknumber}.log
-      rm ${expname}_burn_ctrlobs.*.${blocknumber}.log
-  fi
-
-block=$((block + 1))
-
-
-done
-mv ${scriptdir}/log_tams.%j.o ${expdir}/. ## COPIA FILE LOG DENTRO CARTELLA ESPERIMENTO
+mv ${scriptdir}/log_tams.${SLURM_JOB_ID}.o ${expdir}/. ## COPIA FILE LOG DENTRO CARTELLA ESPERIMENTO
 
 ## EXPERIMENT COMPLETED
 

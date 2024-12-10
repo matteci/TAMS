@@ -1,0 +1,197 @@
+tasks
+26
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0990_r2_500ppm
+2024-11-23 10:55:28 finished creating folders
+Skipped starting set, jumped to TAMS core!
+Nf: 83
+##################################   ITERATION NUMBER 1  #####################################
+2024-11-23 10:55:29 running 15 traj from 145
+2024-11-23 10:55:29 running 17 traj from 69
+2024-11-23 10:55:29 running 21 traj from 65
+2024-11-23 10:55:29 running 41 traj from 48
+2024-11-23 10:55:29 running 46 traj from 66
+2024-11-23 10:55:29 running 48 traj from 124
+2024-11-23 10:55:29 running 53 traj from 75
+2024-11-23 10:55:29 running 61 traj from 79
+2024-11-23 10:55:29 running 80 traj from 134
+2024-11-23 10:55:29 running 90 traj from 65
+2024-11-23 10:55:29 running 91 traj from 58
+2024-11-23 10:55:29 running 97 traj from 140
+2024-11-23 10:55:29 running 99 traj from 107
+2024-11-23 10:55:29 running 103 traj from 71
+2024-11-23 10:55:29 running 116 traj from 51
+2024-11-23 10:55:29 running 123 traj from 41
+2024-11-23 10:55:29 running 134 traj from 75
+2024-11-23 10:55:29 running 137 traj from 45
+2024-11-23 10:55:29 running 138 traj from 63
+2024-11-23 10:55:29 running 143 traj from 70
+2024-11-23 10:55:29 running 145 traj from 50
+2024-11-23 10:55:29 running 147 traj from 117
+2024-11-23 10:55:29 running 157 traj from 145
+2024-11-23 10:55:29 running 162 traj from 51
+2024-11-23 10:55:29 running 167 traj from 85
+2024-11-23 10:55:29 running 177 traj from 99
+2024-11-23 10:55:29 running 184 traj from 51
+2024-11-23 10:55:29 running 188 traj from 86
+2024-11-23 10:55:29 running 205 traj from 51
+2024-11-23 10:55:29 running 213 traj from 80
+2024-11-23 10:55:29 running 214 traj from 100
+2024-11-23 10:55:29 running 220 traj from 81
+2024-11-23 10:55:29 running 224 traj from 72
+2024-11-23 10:55:29 running 226 traj from 50
+2024-11-23 10:55:29 running 228 traj from 135
+2024-11-23 10:55:29 running 239 traj from 73
+2024-11-23 10:55:29 running 243 traj from 95
+2024-11-23 10:55:29 running 246 traj from 71
+2024-11-23 10:59:20 finished running block 87 of traj 188
+2024-11-23 10:59:21 finished running block 108 of traj 99
+2024-11-23 10:59:23 finished running block 59 of traj 91
+2024-11-23 10:59:26 finished running block 66 of traj 21
+2024-11-23 10:59:28 finished running block 74 of traj 239
+2024-11-23 10:59:30 finished running block 73 of traj 224
+2024-11-23 10:59:32 finished running block 71 of traj 143
+2024-11-23 10:59:32 finished running block 135 of traj 80
+2024-11-23 10:59:33 finished running block 118 of traj 147
+2024-11-23 10:59:34 finished running block 72 of traj 246
+2024-11-23 10:59:35 finished running block 64 of traj 138
+2024-11-23 10:59:36 finished running block 86 of traj 167
+2024-11-23 10:59:37 finished running block 42 of traj 123
+2024-11-23 10:59:37 finished running block 101 of traj 214
+2024-11-23 10:59:38 finished running block 76 of traj 53
+2024-11-23 10:59:39 finished running block 96 of traj 243
+2024-11-23 10:59:40 finished running block 81 of traj 213
+2024-11-23 10:59:40 finished running block 51 of traj 226
+2024-11-23 10:59:40 finished running block 66 of traj 90
+2024-11-23 10:59:41 finished running block 70 of traj 17
+2024-11-23 10:59:43 finished running block 52 of traj 205
+2024-11-23 10:59:47 finished running block 125 of traj 48
+2024-11-23 10:59:48 finished running block 52 of traj 162
+2024-11-23 10:59:48 finished running block 146 of traj 157
+2024-11-23 10:59:57 finished running block 51 of traj 145
+2024-11-23 10:59:57 finished running block 67 of traj 46
+2024-11-23 10:59:59 finished running block 46 of traj 137
+2024-11-23 11:00:00 finished running block 52 of traj 116
+2024-11-23 11:00:01 finished running block 100 of traj 177
+2024-11-23 11:00:05 finished running block 72 of traj 103
+2024-11-23 11:00:06 finished running block 80 of traj 61
+2024-11-23 11:00:09 finished running block 141 of traj 97
+2024-11-23 11:00:19 finished running block 52 of traj 184
+2024-11-23 11:00:19 finished running block 82 of traj 220
+2024-11-23 11:00:20 finished running block 146 of traj 15
+2024-11-23 11:00:22 finished running block 76 of traj 134
+2024-11-23 11:00:28 finished running block 49 of traj 41
+2024-11-23 11:00:31 finished running block 136 of traj 228
+The minimum restartvalue is 41
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+light mode on
+/var/spool/slurm/slurmd/job47295/slurm_script: riga 488: errore di sintassi vicino al token non atteso "done"
+/var/spool/slurm/slurmd/job47295/slurm_script: riga 488: `done'

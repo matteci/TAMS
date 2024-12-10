@@ -1,0 +1,10 @@
+tasks
+26
+mem-per-cpu
+5994
+/nethome/cini0001/PLASIM-TAMS/TAMS_amoc_ntraj256_LBlock360_p1_startIDl207-y0990_r2_500ppm
+2024-11-07 09:58:54 finished creating folders
+Skipped starting set, jumped to TAMS core!
+levels=256
+nc=26
+slurmstepd: error: *** JOB 46824 ON node05 CANCELLED AT 2024-11-07T11:03:35 ***
